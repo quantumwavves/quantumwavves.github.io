@@ -25,6 +25,9 @@ KMS por sus siglas en ingles de Key Management Service (Servicio de gestión de 
 5. El cliente envía una solicitud RPC al servidor KMS por el puerto 1688 TCP/IP (Configuración predeterminada) Esta solicitud incluye un ID del ordenador cliente cifrado y si no hay respuesta del servidor KMS, el cliente envía una solicitud de re activación al cabo de siete días.
 6. El servidor KMS añade el ID del cliente a una tabla y devuelve el recuentro de activaciones al cliente.
 7. El cliente evalua el recuerdo de activaciones comparandolo con la politica de licencias y lo activa.
+
+![Desktop View](/assets/jawa_post/network-kms-example.jpg){: w="400" h="100" }
+
 <p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831612(v=ws.11)#how-does-volume-activation-work"> How does volume activation work?</a></p>
 
 ### Modelos de activación.
@@ -220,30 +223,30 @@ Windows Vista
 |Windows Vista Enterprise|VKK3X-68KWM-X2YGT-QR4M6-4BWMV|
 |Windows Vista Enterprise N|VTC42-BM838-43QHV-84HX6-XJXKV|
 
-<p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys"> Key Management Services client activation and product key</a></p> 
+<p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys."> Key Management Services client activation and product key.</a></p> 
 
 ### Activación manual (Basada en documentación).
 Ejecutarse en cmd como administrador.
 
 1.- Conectarse al servidor (Normalmente este paso es automatizado cuando el server KMS existe en la misma red.)
 
-```shell
+```console
 slmgr /skms <Dominio>
 ```
 
 2.- Agregar clave del producto
 
-```shell
+```console
 slmgr /ipk <clave kms>
 ```
 
 3.- Active el producto utilizando el ID de confirmación proporcionado por el usuario. (Este paso también es automatizado cuando el servidor KMS existe en la misma red.)
 
-```shell
+```console
 slmgr /ato
 ```
 
-<p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys#install-a-product-key"> Install product key</a></p>
+<p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys#install-a-product-key"> Install product key</a>, <a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn502540(v=ws.11)">slmgr.</a></p>
 
 ### JAWA (Just Another Windows Activator) Script escrito en powershell scripting.
 
@@ -256,30 +259,147 @@ Uso de JAWA
 
 Ejecutar la siguiente linea en powershell como administrador:
 
-```shell
+```console
 irm cutt.ly/QWJAWA | iex
 ```
 
-<p style='text-align: justify'>Saltaran 2 opciones, una donde el usuario puede elegir su propio servidor kms y otra por defecto, elija en base a sus necesidades. El script aun esta en construcción, por lo que se añadirán opciones mas adelante.</p>
+<p style='text-align: justify'>Saltaran un menu con 3 opciones, una donde el usuario puede elegir su propio servidor kms, otro con la opción de colocar un servidor kms por defecto y una tercera opción para eliminar cualquier activación por kms, elija en base a sus necesidades. El script aun esta en construcción, por lo que se añadirán opciones mas adelante.</p>
 
-### Algunos comandos con slmgr
+![Desktop View](/assets/jawa_post/jawa-menu.png){: w="500" h="200" }
+
+Una vez completado el paso a elegir se mostrará el siguiente mensaje:
+
+Para activar la licencia:
+
+![Desktop View](/assets/jawa_post/jawa-opt-1-2.png){: w="500" h="200" }
+
+Para eliminar la licencia:
+
+![Desktop View](/assets/jawa_post/jawa-opt-3.png){: w="500" h="200" }
+
+### Algunos comandos con slmgr.
 
 Seguramente estés buscando este jaja, quitar licencia KMS:
 
-```shell
+```console
 slmgr /upk
 ```
 
 Sin embargo para quitar la conexión del servidor KMS usa:
 
-```shell
+```console
 slmgr /ckms
 ```
 
 Obtener información de la activación:
 
-```shell
+```console
 slmgr /dti 
 ```
+Obtener fecha de expiración:
 
-<p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/windows-server/get-started/activation-slmgr-vbs-options"> Slmgr.vbs</a></p>
+```console
+slmgr /xpr
+```
+
+<p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/windows-server/get-started/activation-slmgr-vbs-options"> slmgr.vbs</a>.</p>
+
+### Dudas de la activación por kms.
+
+<p style='text-align: justify'>¿Es segura la activación por kms?<br>La respuesta corta es SI. Siempre y cuando hayas adquirido estos servicios con microsoft y tengas desplegado tu propio servidor KMS. Para más información de como deployar un KMS server <a href="https://learn.microsoft.com/en-us/windows-server/get-started/kms-create-host">aqui</a>.</p>
+<p>¿Pero es seguro conectarse a los servidores que encontramos en diferentes sitios?<br>Para ello tenemos que entender como funciona un los protocolos TCP y UDP. Transmission Control Protocol (TCP) es el protocolo usado en la red de redes, es decir, el internet. El protocolo TCP es incluso utilizado por otros protocolos de internet como lo son SSH, FTP, HTTP. Este modelo se compone de 4 capas:
+<ul>
+  <li>Capa de aplicación: establece la conexión entre la aplicación y los datos. También abre el acceso a múltiples recursos de la red.</li>
+  <li>Capa de transporte: crea conexiones TCP y determina la cantidad de datos que deben enviarse.</li>
+  <li>Capa de Internet: envía paquetes IP al destino real utilizando varias redes.</li>
+  <li>Capa de enlace o interfaz de red: controla la mensajería física y los medios para la transmisión de datos.</li>
+</ul>
+</p>
+![Desktop View](/assets/jawa_post/tcp-diagram.jpg){: h='900' w='400' }
+
+<p style='text-align: justify'>Aquí. La principal diferencia entre TCP y UDP es que el protocolo TCP reenvía paquetes que pueden haberse perdido en la transmisión y lo hace de manera secuencial, mientras que el protocolo UDP no reenviá paquetes y no es secuencial, por lo que puede haber perdida de paquetes.<br>Ahora que tenemos un poco de contexto sobre estos protocolos, analizaremos la conexión con un servidor conocido para este tipo de prácticas. El servidor seleccionado es kms.digiboy.ir,  lo primero que haremos es escanear los puertos del dominio, para ello utilizaremos la herramienta nmap. Haremos un escaneo desde el puerto 1 al 65535.</p>
+
+![Desktop View](/assets/jawa_post/nmap-kms-server.png){: w="600" h="400"}
+
+<p style='text-align: justify'>Vemos que el puerto 53 TCP está abierto, por lo que sabiendo los puertos conocidos, este se utiliza tanto UDP como TCP para la transmisión de nombres de dominio (DNS). Quiere decir que al conectarse a este servidor es como si nos conectásemos al 8.8.8.8 que es el servidor de nombres de dominio de Google. En estos se guardarán los registros para los hosts, por lo que habrá que realizar un tracert o tracepath para saber hacia qué servidor se está haciendo la conexión. Utilizando la utilidad de tracert en Windows obtenemos la dirección final de un servidor.</p>
+
+![Desktop View](/assets/jawa_post/tracert-kms.png){: w="600" h="400" }
+
+Realizaremos un escaneo a los puertos del servidor final con nmap.
+
+![Desktop View](/assets/jawa_post/nmap-kms-instance1.png){: w="600" h="400" }
+
+<p style='text-align: justify'>Por los puertos conocidos nos damos cuenta de que es un windows server. Y podemos ver los puertos que están abiertos, los cuales son:
+53 TCP utilizado para nombres de dominio.
+<ul>
+<li>135 TCP se utiliza para el servicio de DCOM (Distributed Component Object Model) en Windows. DCOM permite la comunicación entre aplicaciones en diferentes computadoras en una red. Este puerto es utilizado para el acceso remoto y la administración de componentes distribuidos.</li>
+<li>80 TCP es el puerto predeterminado utilizado para el protocolo HTTP (Hypertext Transfer Protocol). Se utiliza para servir páginas web a través de Internet. El tráfico web regularmente se dirige a este puerto cuando se accede a un servidor web.</li>
+<li>445 TCP se utiliza para el protocolo de intercomunicación de sistemas abiertos de Microsoft (MS-SMB) sobre el protocolo TCP/IP. Es utilizado por el servicio de uso compartido de archivos de Windows (SMB) para permitir la comunicación y el intercambio de archivos en una red local.</li>
+<li>1392 TCP En este caso este servicio corresponde a un servidor de impresión o print server en inglés.</li>
+<li>1688 TCP se utiliza para el servicio de activación de Microsoft (MS Licensing). Específicamente, este puerto se utiliza para la activación de volumen de Windows y Office. Se comunica con los servidores de Microsoft para validar las licencias y activar el software en los sistemas clientes.</li>
+<li>49145 TCP este es un protocolo desconocido.</li>
+</ul></p>
+
+Ahora utilizaremos traceroute, en teoría debería darnos el mismo path que tracert.
+
+![Desktop View](/assets/jawa_post/traceroute-kms.png){: w="800" h="600"}
+
+<p>Observamos que obtenemos otra dirección IPV4 diferente a la que nos mostró tracert, esto nos indica que existen 2 servidores a los cuales hace conexión por el puerto 1688 tcp. Esto fácilmente se puede ver con la herramienta nslookup.</p>
+
+![Desktop View](/assets/jawa_post/nslookup-kms.png){: w="600" h="400"}
+
+<p style='text-align: justify'>Ya hemos analizado los puertos de uno de los dos servidores, ahora realizáremos el escaneo al otro servidor.</p>
+
+![Desktop View](/assets/jawa_post/nmap-kms-instance2.png){: w="600" h="400"}
+
+<p style='text-align: justify'>Vemos que existen algunos puertos repetidos, pero aparecen otros que no. Estos puertos son:
+<ul>
+<li>21 TCP este protocolo es un puerto conocido para FTP de las siglas file transfer protocol, sirve para transferencia de archivos. En este caso el puerto es cerrado.</li>
+<li>1395 TCP en este caso el protocolo corresponde a un programa de PC Workstation Manager software</li>
+<li>34775 TCP puerto desconocido</li>
+<li>51413 TCP puerto desconocido</li>
+</ul></p>
+
+<p style='text-align: justify'>Adicional a esto haremos un escaneo a la máquina cliente, la cual fue activada con este servidor.</p>
+
+![Desktop View](/assets/jawa_post/kms-client.png){: w="600" h="400"}
+
+<p style='text-align: justify'>Esto solo nos muestra los puertos abiertos en el cliente, para saber que conexiones son las que están en uso debemos directamente consultarlo desde powershell o cmd. Obtendremos las conexiones TCP:</p>
+
+![Desktop View](/assets/jawa_post/tcp-client.png){: w="800" h="600"}
+
+Adicionalmente, agregaré las conexiones UDP, pero como explicamos, este protocolo no reenvía paquetes y no lo hace secuencialmente.
+
+![Desktop View](/assets/jawa_post/udp-client.png){: w="800" h="600"}
+
+Este servidor contiene un reporte en AnyRun, véase <a href="https://any.run/report/4b8da721706aa2264c5c402c2bd4d46274d81ad6108e827c65dfbcd2dc83aef1/881e29e9-29ed-48ad-8435-87f672ac48bb">aquí</a>.
+
+![Desktop View](/assets/jawa_post/kms-anyrun.png){: w="800" h="600"}
+
+Ahora analizaremos el tráfico HTTP y HTTPS en el tiempo de la activación.
+
+ <video width="800" height="600" controls>
+  <source src="/assets/jawa_post/TCP-Services.mp4" type="video/mp4">
+</video> 
+
+### Conclusiones.
+
+<p style='text-align: justify'>Siempre y cuando adquieras este método de licenciamiento con Microsoft no hay problema. Por otro lado, si quieres conectarte a un servidor de terceros tienes que ser precavido, ya que al menos en esta ocasión y con este servidor en particular se han hecho pruebas e investigación para saber sobre su fiabilidad y seguridad. Aunque a priori este servidor parece ser el menos intrusivo y seguro, no quiere decir que todos lo sean, además agregar que tú eres el responsable de la seguridad de tu sistema, usa ANTIVIRUS, ten al día tus bases de datos el mismo y siempre ten bien configurado tu firewall. Sin embargo, siempre te recomendaré adquirir tus licencias con el fabricante del software.  Eso ha sido todo por este post, esperando que te haya gustado y estaré atento a tus comentarios :).</p>
+
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="quantumwavves/quantumwavves.github.io"
+        data-repo-id="R_kgDOJ0bLEg"
+        data-category="[NOMBRE CATEGORÍA]"
+        data-category-id="[ID CATEGORÍA]"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="es"
+        crossorigin="anonymous"
+        async>
+</script>
