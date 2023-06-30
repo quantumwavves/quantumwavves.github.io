@@ -307,14 +307,14 @@ slmgr /xpr
 ### Dudas de la activación por kms.
 
 <p style='text-align: justify'>¿Es segura la activación por kms?<br>La respuesta corta es SI. Siempre y cuando hayas adquirido estos servicios con microsoft y tengas desplegado tu propio servidor KMS. Para más información de como deployar un KMS server <a href="https://learn.microsoft.com/en-us/windows-server/get-started/kms-create-host">aqui</a>.</p>
-<p>¿Pero es seguro conectarse a los servidores que encontramos en diferentes sitios?<br>Para ello tenemos que entender como funciona un los protocolos TCP y UDP. Transmission Control Protocol (TCP) es el protocolo usado en la red de redes, es decir, el internet. El protocolo TCP es incluso utilizado por otros protocolos de internet como lo son SSH, FTP, HTTP. Este modelo se compone de 4 capas:
+<p>¿Pero es seguro conectarse a los servidores que encontramos en diferentes sitios?<br>Para ello tenemos que entender como funciona un los protocolos TCP y UDP. Transmission Control Protocol (TCP) es el protocolo usado en la red de redes, es decir, el internet. El protocolo TCP es incluso utilizado por otros protocolos de internet como lo son SSH, FTP, HTTP. Este modelo se compone de 4 capas:</p>
 <ul>
   <li>Capa de aplicación: establece la conexión entre la aplicación y los datos. También abre el acceso a múltiples recursos de la red.</li>
   <li>Capa de transporte: crea conexiones TCP y determina la cantidad de datos que deben enviarse.</li>
   <li>Capa de Internet: envía paquetes IP al destino real utilizando varias redes.</li>
   <li>Capa de enlace o interfaz de red: controla la mensajería física y los medios para la transmisión de datos.</li>
 </ul>
-</p>
+
 ![Desktop View](/assets/jawa_post/tcp-diagram.jpg){: h='900' w='400' }
 
 <p style='text-align: justify'>Aquí. La principal diferencia entre TCP y UDP es que el protocolo TCP reenvía paquetes que pueden haberse perdido en la transmisión y lo hace de manera secuencial, mientras que el protocolo UDP no reenviá paquetes y no es secuencial, por lo que puede haber perdida de paquetes.<br>Ahora que tenemos un poco de contexto sobre estos protocolos, analizaremos la conexión con un servidor conocido para este tipo de prácticas. El servidor seleccionado es kms.digiboy.ir,  lo primero que haremos es escanear los puertos del dominio, para ello utilizaremos la herramienta nmap. Haremos un escaneo desde el puerto 1 al 65535.</p>
@@ -330,7 +330,7 @@ Realizaremos un escaneo a los puertos del servidor final con nmap.
 ![Desktop View](/assets/jawa_post/nmap-kms-instance1.png){: w="600" h="400" }
 
 <p style='text-align: justify'>Por los puertos conocidos nos damos cuenta de que es un windows server. Y podemos ver los puertos que están abiertos, los cuales son:
-53 TCP utilizado para nombres de dominio.
+53 TCP utilizado para nombres de dominio.</p>
 <ul>
 <li>135 TCP se utiliza para el servicio de DCOM (Distributed Component Object Model) en Windows. DCOM permite la comunicación entre aplicaciones en diferentes computadoras en una red. Este puerto es utilizado para el acceso remoto y la administración de componentes distribuidos.</li>
 <li>80 TCP es el puerto predeterminado utilizado para el protocolo HTTP (Hypertext Transfer Protocol). Se utiliza para servir páginas web a través de Internet. El tráfico web regularmente se dirige a este puerto cuando se accede a un servidor web.</li>
@@ -338,7 +338,7 @@ Realizaremos un escaneo a los puertos del servidor final con nmap.
 <li>1392 TCP En este caso este servicio corresponde a un servidor de impresión o print server en inglés.</li>
 <li>1688 TCP se utiliza para el servicio de activación de Microsoft (MS Licensing). Específicamente, este puerto se utiliza para la activación de volumen de Windows y Office. Se comunica con los servidores de Microsoft para validar las licencias y activar el software en los sistemas clientes.</li>
 <li>49145 TCP este es un protocolo desconocido.</li>
-</ul></p>
+</ul>
 
 Ahora utilizaremos traceroute, en teoría debería darnos el mismo path que tracert.
 
@@ -352,13 +352,13 @@ Ahora utilizaremos traceroute, en teoría debería darnos el mismo path que trac
 
 ![Desktop View](/assets/jawa_post/nmap-kms-instance2.png){: w="600" h="400"}
 
-<p style='text-align: justify'>Vemos que existen algunos puertos repetidos, pero aparecen otros que no. Estos puertos son:
+<p style='text-align: justify'>Vemos que existen algunos puertos repetidos, pero aparecen otros que no. Estos puertos son:</p>
 <ul>
 <li>21 TCP este protocolo es un puerto conocido para FTP de las siglas file transfer protocol, sirve para transferencia de archivos. En este caso el puerto es cerrado.</li>
 <li>1395 TCP en este caso el protocolo corresponde a un programa de PC Workstation Manager software</li>
 <li>34775 TCP puerto desconocido</li>
 <li>51413 TCP puerto desconocido</li>
-</ul></p>
+</ul>
 
 <p style='text-align: justify'>Adicional a esto haremos un escaneo a la máquina cliente, la cual fue activada con este servidor.</p>
 
