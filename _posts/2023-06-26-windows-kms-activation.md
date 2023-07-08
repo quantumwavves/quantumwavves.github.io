@@ -1,11 +1,11 @@
 ---
-title: Activación KMS de Windows
+title: Activación KMS de Windows.
 date: 2023-06-26 11:30:09 +/-TTTT
-categories: [Windows, Kms]
+categories: [Windows, KMS]
 tags: [windows, kms, activación]     # TAG names should always be lowercase
 comments: true
 image:
-  path: /assets/jawa_post/windows11-bg.jpg
+  path: /assets/posts/jawa_post/windows11-bg.jpg
   alt: Windows 11 background
 pin: true
 ---
@@ -26,7 +26,7 @@ KMS por sus siglas en ingles de Key Management Service (Servicio de gestión de 
 6. El servidor KMS añade el ID del cliente a una tabla y devuelve el recuentro de activaciones al cliente.
 7. El cliente evalua el recuerdo de activaciones comparandolo con la politica de licencias y lo activa.
 
-![Desktop View](/assets/jawa_post/network-kms-example.jpg){: w="400" h="100" }
+![Desktop View](/assets/posts/jawa_post/network-kms-example.jpg){: w="400" h="100" }
 
 <p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831612(v=ws.11)#how-does-volume-activation-work"> How does volume activation work?</a></p>
 
@@ -248,34 +248,36 @@ slmgr /ato
 
 <p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys#install-a-product-key"> Install product key</a>, <a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn502540(v=ws.11)">slmgr.</a></p>
 
-### JAWA (Just Another Windows Activator) Script escrito en powershell scripting.
+### NIJIKA. Script escrito en powershell.
 
-<p style='text-align: justify'>JAWA es un script hecho en powershell, con el objetivo de realizar una activación mediante KMS. De manera rápida, sin descargar archivos con la mínima cantidad de lineas escritas. Actualmente solo cuenta con soporte para las siguientes versiones: <a href='https://github.com/quantumwavves/JAWA/blob/master/README.md#supported-versions'>Versiones soportadas.</a> JAWA es open source por lo que cualquiera puede leer el código fuente para poder estudiarlo, modificarlo u redistribuirlo: </p>
+![Desktop View](/assets/posts/jawa_post/nijika-icon.jpg){: w="400" h="200" }
 
-<center><a href="https://github.com/quantumwavves/JAWA"><img src="/assets/logos/github_logo.png" alt="YTChannel" style="width:60px;height:60px;"></a></center>
+<p style='text-align: justify'>NIJIKA (Nijika Is Just Interface KMS Activator) es un script hecho en powershell, con el objetivo de realizar una activación mediante KMS. De manera rápida, sin descargar archivos con la mínima cantidad de lineas escritas. Actualmente solo cuenta con soporte para las siguientes versiones: <a href='https://github.com/quantumwavves/NIJIKA#supported-versions'>Versiones soportadas.</a> NIJIKA es open source por lo que cualquiera puede leer el código fuente para poder estudiarlo, modificarlo u redistribuirlo: </p>
+
+<center><a href="https://github.com/quantumwavves/NIJIKA"><img src="/assets/logos/github_logo.png" alt="Github" style="width:60px;height:60px;"></a></center>
 
 <br>
-Uso de JAWA
+Uso de NIJIKA
 
 Ejecutar la siguiente linea en powershell como administrador:
 
 ```console
-irm cutt.ly/QWJAWA | iex
+irm cutt.ly/NIJIKA | iex
 ```
 
 <p style='text-align: justify'>Saltaran un menu con 3 opciones, una donde el usuario puede elegir su propio servidor kms, otro con la opción de colocar un servidor kms por defecto y una tercera opción para eliminar cualquier activación por kms, elija en base a sus necesidades. El script aun esta en construcción, por lo que se añadirán opciones mas adelante.</p>
 
-![Desktop View](/assets/jawa_post/jawa-menu.png){: w="500" h="200" }
+![Desktop View](/assets/posts/jawa_post/nijika-menu.png){: w="500" h="200" }
 
 Una vez completado el paso a elegir se mostrará el siguiente mensaje:
 
 Para activar la licencia:
 
-![Desktop View](/assets/jawa_post/jawa-opt-1-2.png){: w="500" h="200" }
+![Desktop View](/assets/posts/jawa_post/nijika-op1-2.png){: w="500" h="200" }
 
 Para eliminar la licencia:
 
-![Desktop View](/assets/jawa_post/jawa-opt-3.png){: w="500" h="200" }
+![Desktop View](/assets/posts/jawa_post/nijika-op3.png){: w="500" h="200" }
 
 ### Algunos comandos con slmgr.
 
@@ -315,19 +317,19 @@ slmgr /xpr
   <li>Capa de enlace o interfaz de red: controla la mensajería física y los medios para la transmisión de datos.</li>
 </ul>
 
-![Desktop View](/assets/jawa_post/tcp-diagram.jpg){: h='900' w='400' }
+![Desktop View](/assets/posts/jawa_post/tcp-diagram.jpg){: h='900' w='400' }
 
 <p style='text-align: justify'>Aquí. La principal diferencia entre TCP y UDP es que el protocolo TCP reenvía paquetes que pueden haberse perdido en la transmisión y lo hace de manera secuencial, mientras que el protocolo UDP no reenviá paquetes y no es secuencial, por lo que puede haber perdida de paquetes.<br>Ahora que tenemos un poco de contexto sobre estos protocolos, analizaremos la conexión con un servidor conocido para este tipo de prácticas. El servidor seleccionado es kms.digiboy.ir,  lo primero que haremos es escanear los puertos del dominio, para ello utilizaremos la herramienta nmap. Haremos un escaneo desde el puerto 1 al 65535.</p>
 
-![Desktop View](/assets/jawa_post/nmap-kms-server.png){: w="600" h="400"}
+![Desktop View](/assets/posts/jawa_post/nmap-kms-server.png){: w="600" h="400"}
 
 <p style='text-align: justify'>Vemos que el puerto 53 TCP está abierto, por lo que sabiendo los puertos conocidos, este se utiliza tanto UDP como TCP para la transmisión de nombres de dominio (DNS). Quiere decir que al conectarse a este servidor es como si nos conectásemos al 8.8.8.8 que es el servidor de nombres de dominio de Google. En estos se guardarán los registros para los hosts, por lo que habrá que realizar un tracert o tracepath para saber hacia qué servidor se está haciendo la conexión. Utilizando la utilidad de tracert en Windows obtenemos la dirección final de un servidor.</p>
 
-![Desktop View](/assets/jawa_post/tracert-kms.png){: w="600" h="400" }
+![Desktop View](/assets/posts/jawa_post/tracert-kms.png){: w="600" h="400" }
 
 Realizaremos un escaneo a los puertos del servidor final con nmap.
 
-![Desktop View](/assets/jawa_post/nmap-kms-instance1.png){: w="600" h="400" }
+![Desktop View](/assets/posts/jawa_post/nmap-kms-instance1.png){: w="600" h="400" }
 
 <p style='text-align: justify'>Por los puertos conocidos nos damos cuenta de que es un windows server. Y podemos ver los puertos que están abiertos, los cuales son:
 53 TCP utilizado para nombres de dominio.</p>
@@ -342,15 +344,15 @@ Realizaremos un escaneo a los puertos del servidor final con nmap.
 
 Ahora utilizaremos traceroute, en teoría debería darnos el mismo path que tracert.
 
-![Desktop View](/assets/jawa_post/traceroute-kms.png){: w="800" h="600"}
+![Desktop View](/assets/posts/jawa_post/traceroute-kms.png){: w="800" h="600"}
 
 <p>Observamos que obtenemos otra dirección IPV4 diferente a la que nos mostró tracert, esto nos indica que existen 2 servidores a los cuales hace conexión por el puerto 1688 tcp. Esto fácilmente se puede ver con la herramienta nslookup.</p>
 
-![Desktop View](/assets/jawa_post/nslookup-kms.png){: w="600" h="400"}
+![Desktop View](/assets/posts/jawa_post/nslookup-kms.png){: w="600" h="400"}
 
 <p style='text-align: justify'>Ya hemos analizado los puertos de uno de los dos servidores, ahora realizáremos el escaneo al otro servidor.</p>
 
-![Desktop View](/assets/jawa_post/nmap-kms-instance2.png){: w="600" h="400"}
+![Desktop View](/assets/posts/jawa_post/nmap-kms-instance2.png){: w="600" h="400"}
 
 <p style='text-align: justify'>Vemos que existen algunos puertos repetidos, pero aparecen otros que no. Estos puertos son:</p>
 <ul>
@@ -362,24 +364,24 @@ Ahora utilizaremos traceroute, en teoría debería darnos el mismo path que trac
 
 <p style='text-align: justify'>Adicional a esto haremos un escaneo a la máquina cliente, la cual fue activada con este servidor.</p>
 
-![Desktop View](/assets/jawa_post/kms-client.png){: w="600" h="400"}
+![Desktop View](/assets/posts/jawa_post/kms-client.png){: w="600" h="400"}
 
 <p style='text-align: justify'>Esto solo nos muestra los puertos abiertos en el cliente, para saber que conexiones son las que están en uso debemos directamente consultarlo desde powershell o cmd. Obtendremos las conexiones TCP:</p>
 
-![Desktop View](/assets/jawa_post/tcp-client.png){: w="800" h="600"}
+![Desktop View](/assets/posts/jawa_post/tcp-client.png){: w="800" h="600"}
 
 Adicionalmente, agregaré las conexiones UDP, pero como explicamos, este protocolo no reenvía paquetes y no lo hace secuencialmente.
 
-![Desktop View](/assets/jawa_post/udp-client.png){: w="800" h="600"}
+![Desktop View](/assets/posts/jawa_post/udp-client.png){: w="800" h="600"}
 
 Este servidor contiene un reporte en AnyRun, véase <a href="https://any.run/report/4b8da721706aa2264c5c402c2bd4d46274d81ad6108e827c65dfbcd2dc83aef1/881e29e9-29ed-48ad-8435-87f672ac48bb">aquí</a>.
 
-![Desktop View](/assets/jawa_post/kms-anyrun.png){: w="800" h="600"}
+![Desktop View](/assets/posts/jawa_post/kms-anyrun.png){: w="800" h="600"}
 
 Ahora analizaremos el tráfico HTTP y HTTPS en el tiempo de la activación.
 
  <video width="800" height="600" controls>
-  <source src="/assets/jawa_post/TCP-Services.mp4" type="video/mp4">
+  <source src="/assets/posts/jawa_post/TCP-Services.mp4" type="video/mp4">
 </video> 
 
 ### Conclusiones.
