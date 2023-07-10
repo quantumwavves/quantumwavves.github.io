@@ -100,7 +100,9 @@ Fuente: <a href="https://learn.microsoft.com/en-us/deployoffice/vlactivation/too
 ![Desktop View](/assets/posts/office_post/kita-icon.jpg){: w="400" h="200" }
 
 <p style="text-align: justify">¿Como funciona KITA?
-KITA es solo un script que realiza el deployment de office ProPlus y 365. Esto quiere decir que se hace uso de herramientas de microsoft y la descarga de la suite es directamente de los servidores de microsoft.</p>
+KITA es solo un script que realiza el deployment de office ProPlus y 365. Esto quiere decir que se hace uso de herramientas de microsoft y la descarga de la suite es directamente de los servidores de microsoft. KITA es open source, por lo que se puede leer, estudiar y redistribuir. Esta licenciado bajo GPL v3.</p>
+
+<center><a href="https://github.com/quantumwavves/KITA"><img src="/assets/logos/github_logo.png" alt="Github" style="width:60px;height:60px;"></a></center>
 
 **Uso de KITA**
 
