@@ -104,8 +104,9 @@ KITA es solo un script que realiza el deployment de office ProPlus y 365. Esto q
 
 <center><a href="https://github.com/quantumwavves/KITA"><img src="/assets/logos/github_logo.png" alt="Github" style="width:60px;height:60px;"></a></center>
 
-**Uso de KITA**
+#### Uso de KITA
 
+Ejectuar en PowerShell como administrador:
 ```shell 
 irm cutt.ly/KITA | iex
 ```
@@ -140,7 +141,7 @@ Para la elección 3, nos mostrará la siente salida:
 
 **Problemas al momento de la desactivación**
 
-<p style="text-align: justify">El script hace uso de /unpkey:XXXXX. Tambien se hace uso de la funcion /ckms para eliminar, de igual manera se hace uso de la funcion /rearm para re armar la instalación de office. En caso de no realizarse la desactivación realizar un /ream en el path de office, para ello introduciremos los siguientes comandos en PowerShell: </p>
+<p style="text-align: justify">El script hace uso de /unpkey:XXXXX, esto nos permite quitar la clave del producto. Tambien se hace uso de la funcion /ckms para eliminar el registro al dominio, de igual manera se hace uso de la funcion /rearm para re armar la instalación de office con los valores default de una instalación limpia. En caso de no realizarse la desactivación realizar un /rearm en el path de office, para ello introduciremos los siguientes comandos en PowerShell como administrador: </p>
 
 ```shell 
 cd C:\Program Files\Microsoft Office\Office16
@@ -150,7 +151,7 @@ Y para realizar el re armado utilizaremos el siguiente comando:
 & cscript.exe ospp.vbs /rearm
 ```
 
-<p style="text-align: justify">Fuentes:<a href="https://learn.microsoft.com/en-us/deployoffice/overview-office-deployment-tool"> Overview of the office deployment</a>.</p>
+<p style="text-align: justify">Fuentes:<a href="https://learn.microsoft.com/en-us/deployoffice/vlactivation/rearm-an-office-installation-on-an-image-when-using-kms-to-activate"> Overview of the office deployment</a>.</p>
 
 ### Comandos con ospp.vbs.
 
@@ -158,7 +159,7 @@ Mostrar información de la activación:
 ```shell
 & cscript.exe ospp.vbs /dstatus
 ```
-Mostrar información mas detallada de la activación:
+Mostrar información mas detallada de todas las activaciónes:
 ```shell
 & cscript.exe ospp.vbs /dstatusall
 ```
@@ -175,8 +176,24 @@ Fuente: <a href="https://learn.microsoft.com/en-us/deployoffice/vlactivation/too
 
 ### ¿Son seguros los servidores kms de terceros?
 
-<p style="text-align: justify">Este punto ya lo hemos analizado en el post anterior, recomendamos leer el post anterior para tener un mejor contexto. Resumidamente podemos decir que se necesitan hacer pruebas para verificar su fiabilidad, sin embargo kms.digiboy.ir es un dominio seguro.</p>
+<p style="text-align: justify">Este punto ya lo hemos analizado en el post anterior, recomendamos leer el post anterior para tener un mejor contexto. A dia de hoy existen solo dos maneras de lograr una activación KMS. Adquiriendo esto mediante el Business center de microsoft o mediante emulacion de un servidor KMS. De cualquier modo, recae en el usuario el servidor al cual se conecte. Y si el mismo lo ha validado como seguro o no.</p>
 
 ### Conclusiones.
 
-<p style="text-align: justify">Mientras adquieras este servicio mediante Microsoft no debería haber ningún problema y si vas a realizar una activación mediante un dominio, asegúrate que este sea seguro y hazlo bajo tu propio riesgo. :)</p>
+<p style="text-align: justify">Mientras adquieras este servicio mediante Microsoft no debería haber ningún problema y si vas a realizar una activación mediante un dominio, asegúrate que este sea seguro, utiliza un antivirus confiable y ten bien configurado tu firewall. :)</p>
+
+<script src="https://giscus.app/client.js"
+        data-repo="quantumwavves/quantumwavves.github.io"
+        data-repo-id="R_kgDOJ0bLEg"
+        data-category="[NOMBRE CATEGORÍA]"
+        data-category-id="[ID CATEGORÍA]"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="es"
+        crossorigin="anonymous"
+        async>
+</script>
