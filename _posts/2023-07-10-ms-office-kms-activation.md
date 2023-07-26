@@ -1,14 +1,16 @@
 ---
-title: Activación KMS de Microsoft Office.
-date: 2023-07-10 00:48:09 +/-TTTT
-categories: [Windows, KMS]
-tags: [windows, kms, activación, microsoft, office]     # TAG names should always be lowercase
-comments: true
-image:
-  path: /assets/posts/office_post/office-banner.png
-  alt: Microsoft Office Suite
-pin: true
+layout: post
+title: Activación KMS de Office.
+subtitle: Key management service
+header-img: img/in-post/office_post/office-banner.png
+header-style: text
+catalog: true
+tags:
+  - office
+  - kms
+  - activación
 ---
+![Desktop View](/img/in-post/office_post/office-banner.png){: w="800" h="600" }
 <br>
 <p style="text-align: justify">Bom día. En este post les enseñaré como realizar una activación kms para Microsoft Office. Hay que aclarar que esto solo será válido siempre y cuando la versión sea anterior a Office 365. Ya hemos analizado algunos aspectos sobre que es KMS y sobre los servidores de terceros. Recomendamos leerlo para tener un mejor contexto.<a href="https://quantumwavves.github.io/posts/windows-kms-activation/"> Léase aquí.</a></p>
 
@@ -97,12 +99,12 @@ Fuente: <a href="https://learn.microsoft.com/en-us/deployoffice/vlactivation/too
 ### KITA. Script en PowerShell.
 <p style="text-align: justify">KITA (Kita Interface Tool Activator). Es un script escrito en PowerShell que busca automatizar la instalación de Microsoft Office, activación y desactivación KMS de una manera sencilla. KITA solo tiene estas versiones soportadas:<a href="https://github.com/quantumwavves/KITA#supported-versions"> Véase aquí.</a></p>
 
-![Desktop View](/assets/posts/office_post/kita-icon.jpg){: w="400" h="200" }
+![Desktop View](/img/in-post/office_post/kita-icon.jpg){: w="400" h="200" }
 
 <p style="text-align: justify">¿Como funciona KITA?
 KITA es solo un script que realiza el deployment de office ProPlus y 365. Esto quiere decir que se hace uso de herramientas de microsoft y la descarga de la suite es directamente de los servidores de microsoft. KITA es open source, por lo que se puede leer, estudiar y redistribuir. Esta licenciado bajo GPL v3.</p>
 
-<center><a href="https://github.com/quantumwavves/KITA"><img src="/assets/logos/github_logo.png" alt="Github" style="width:60px;height:60px;"></a></center>
+<center><a href="https://github.com/quantumwavves/KITA"><img src="/img/in-post/jawa_post/github-logo.png" alt="Github" style="width:60px;height:60px;"></a></center>
 
 #### Uso de KITA
 
@@ -113,31 +115,31 @@ irm cutt.ly/KITA | iex
 
 <p style="text-align: justify">El menú de KITA contiene cuatro opciones, entre las cuales se encuentran la instalación de la suite office (Sin activación), activación de la suite mediante KMS, desactivación de la suite.</p>
 
-![Desktop View](/assets/posts/office_post/kita-menu.png){: w="400" h="200" }
+![Desktop View](/img/in-post/office_post/kita-menu.png){: w="400" h="200" }
 
 Para nuestra primera opción podemos seleccionar la versión a instalar
 
-![Desktop View](/assets/posts/office_post/kita-op-1.png){: w="400" h="200" }
+![Desktop View](/img/in-post/office_post/kita-op-1.png){: w="400" h="200" }
 
 De igual manera podemos seleccionar el bloat (peso) de las aplicaciones que queramos:
 
-![Desktop View](/assets/posts/office_post/kita-op-1-bloat.png){: w="800" h="600" }
+![Desktop View](/img/in-post/office_post/kita-op-1-bloat.png){: w="800" h="600" }
 
 Una vez completada la instalación, nos preguntara si queremos activar office: 
 
-![Desktop View](/assets/posts/office_post/kita-act-ask.png){: w="400" h="200" }
+![Desktop View](/img/in-post/office_post/kita-act-ask.png){: w="400" h="200" }
 
 Nos mandara a la segunda opcion del menu: 
 
-![Desktop View](/assets/posts/office_post/kita-op-2.png){: w="400" h="200" }
+![Desktop View](/img/in-post/office_post/kita-op-2.png){: w="400" h="200" }
 
 Cuando la activación muestra la salida. 
 
-![Desktop View](/assets/posts/office_post/kita-act-com.png){: w="600" h="400" }
+![Desktop View](/img/in-post/office_post/kita-act-com.png){: w="600" h="400" }
 
 Para la elección 3, nos mostrará la siente salida:
 
-![Desktop View](/assets/posts/office_post/kita-op-3.png){: w="600" h="400" }
+![Desktop View](/img/in-post/office_post/kita-op-3.png){: w="600" h="400" }
 
 **Problemas al momento de la desactivación**
 
@@ -192,7 +194,7 @@ Fuente: <a href="https://learn.microsoft.com/en-us/deployoffice/vlactivation/too
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="preferred_color_scheme"
+        data-theme="dark"
         data-lang="es"
         crossorigin="anonymous"
         async>
