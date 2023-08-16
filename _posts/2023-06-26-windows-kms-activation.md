@@ -2,17 +2,15 @@
 layout: post
 title: Activación KMS Windows
 subtitle: Key management service
-header-img: img/in-post/jawa_post/windows11-bg.jpg
-header-style: text
+header-img: img/in-post/jawa_post/kaguya.png
+header-style: image
 catalog: true
 tags:
   - windows
   - kms
   - activación
 ---
-![Desktop View](/img/in-post/jawa_post/windows11-bg.jpg){: w="800" h="600"}
 
-<br>
 <p style='text-align: justify;'>En este post veremos como realizar una activación kms para Windows, con base en documentación proporcionada por Microsoft. Daremos un vistazo a los diferentes modos de activación para Windows y se resolverá dudas acerca de los mitos con respecto a la activación kms.</p>
 
 ### ¿Que es KMS?

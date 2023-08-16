@@ -2,16 +2,15 @@
 layout: post
 title: Activación KMS de Office.
 subtitle: Key management service
-header-img: img/in-post/office_post/office-banner.png
-header-style: text
+header-img: img/in-post/office_post/silverwolf.png
+header-style: image
 catalog: true
 tags:
   - office
   - kms
   - activación
 ---
-![Desktop View](/img/in-post/office_post/office-banner.png){: w="800" h="600" }
-<br>
+
 <p style="text-align: justify">Bom día. En este post les enseñaré como realizar una activación kms para Microsoft Office. Hay que aclarar que esto solo será válido siempre y cuando la versión sea anterior a Office 365. Ya hemos analizado algunos aspectos sobre que es KMS y sobre los servidores de terceros. Recomendamos leerlo para tener un mejor contexto.<a href="https://quantumwavves.github.io/posts/windows-kms-activation/"> Léase aquí.</a></p>
 
 ### ¿Que es KMS?
