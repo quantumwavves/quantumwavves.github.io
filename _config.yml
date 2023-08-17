@@ -109,9 +109,9 @@ menus:
       - title: Me
         font: fas fa-user-astronaut
         url: /about/
-      - title: ideas
-        font: fas fa-splotch
-        url: /projects/
+  - title: projects
+    font: fa fa-folder-open
+    url: /projects/
   - title: Archive
     font: fas fa-archive
     url: /archive/
