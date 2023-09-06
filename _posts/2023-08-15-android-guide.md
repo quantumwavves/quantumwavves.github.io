@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Android Guide
-subtitle: My personal recomendations
+title: ANDROID GUIDE
+subtitle: Mis recomendaciones personales.
 header-img: img/in-post/android_guide/nazuna.png
 header-style: image
+header-mask: rgba(0, 0, 0, .4)
 catalog: true
 tags:
   - android
@@ -49,7 +50,7 @@ Esta es una pequeña guía con recomendaciones enfocadas en la privacidad y la l
 ## Música
 
 - [ViMusic](https://github.com/vfsfitvnm/ViMusic)
-  - Una aplicación para streaming de musica para youtube music.
+  - Una aplicación de musica en streaming para youtube music.
   - FOSS: **Si**
   - Descarga en [FDroid](https://f-droid.org/packages/it.vfsfitvnm.vimusic/)
 - [BlackHole](https://github.com/Sangwan5688/BlackHole)

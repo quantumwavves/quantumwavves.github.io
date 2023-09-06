@@ -1,17 +1,64 @@
 ---
 layout: post
-title: Activación KMS de Office.
-subtitle: Key management service
+title: DESPLIEGUE Y ACTIVACION DE MICROSOFT OFFICE
+subtitle: ¿Qué es un deploy, como funciona, como activar office y que pasa con los servidores de terceros?
 header-img: img/in-post/office_post/silverwolf.png
 header-style: image
+header-mask: rgba(0, 0, 0, .4)
 catalog: true
 tags:
   - office
   - kms
   - activación
+  - deploy
 ---
-
+### Introduccion:
 <p style="text-align: justify">Bom día. En este post les enseñaré como realizar una activación kms para Microsoft Office. Hay que aclarar que esto solo será válido siempre y cuando la versión sea anterior a Office 365. Ya hemos analizado algunos aspectos sobre que es KMS y sobre los servidores de terceros. Recomendamos leerlo para tener un mejor contexto.<a href="https://quantumwavves.github.io/posts/windows-kms-activation/"> Léase aquí.</a></p>
+
+### ¿Que es office deployment tool?
+
+Link de descarga oficiail: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117">microsoft.com</a>
+
+<p style="text-align: justify">La Herramienta de implementación de Office (ODT) es una herramienta de línea de comandos que puede usar para descargar e implementar Aplicaciones Microsoft 365 en los equipos cliente. La ODT le ofrece más control que una instalación de Office: puede definir los productos e idiomas que se instalarán, cómo se actualizarán esos productos y si quiere o no mostrar la experiencia de instalación a los usuarios. La ODT consiste en dos archivos: setup.exe y configuration.xml. Para trabajar con la herramienta, edite el archivo de configuración para definir las opciones que quiera usar y, después, ejecute setup.exe desde la línea de comandos. </p>
+
+### ¿Como realizar un deploy?
+
+`Ejemplo de un archivo de configuration XML`{: .info }
+
+
+```xml
+<!--Office 365 minimal version-->
+<!--configuración tomada del proyecto KITA-->
+
+<Configuration>
+  <Add OfficeClientEdition="64">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="MatchOS" Fallback="en-us" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="Skype" />
+      <ExcludeApp ID="Bing" />
+    </Product>
+  </Add>
+  <RemoveMSI All="True" />
+  <Display Level="None" AcceptEULA="TRUE" />
+</Configuration>
+```
+Para instalar los productos e idiomas de Aplicaciones Microsoft descargados en un equipo cliente, use el modo de configuración. También puede usar el modo de configuración para desinstalar y actualizar productos e idiomas de Office.
+
+```shell
+setup.exe /configure config.xml
+```
+
+Modo descarga:
+
+```shell
+setup.exe /download config.xml
+```
+Fuente: <a href="https://learn.microsoft.com/es-mx/deployoffice/overview-office-deployment-tool"> microsoft learn deployoffice overview-office-deployment-tool</a>
 
 ### ¿Que es KMS?
 
@@ -175,9 +222,81 @@ Desactivar el caching:
 
 Fuente: <a href="https://learn.microsoft.com/en-us/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office#global-options-for-osppvbs">Global options for ospp.vbs.</a>
 
-### ¿Son seguros los servidores kms de terceros?
+### Servidores kms de terceros
 
-<p style="text-align: justify">Este punto ya lo hemos analizado en el post anterior, recomendamos leer el post anterior para tener un mejor contexto. A dia de hoy existen solo dos maneras de lograr una activación KMS. Adquiriendo esto mediante el Business center de microsoft o mediante emulacion de un servidor KMS. De cualquier modo, recae en el usuario el servidor al cual se conecte. Y si el mismo lo ha validado como seguro o no.</p>
+<p style="text-align: justify">Este punto ya lo hemos analizado en el post anterior, sin embargo abarcaremos la misma informacion que se coloco no obstante recomendamos leer el post anterior para tener un mejor contexto. A dia de hoy existen solo dos maneras de lograr una activación KMS. Adquiriendo esto mediante el Business center de microsoft o mediante emulacion de un servidor KMS. De cualquier modo, recae en el usuario el servidor al cual se conecte. Y si el mismo lo ha validado como seguro o no.</p>
+
+#### Analizando servidor de 3ros.
+
+![Desktop View](/img/in-post/jawa_post/nmap-kms-server.png){: w="600" h="400"}
+
+<p style='text-align: justify'>Vemos que el puerto 53 TCP está abierto, por lo que sabiendo los puertos conocidos, este se utiliza tanto UDP como TCP para la transmisión de nombres de dominio (DNS). Quiere decir que al conectarse a este servidor es como si nos conectásemos al 8.8.8.8 que es el servidor de nombres de dominio de Google. En estos se guardarán los registros para los hosts, por lo que habrá que realizar un tracert o tracepath para saber hacia qué servidor se está haciendo la conexión. Utilizando la utilidad de tracert en Windows obtenemos la dirección final de un servidor.</p>
+
+![Desktop View](/img/in-post/jawa_post/tracert-kms.png){: w="600" h="400" }
+
+Realizaremos un escaneo a los puertos del servidor final con nmap.
+
+![Desktop View](/img/in-post/jawa_post/nmap-kms-instance1.png){: w="600" h="400" }
+
+<p style='text-align: justify'>Por los puertos conocidos nos damos cuenta de que es un windows server. Y podemos ver los puertos que están abiertos, los cuales son:
+53 TCP utilizado para nombres de dominio.</p>
+<ul>
+<li>135 TCP se utiliza para el servicio de DCOM (Distributed Component Object Model) en Windows. DCOM permite la comunicación entre aplicaciones en diferentes computadoras en una red. Este puerto es utilizado para el acceso remoto y la administración de componentes distribuidos.</li>
+<li>80 TCP es el puerto predeterminado utilizado para el protocolo HTTP (Hypertext Transfer Protocol). Se utiliza para servir páginas web a través de Internet. El tráfico web regularmente se dirige a este puerto cuando se accede a un servidor web.</li>
+<li>445 TCP se utiliza para el protocolo de intercomunicación de sistemas abiertos de Microsoft (MS-SMB) sobre el protocolo TCP/IP. Es utilizado por el servicio de uso compartido de archivos de Windows (SMB) para permitir la comunicación y el intercambio de archivos en una red local.</li>
+<li>1392 TCP En este caso este servicio corresponde a un servidor de impresión o print server en inglés.</li>
+<li>1688 TCP se utiliza para el servicio de activación de Microsoft (MS Licensing). Específicamente, este puerto se utiliza para la activación de volumen de Windows y Office. Se comunica con los servidores de Microsoft para validar las licencias y activar el software en los sistemas clientes.</li>
+<li>49145 TCP este es un protocolo desconocido.</li>
+</ul>
+
+Ahora utilizaremos traceroute, en teoría debería darnos el mismo path que tracert.
+
+![Desktop View](/img/in-post/jawa_post/traceroute-kms.png){: w="800" h="600"}
+
+<p>Observamos que obtenemos otra dirección IPV4 diferente a la que nos mostró tracert, esto nos indica que existen 2 servidores a los cuales hace conexión por el puerto 1688 tcp. Esto fácilmente se puede ver con la herramienta nslookup.</p>
+
+![Desktop View](/img/in-post/jawa_post/nslookup-kms.png){: w="600" h="400"}
+
+<p style='text-align: justify'>Ya hemos analizado los puertos de uno de los dos servidores, ahora realizáremos el escaneo al otro servidor.</p>
+
+![Desktop View](/img/in-post/jawa_post/nmap-kms-instance2.png){: w="600" h="400"}
+
+<p style='text-align: justify'>Vemos que existen algunos puertos repetidos, pero aparecen otros que no. Estos puertos son:</p>
+<ul>
+<li>21 TCP este protocolo es un puerto conocido para FTP de las siglas file transfer protocol, sirve para transferencia de archivos. En este caso el puerto es cerrado.</li>
+<li>1395 TCP en este caso el protocolo corresponde a un programa de PC Workstation Manager software</li>
+<li>34775 TCP puerto desconocido</li>
+<li>51413 TCP puerto desconocido</li>
+</ul>
+
+<p style='text-align: justify'>Adicional a esto haremos un escaneo a la máquina cliente, la cual fue activada con este servidor.</p>
+
+![Desktop View](/img/in-post/jawa_post/kms-client.png){: w="600" h="400"}
+
+<p style='text-align: justify'>Esto solo nos muestra los puertos abiertos en el cliente, para saber que conexiones son las que están en uso debemos directamente consultarlo desde powershell o cmd. Obtendremos las conexiones TCP:</p>
+
+![Desktop View](/img/in-post/jawa_post/tcp-client.png){: w="800" h="600"}
+
+Adicionalmente, agregaré las conexiones UDP, pero como explicamos, este protocolo no reenvía paquetes y no lo hace secuencialmente.
+
+![Desktop View](/img/in-post/jawa_post/udp-client.png){: w="800" h="600"}
+
+Ahora realizaremos una enumeracion al servicio SMB
+
+![Desktop View](/img/in-post/jawa_post/smb-enum.png){: w="800" h="600"}
+
+Podemos notar que no existen reglas seteadas para un usuario NULL
+
+Este servidor contiene un reporte en AnyRun, véase <a href="https://any.run/report/4b8da721706aa2264c5c402c2bd4d46274d81ad6108e827c65dfbcd2dc83aef1/881e29e9-29ed-48ad-8435-87f672ac48bb">aquí</a>.
+
+![Desktop View](/img/in-post/jawa_post/kms-anyrun.png){: w="800" h="600"}
+
+Ahora analizaremos el tráfico HTTP y HTTPS en el tiempo de la activación.
+
+ <video width="700" height="500" controls>
+  <source src="/img/in-post/jawa_post/TCP-Services.mp4" type="video/mp4">
+</video> 
+
 
 ### Conclusiones.
 

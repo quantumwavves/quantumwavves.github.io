@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Activación KMS Windows
-subtitle: Key management service
+title: ACTIVACION KMS WINDOWS.
+subtitle: ¿Que es KMS, como funciona y que pasa con los servidores de terceros?
 header-img: img/in-post/jawa_post/kaguya.png
 header-style: image
+header-mask: rgba(0, 0, 0, .4)
 catalog: true
 tags:
   - windows
@@ -321,6 +322,8 @@ slmgr /xpr
 
 <p style='text-align: justify'>Aquí. La principal diferencia entre TCP y UDP es que el protocolo TCP reenvía paquetes que pueden haberse perdido en la transmisión y lo hace de manera secuencial, mientras que el protocolo UDP no reenviá paquetes y no es secuencial, por lo que puede haber perdida de paquetes.<br>Ahora que tenemos un poco de contexto sobre estos protocolos, analizaremos la conexión con un servidor conocido para este tipo de prácticas. El servidor seleccionado es kms.digiboy.ir,  lo primero que haremos es escanear los puertos del dominio, para ello utilizaremos la herramienta nmap. Haremos un escaneo desde el puerto 1 al 65535.</p>
 
+#### Analizando servidor de 3ros.
+
 ![Desktop View](/img/in-post/jawa_post/nmap-kms-server.png){: w="600" h="400"}
 
 <p style='text-align: justify'>Vemos que el puerto 53 TCP está abierto, por lo que sabiendo los puertos conocidos, este se utiliza tanto UDP como TCP para la transmisión de nombres de dominio (DNS). Quiere decir que al conectarse a este servidor es como si nos conectásemos al 8.8.8.8 que es el servidor de nombres de dominio de Google. En estos se guardarán los registros para los hosts, por lo que habrá que realizar un tracert o tracepath para saber hacia qué servidor se está haciendo la conexión. Utilizando la utilidad de tracert en Windows obtenemos la dirección final de un servidor.</p>
@@ -373,6 +376,12 @@ Ahora utilizaremos traceroute, en teoría debería darnos el mismo path que trac
 Adicionalmente, agregaré las conexiones UDP, pero como explicamos, este protocolo no reenvía paquetes y no lo hace secuencialmente.
 
 ![Desktop View](/img/in-post/jawa_post/udp-client.png){: w="800" h="600"}
+
+Ahora realizaremos una enumeracion al servicio SMB
+
+![Desktop View](/img/in-post/jawa_post/smb-enum.png){: w="800" h="600"}
+
+Podemos notar que no existen reglas seteadas para un usuario NULL
 
 Este servidor contiene un reporte en AnyRun, véase <a href="https://any.run/report/4b8da721706aa2264c5c402c2bd4d46274d81ad6108e827c65dfbcd2dc83aef1/881e29e9-29ed-48ad-8435-87f672ac48bb">aquí</a>.
 
