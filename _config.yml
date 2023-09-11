@@ -5,7 +5,7 @@ description: My personal blog.
 keyword: "blog, personal website, linux, windows"
 url: "quantumwavves.github.io"      # your host, for absolute URL
 baseurl: ""                                         # for example, '/blog' if your blog hosted on 'host/blog'
-avatar: "img/avatar.webp"                    # the avatar showing on the homepage
+avatar: "img/pfp/avatar.webp"                    # the avatar showing on the homepage
 
 
 # GitHub repository (if the site is hosted by GitHub)
@@ -17,7 +17,7 @@ repository_branch: main
 theme_style:
   highlight:    # "dark" (default), "light"
   alert:        # "flat" (default), "modern"
-  post_preview: # "image" (default), "text"
+  post_preview: "image" #"image" (default), "text"
                 # display post's featured image on homepage or not
 
 
