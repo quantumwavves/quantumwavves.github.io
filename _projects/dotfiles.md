@@ -45,35 +45,41 @@ My personal config for Arch Linux with bswpm.<br>
 ```bash
 #Arch Linux
 #Update system and install dependecies(You need yay)
-$ yay -Syu bspwm sxhkd kitty polybar rofi feh git tmux\
+yay -Syu bspwm sxhkd kitty polybar rofi feh git tmux\
   betterlockscreen xclip imagemagick maim pcmanfm-gtk3\
   ranger python-pywal lsd stalonetray xdo neofetch\
-  checkupdates+aur pulseaudio xorg-xrandr curl\
-  picom-jonaburg-git ttf-jetbrains-mono-nerd\
+  checkupdates+aur pulseaudio xorg-xrandr curl ttf-jetbrains-mono-nerd\
   dunst awesome-terminal-fonts ttf-font-awesome
 #Aditional dependecies (for discord and firefox)
 # Instrucctions for Aditional features here: 
-$ yay -S python-pywalfox pywal-discord-git betterdiscordctl
+yay -S python-pywalfox pywal-discord-git betterdiscordctl
+#Compile picom jonaburg fork
+git clone https://github.com/jonaburg/picom
+cd picom
+meson --buildtype=release . build
+ninja -C build
+# To install the binaries in /usr/local/bin (optional)
+sudo ninja -C build install
 #Clone repository
-$ git clone https://github.com/quantumwavves/quantum-dotfiles.git
-$ cd quantum-dotfiles
+git clone https://github.com/quantumwavves/quantum-dotfiles.git
+cd quantum-dotfiles
 #Copy fonts in $HOME/.fonts
-$ cp -r fonts/* $HOME/.fonts
+cp -r fonts/* $HOME/.fonts
 #Copy config files in $HOME/.config
-$ cp -r .config/* ~/.config
+cp -r .config/* ~/.config
 #Copy binarys for setup enviroment
-$ cp bin/* ~/.local/bin
+cp bin/* ~/.local/bin
 #Install termux package manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 #Install zsh and ohmyzsh
 yay -S zsh && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 #Rebuild fonts
-$ fc-cache -v -f
-$ sudo fc-cache -v -f
+fc-cache -v -f
+sudo fc-cache -v -f
 #Export variables to shell
-$ echo 'export PATH=$PATH:"$HOME/.local/bin"' >>$HOME/.<bashrc or zshrc>
+echo 'export PATH=$PATH:"$HOME/.local/bin"' >>$HOME/.<bashrc or zshrc>
 #Setup enviroment
-$ wmcolor $HOME/quantum-dotfiles/wallpaper/defalt.jpg
+wmcolor $HOME/quantum-dotfiles/wallpaper/defalt.jpg
 ```
 <!--Scripts Installation-->
 ## Scripts for installation 🪄

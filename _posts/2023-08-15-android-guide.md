@@ -217,6 +217,11 @@ Esta es una pequeña guía con recomendaciones enfocadas en la privacidad y la l
   - FOSS: **Si**
   - Descarga en [FDroid](https://f-droid.org/es/packages/com.thirtydegreesray.openhub/)
 
+## Seguridad
+- [Authenticator pro](https://github.com/jamie-mh/AuthenticatorPro)
+  - Cliente de autenticación de dos factores (2FA) para Android y Wear OS.
+  - FOSS: **Si**
+  - Descarga en [FDroid (IzzyOnDroid)](https://apt.izzysoft.de/fdroid/index/apk/me.jmh.authenticatorpro)
 ## NSFW
 
 - [Pupil](https://github.com/tom5079/Pupil)
