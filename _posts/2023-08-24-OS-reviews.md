@@ -14,6 +14,13 @@ tags:
   - macos
 ---
 
+<!--Open graph test-->
+<meta property="og:image" content="/img/in-post/os_guide/void.webp"/>
+<meta property="og:title" content="Lista de sistemas operativos"/>
+<meta property="og:description" content="Una pequeña guia sobre sistemas operativos"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+
 ## CONCEPTOS
 
 ### ¿Qué es un sistema operativo?
@@ -67,10 +74,9 @@ El sistema operativo es un conjunto de programas especializados que gestionan to
 | Soporte extendido hasta 13 de octubre de 2026. | No cuenta con Microsoft Store, pero se le puede instalar. |
 | Versión 1607, al ser una de las primeras versiones el sistema no contiene las mismas características y servicios que una actual como la 21H2 o 22H2. | Actualizar por primera vez el sistema toma su tiempo. |
 No contiene bloatware. | Difícilmente encontrarás la ISO con sus hashes de verificación, por lo que la forma más segura de descargar el archivo ISO es con una suscripción enterprise a visual studio. |
-| No contiene bloatware. | Es necesario instalar el framework de .NET para ciertas aplicaciones y los MSVC (Microsoft visual C++) ya que no vienen nativamente en el SO. |
 | Ideal para un equipo de bajos recursos ya que la versión de esta rama es utilizada en cajeros o equipos médicos que requieren estabilidad para estar funcionando constantemente. | No tiene updates de nuevas características. |
 | Instalación gráfica. | Para activar este sistema debes adquirir los servicios de volumen de licencia que Microsoft ofrece. |
-| WD Cloud, protección de sincronizada con la nube. | |
+| WD Cloud, protección de sincronizada con la nube. | Es necesario instalar el framework de .NET para ciertas aplicaciones y los MSVC (Microsoft visual C++) ya que no vienen nativamente en el SO. |
 | App-V, virtualización de aplicaciones. | |
 
 
