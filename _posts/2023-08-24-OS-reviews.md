@@ -14,9 +14,6 @@ tags:
   - macos
 ---
 
-<!--Open graph test-->
-<meta property="og:image" content="/img/in-post/os_guide/void.webp"/>
-
 ## CONCEPTOS
 
 ### ¿Qué es un sistema operativo?
