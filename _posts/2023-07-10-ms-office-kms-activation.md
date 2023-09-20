@@ -12,6 +12,30 @@ tags:
   - activación
   - deploy
 ---
+
+<!-- HTML Meta Tags -->
+<title>DESPLIEGUE Y ACTIVACION DE MICROSOFT OFFICE.</title>
+<meta name="description" content="Un pequeño post que explica que es la office deployment tool y la activación KMS.">
+<meta property="og:site_name" content="QuantumWavves">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/office_post/silverwolf.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://quantumwavves.github.io/2023/07/10/ms-office-kms-activation/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DESPLIEGUE Y ACTIVACION DE MICROSOFT OFFICE.">
+<meta property="og:description" content="Un pequeño post que explica que es la office deployment tool y la activación KMS.">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/office_post/silverwolf.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="quantumwavves.github.io">
+<meta property="twitter:url" content="https://quantumwavves.github.io/2023/07/10/ms-office-kms-activation/">
+<meta name="twitter:title" content="DESPLIEGUE Y ACTIVACION DE MICROSOFT OFFICE.">
+<meta name="twitter:description" content="Un pequeño post que explica que es la office deployment tool y la activación KMS.">
+<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/office_post/silverwolf.png">
+
+<!-- Meta Tags Generated via https://opengraph.dev -->
+
 ### Introduccion:
 <p style="text-align: justify">Bom día. En este post les enseñaré como realizar una activación kms para Microsoft Office. Hay que aclarar que esto solo será válido siempre y cuando la versión sea anterior a Office 365. Ya hemos analizado algunos aspectos sobre que es KMS y sobre los servidores de terceros. Recomendamos leerlo para tener un mejor contexto.<a href="https://quantumwavves.github.io/posts/windows-kms-activation/"> Léase aquí.</a></p>
 

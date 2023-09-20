@@ -14,6 +14,27 @@ tags:
   - macos
 ---
 
+<!-- HTML Meta Tags -->
+<title>LISTA DE SISTEMAS OPERATIVOS.</title>
+<meta name="description" content="Una pequeña guia sobre sistemas operativos.">
+<meta property="og:site_name" content="QuantumWavves">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/os_guide/void.webp">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://quantumwavves.github.io/2023/08/24/os-reviews/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="LISTA DE SISTEMAS OPERATIVOS.">
+<meta property="og:description" content="Una pequeña guia sobre sistemas operativos.">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/os_guide/void.webp">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="quantumwavves.github.io">
+<meta property="twitter:url" content="https://quantumwavves.github.io/2023/08/24/os-reviews/">
+<meta name="twitter:title" content="LISTA DE SISTEMAS OPERATIVOS.">
+<meta name="twitter:description" content="Una pequeña guia sobre sistemas operativos.">
+<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/os_guide/void.webp">
+
 ## CONCEPTOS
 
 ### ¿Qué es un sistema operativo?

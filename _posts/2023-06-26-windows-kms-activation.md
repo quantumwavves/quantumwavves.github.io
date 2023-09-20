@@ -12,6 +12,29 @@ tags:
   - activación
 ---
 
+<!-- HTML Meta Tags -->
+<title>ACTIVACION KMS WINDOWS. - Quantum</title>
+<meta name="description" content="Un pequeño post que explica la activación KMS de windows.">
+<meta property="og:site_name" content="QuantumWavves">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/kaguya.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://quantumwavves.github.io/2023/06/26/windows-kms-activation/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ACTIVACION KMS WINDOWS. - Quantum">
+<meta property="og:description" content="Un pequeño post que explica la activación KMS de windows.">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/kaguya.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="quantumwavves.github.io">
+<meta property="twitter:url" content="https://quantumwavves.github.io/2023/06/26/windows-kms-activation/">
+<meta name="twitter:title" content="ACTIVACION KMS WINDOWS. - Quantum">
+<meta name="twitter:description" content="Un pequeño post que explica la activación KMS de windows.">
+<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/kaguya.png">
+
+<!-- Meta Tags Generated via https://opengraph.dev -->
+
 <p style='text-align: justify;'>En este post veremos como realizar una activación kms para Windows, con base en documentación proporcionada por Microsoft. Daremos un vistazo a los diferentes modos de activación para Windows y se resolverá dudas acerca de los mitos con respecto a la activación kms.</p>
 
 ### ¿Que es KMS?
