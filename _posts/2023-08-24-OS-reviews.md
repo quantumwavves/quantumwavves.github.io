@@ -16,10 +16,6 @@ tags:
 
 <!--Open graph test-->
 <meta property="og:image" content="/img/in-post/os_guide/void.webp"/>
-<meta property="og:title" content="Lista de sistemas operativos"/>
-<meta property="og:description" content="Una pequeña guia sobre sistemas operativos"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="630"/>
 
 ## CONCEPTOS
 

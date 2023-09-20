@@ -46,7 +46,7 @@ collections:
   experiences:
     output: false
   publications:
-    output: true
+    output: false
   projects:
     output: true
 
