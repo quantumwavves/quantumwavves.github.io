@@ -210,7 +210,8 @@ No contiene bloatware. | Difícilmente encontrarás la ISO con sus hashes de ver
 
 ##### Conclusiones:
 
-`Hazle debloat a tu Instalación, no seas gay`{: .error }
+Hazle debloat a tu Instalación, no seas gay
+{: .error }
 
 ## AOSP Y WEB BASED OS
 

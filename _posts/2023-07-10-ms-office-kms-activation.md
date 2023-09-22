@@ -47,7 +47,8 @@ Link de descarga oficiail: <a href="https://www.microsoft.com/en-us/download/det
 
 ### ¿Como realizar un deploy?
 
-`Ejemplo de un archivo de configuration XML`{: .info }
+Ejemplo de un archivo de configuration XML
+{: .info }
 
 
 ```xml
@@ -324,7 +325,8 @@ Ahora analizaremos el tráfico HTTP y HTTPS en el tiempo de la activación.
 
 ### Conclusiones.
 
-<p style="text-align: justify">Mientras adquieras este servicio mediante Microsoft no debería haber ningún problema y si vas a realizar una activación mediante un dominio, asegúrate que este sea seguro, utiliza un antivirus confiable y ten bien configurado tu firewall. :)</p>
+Mientras adquieras este servicio mediante Microsoft no debería haber ningún problema y si vas a realizar una activación mediante un dominio, asegúrate que este sea seguro, utiliza un antivirus confiable y ten bien configurado tu firewall.
+{: .warning }
 
 <script src="https://giscus.app/client.js"
         data-repo="quantumwavves/quantumwavves.github.io"

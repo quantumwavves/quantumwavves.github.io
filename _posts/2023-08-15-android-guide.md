@@ -38,7 +38,9 @@ tags:
 ## Introducción
 
 Esta es una pequeña guía con recomendaciones enfocadas en la privacidad y la libertad de uso para dispositivos android. Son un recopilatorio de aplicaciones y tips que mejoran la experiencia de uso y agilizan procesos específicos.<br>
-`Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicaciones o metodos que mas se ajusten a tus necesidades.`{: .info}
+
+Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicaciones o metodos que mas se ajusten a tus necesidades.
+{:.info}
 
 ## SNS
 
@@ -351,7 +353,8 @@ sshd
 # Conectarse por ssh
 ssh -P 8022 <usuario>@<ip-device>
 ```
-`Si desconoces tu usuario y tu ip, puedes consultarlos con los siguientes comandos`{: .info}
+Si desconoces tu usuario y tu ip, puedes consultarlos con los siguientes comandos
+{: .success}
 ```bash
 #Mostrar nombre del usuario
 whoami
@@ -389,7 +392,8 @@ scp -P 8022 index.html u0_a342@10.10.10.34:/data/data/com.termux/files/home/stor
 #### FTP con Termux.
 
 Dependencias necesarias: busybox termux-services<br>
-`Termux FTP tiene un login anonimo, cualquiera con acesso a tu red puede hacer uso de este servicio, para colocar un usuario y contraseña usa SFTP(openssh)`{: .warning}
+Termux FTP tiene un login anonimo, cualquiera con acesso a tu red puede hacer uso de este servicio, para colocar un usuario y contraseña usa SFTP(openssh)
+{: .warning}
 
 ```bash
 #habilitar al arranque servicio de ftpd
