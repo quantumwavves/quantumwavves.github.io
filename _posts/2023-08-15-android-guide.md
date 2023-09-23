@@ -95,6 +95,10 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
   - Symphony es un reproductor de música ligero y elegante que mejora tu experiencia musical sin conexión. Compatible con Android 9 y versiones posteriores.
   - FOSS: **Si**
   - Descarga en [FDroid](https://f-droid.org/en/packages/io.github.zyrouge.symphony/)
+- [Innertune](https://github.com/z-huang/InnerTune)
+  - desc
+  - FOSS: Si
+  - Descarga en
 
 ## Aplicaciones del sistema
 

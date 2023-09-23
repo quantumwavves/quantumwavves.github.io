@@ -7,8 +7,10 @@ header-style: image
 header-mask: rgba(0, 0, 0, .4)
 catalog: true
 tags:
-  - HTB
+  - htb
   - docker-abuse
+  - rce
+  - password-cracking
 ---
 
 
