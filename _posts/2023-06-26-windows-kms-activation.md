@@ -2,7 +2,7 @@
 layout: post
 title: ACTIVACION KMS WINDOWS.
 subtitle: ¿Que es KMS, como funciona y que pasa con los servidores de terceros?
-header-img: img/in-post/jawa_post/kaguya.png
+header-img: img/in-post/jawa_post/yelan.jpg
 header-style: image
 header-mask: rgba(0, 0, 0, .4)
 catalog: true
@@ -16,14 +16,14 @@ tags:
 <title>ACTIVACION KMS WINDOWS. - Quantum</title>
 <meta name="description" content="Un pequeño post que explica la activación KMS de windows.">
 <meta property="og:site_name" content="QuantumWavves">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/kaguya.png">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/yelan.jpg">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://quantumwavves.github.io/2023/06/26/windows-kms-activation/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="ACTIVACION KMS WINDOWS. - Quantum">
 <meta property="og:description" content="Un pequeño post que explica la activación KMS de windows.">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/kaguya.png">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/yelan.jpg">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
@@ -31,7 +31,7 @@ tags:
 <meta property="twitter:url" content="https://quantumwavves.github.io/2023/06/26/windows-kms-activation/">
 <meta name="twitter:title" content="ACTIVACION KMS WINDOWS. - Quantum">
 <meta name="twitter:description" content="Un pequeño post que explica la activación KMS de windows.">
-<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/kaguya.png">
+<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/yelan.jpg">
 
 <!-- Meta Tags Generated via https://opengraph.dev -->
 

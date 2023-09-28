@@ -2,7 +2,7 @@
 layout: post
 title: DESPLIEGUE Y ACTIVACION DE MICROSOFT OFFICE
 subtitle: ¿Qué es un deploy, como funciona, como activar office y que pasa con los servidores de terceros?
-header-img: img/in-post/office_post/silverwolf.png
+header-img: img/in-post/office_post/ganyu-hutao.png
 header-style: image
 header-mask: rgba(0, 0, 0, .4)
 catalog: true
@@ -17,14 +17,14 @@ tags:
 <title>DESPLIEGUE Y ACTIVACION DE MICROSOFT OFFICE.</title>
 <meta name="description" content="Un pequeño post que explica que es la office deployment tool y la activación KMS.">
 <meta property="og:site_name" content="QuantumWavves">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/office_post/silverwolf.png">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/office_post/ganyu-hutao.png">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://quantumwavves.github.io/2023/07/10/ms-office-kms-activation/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="DESPLIEGUE Y ACTIVACION DE MICROSOFT OFFICE.">
 <meta property="og:description" content="Un pequeño post que explica que es la office deployment tool y la activación KMS.">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/office_post/silverwolf.png">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/office_post/ganyu-hutao.png">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
@@ -32,7 +32,7 @@ tags:
 <meta property="twitter:url" content="https://quantumwavves.github.io/2023/07/10/ms-office-kms-activation/">
 <meta name="twitter:title" content="DESPLIEGUE Y ACTIVACION DE MICROSOFT OFFICE.">
 <meta name="twitter:description" content="Un pequeño post que explica que es la office deployment tool y la activación KMS.">
-<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/office_post/silverwolf.png">
+<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/office_post/ganyu-hutao.png">
 
 <!-- Meta Tags Generated via https://opengraph.dev -->
 

@@ -13,16 +13,20 @@ tags:
   - password-cracking
 ---
 
-
   <!-- HTML Meta Tags -->
   <title>MONITORS TWO WRITEUP.</title>
   <meta name="description" content="Resolución de la máquina monitors two de HTB.">
+  <meta property="og:site_name" content="QuantumWavves">
+  <meta property="og:image" content="https://quantumwavves.github.io/img/in-post/monitors_two/monitors-two.webp">
+
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="https://quantumwavves.github.io/2023/09/21/monitors-two/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="MONITORS TWO WRITEUP.">
   <meta property="og:description" content="Resolución de la máquina monitors two de HTB.">
   <meta property="og:image" content="https://quantumwavves.github.io/img/in-post/monitors_two/monitors-two.webp">
+  <meta property="og:image:width" content="200" />
+  <meta property="og:image:height" content="200" />
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
