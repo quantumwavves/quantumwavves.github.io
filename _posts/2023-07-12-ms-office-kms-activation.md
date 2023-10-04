@@ -20,7 +20,7 @@ tags:
 <meta property="og:image" content="https://quantumwavves.github.io/img/in-post/office_post/ganyu-hutao.png">
 
 <!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://quantumwavves.github.io/2023/07/10/ms-office-kms-activation/">
+<meta property="og:url" content="https://quantumwavves.github.io/2023/07/12/ms-office-kms-activation/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="DESPLIEGUE Y ACTIVACION DE MICROSOFT OFFICE.">
 <meta property="og:description" content="Un pequeño post que explica que es la office deployment tool y la activación KMS.">
@@ -29,7 +29,7 @@ tags:
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="quantumwavves.github.io">
-<meta property="twitter:url" content="https://quantumwavves.github.io/2023/07/10/ms-office-kms-activation/">
+<meta property="twitter:url" content="https://quantumwavves.github.io/2023/07/12/ms-office-kms-activation/">
 <meta name="twitter:title" content="DESPLIEGUE Y ACTIVACION DE MICROSOFT OFFICE.">
 <meta name="twitter:description" content="Un pequeño post que explica que es la office deployment tool y la activación KMS.">
 <meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/office_post/ganyu-hutao.png">

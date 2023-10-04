@@ -5,6 +5,27 @@ title: Kokomi Russian Roulette.
 img: img/projects/krr/krr-header.webp
 ---
 
+<!-- HTML Meta Tags -->
+<meta property="og:title" content="KOKOMI RUSSIAN ROULETTE">
+<meta name="description" content="Implementacion de un ransomware inspirado en Kokomi">
+<meta property="og:site_name" content="QuantumWavves">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://quantumwavves.github.io/projects/kokomi-russian-roulette/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="KOKOMI RUSSIAN ROULETTE">
+<meta property="og:description" content="Implementacion de un ransomware inspirado en Kokomi">
+<meta property="og:image" content="https://quantumwavves.github.io/img/projects/krr/krr-header.webp">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="quantumwavves.github.io">
+<meta property="twitter:url" content="https://quantumwavves.github.io/projects/kokomi-russian-roulette/">
+<meta name="twitter:title" content="KOKOMI RUSSIAN ROULETTE">
+<meta name="twitter:description" content="Implementacion de un ransomware inspirado en Kokomi">
+<meta name="twitter:image" content="https://quantumwavves.github.io/img/projects/krr/krr-header.webp">
+
+
 <p align="center">
 <img src="/img/projects/krr/kokomi-endgame.webp" alt="drawing" width="500"/><br>
 </p>

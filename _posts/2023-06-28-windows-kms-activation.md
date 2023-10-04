@@ -19,7 +19,7 @@ tags:
 <meta property="og:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/yelan.jpg">
 
 <!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://quantumwavves.github.io/2023/06/26/windows-kms-activation/">
+<meta property="og:url" content="https://quantumwavves.github.io/2023/06/28/windows-kms-activation/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="ACTIVACION KMS WINDOWS. - Quantum">
 <meta property="og:description" content="Un pequeño post que explica la activación KMS de windows.">
@@ -28,7 +28,7 @@ tags:
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="quantumwavves.github.io">
-<meta property="twitter:url" content="https://quantumwavves.github.io/2023/06/26/windows-kms-activation/">
+<meta property="twitter:url" content="https://quantumwavves.github.io/2023/06/28/windows-kms-activation/">
 <meta name="twitter:title" content="ACTIVACION KMS WINDOWS. - Quantum">
 <meta name="twitter:description" content="Un pequeño post que explica la activación KMS de windows.">
 <meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/yelan.jpg">

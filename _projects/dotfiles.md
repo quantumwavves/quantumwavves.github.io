@@ -4,7 +4,28 @@ header-style: text
 title: My personal dotfiles for BSPWM.
 img: img/projects/dotfiles/rice.webp
 ---
-![Desktop View](/img/projects/dotfiles/cover.webp){: w="800" h="600"}
+
+
+  <!-- HTML Meta Tags -->
+  <title>My personal dotfiles for BSPWM. - QuantumWavves</title>
+  <meta name="description" content="Mis configuraciones personales para BSWPM y Linux.">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://quantumwavves.github.io/projects/dotfiles/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="My personal dotfiles for BSPWM. - QuantumWavves">
+  <meta property="og:description" content="Mis configuraciones personales para BSWPM y Linux.">
+  <meta property="og:image" content="https://quantumwavves.github.io/img/projects/dotfiles/rice.webp">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="quantumwavves.github.io">
+  <meta property="twitter:url" content="https://quantumwavves.github.io/projects/dotfiles/">
+  <meta name="twitter:title" content="My personal dotfiles for BSPWM. - QuantumWavves">
+  <meta name="twitter:description" content="Mis configuraciones personales para BSWPM y Linux.">
+  <meta name="twitter:image" content="https://quantumwavves.github.io/img/projects/dotfiles/rice.webp">
+
+![Desktop View](/img/projects/dotfiles/cover.webp)
 
 My personal config for Arch Linux with bswpm.<br>
 **Github repo here:**[dotfiles](https://github.com/quantumwavves/quantum-dotfiles)<br><br>
