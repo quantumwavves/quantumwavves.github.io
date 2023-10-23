@@ -584,9 +584,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/free.rm.skytube.oss/en-US/phoneScreenshots/1-trending.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/free.rm.skytube.oss/en-US/phoneScreenshots/1-trending.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="https://f-droid.org/repo/free.rm.skytube.oss/en-US/phoneScreenshots/1-trending.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/free.rm.skytube.oss/en-US/phoneScreenshots/2-video_blocker.jpg" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/free.rm.skytube.oss/en-US/phoneScreenshots/1-trending.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/free.rm.skytube.oss/en-US/phoneScreenshots/4-bookmarks.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="https://f-droid.org/repo/free.rm.skytube.oss/en-US/phoneScreenshots/3-subs.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/free.rm.skytube.oss/en-US/phoneScreenshots/4-bookmarks.jpg" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/free.rm.skytube.oss/)
@@ -760,6 +760,22 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.fmsys.snapdrop/)
 
+### [LocalSend](https://github.com/localsend/localsend)
+  - DESC
+  - FEATURES
+    - lorem
+    - ipsum
+
+| Screenshot 1 | Screenshot 2 |
+|-|-|
+| <img src="" width="200" onclick="window.open(this.src)"> | <img src="" width="200" onclick="window.open(this.src)"> |
+| Screenshot 3 | Screenshot 4 |
+| <img src="" width="200" onclick="window.open(this.src)"> | <img src="" width="200" onclick="window.open(this.src)">|
+
+  - FOSS: ``Si``
+  - Descarga en []()
+
+
 ### [Feeder](https://gitlab.com/spacecowboy/Feeder)
   - An awesome Libre and Open Source RSS feed reader.
   - Características:
@@ -819,9 +835,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="/img/in-post/android_guide/personal-screenshots/aniyomi/1.jpg" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/personal-screenshots/aniyomi/2.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/aniyomi/1.jpg" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/aniyomi/2.jpg" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="/img/in-post/android_guide/personal-screenshots/aniyomi/3.jpg" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/personal-screenshots/aniyomi/4.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/aniyomi/3.jpg" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/aniyomi/4.jpg" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [Github](https://github.com/aniyomiorg/aniyomi/releases)
@@ -1170,9 +1186,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="/img/in-post/android_guide/personal-screenshots/pupil/1.png" width="220" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/personal-screenshots/pupil/2.png" width="220" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/pupil/1.png" width="220" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/pupil/2.png" width="220" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="/img/in-post/android_guide/personal-screenshots/pupil/3.png" width="220" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/personal-screenshots/pupil/4.png" width="220" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/pupil/3.png" width="220" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/pupil/4.png" width="220" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [Github](https://github.com/tom5079/Pupil/releases)
@@ -1246,9 +1262,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="/img/in-post/android_guide/personal-screenshots/gamedroid/1.png" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/personal-screenshots/gamedroid/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/gamedroid/1.png" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/gamedroid/2.png" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="/img/in-post/android_guide/personal-screenshots/gamedroid/3.png" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/personal-screenshots/gamedroid/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/gamedroid/3.png" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/gamedroid/4.png" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [Github](https://github.com/mwpenny/GameDroid/releases)

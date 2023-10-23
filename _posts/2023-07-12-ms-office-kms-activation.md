@@ -37,19 +37,21 @@ tags:
 <!-- Meta Tags Generated via https://opengraph.dev -->
 
 ### Introduccion:
-<p style="text-align: justify">Bom día. En este post les enseñaré como realizar una activación kms para Microsoft Office. Hay que aclarar que esto solo será válido siempre y cuando la versión sea anterior a Office 365. Ya hemos analizado algunos aspectos sobre que es KMS y sobre los servidores de terceros. Recomendamos leerlo para tener un mejor contexto.<a href="https://quantumwavves.github.io/posts/windows-kms-activation/"> Léase aquí.</a></p>
+<p style="text-align: justify">Saludos a todos. En este post les enseñaré como un desplegar una instalación de Microsoft Office. La activación con Key Managment Server (KMS) de Microsoft Office (Hay que aclarar que esto solo será válido siempre y cuando la versión sea anterior a Office 365)</p>
 
-### ¿Que es office deployment tool?
+### Despliegue de Office
 
-Link de descarga oficiail: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117">microsoft.com</a>
+#### ¿Que es office deployment tool?
 
-<p style="text-align: justify">La Herramienta de implementación de Office (ODT) es una herramienta de línea de comandos que puede usar para descargar e implementar Aplicaciones Microsoft 365 en los equipos cliente. La ODT le ofrece más control que una instalación de Office: puede definir los productos e idiomas que se instalarán, cómo se actualizarán esos productos y si quiere o no mostrar la experiencia de instalación a los usuarios. La ODT consiste en dos archivos: setup.exe y configuration.xml. Para trabajar con la herramienta, edite el archivo de configuración para definir las opciones que quiera usar y, después, ejecute setup.exe desde la línea de comandos. </p>
+- Link de descarga oficial: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117" class="fa-brands fa-windows"> www.microsoft.com</a>
 
-### ¿Como realizar un deploy?
+<p style="text-align: justify">La Herramienta de implementación de Office (ODT) es una herramienta de línea de comandos que puede usar para descargar e implementar Aplicaciones Microsoft 365 o Microsoft Office 2021,2019. La ODT le ofrece más control que una instalación de Office: se pueden definir los productos e idiomas que se instalarán, cómo se actualizarán esos productos y si se quiere o no mostrar la experiencia de instalación a los usuarios. La ODT consiste en dos archivos: setup.exe y configuration.xml (la cual se puede personalizar al gusto de cada quien). Para trabajar con la herramienta, es necesario crear el archivo de configuración para definir las opciones que quiera usar, tales como productos, idiomas y actualizaciones.</p>
 
-Ejemplo de un archivo de configuration XML
-{: .info }
+#### ¿Como realizar un deploy?
 
+##### Configuración hecha en XML 
+
+Ejemplo de un archivo XML para la instalación de Microsoft Office 365: 
 
 ```xml
 <!--Office 365 minimal version-->
@@ -72,18 +74,33 @@ Ejemplo de un archivo de configuration XML
   <Display Level="None" AcceptEULA="TRUE" />
 </Configuration>
 ```
-Para instalar los productos e idiomas de Aplicaciones Microsoft descargados en un equipo cliente, use el modo de configuración. También puede usar el modo de configuración para desinstalar y actualizar productos e idiomas de Office.
+Todos los parametros de configuración aqui: <a href="https://learn.microsoft.com/en-us/deployoffice/office-deployment-tool-configuration-options">Office deployment tool configuration options</a>
+
+##### Pasos para realizar el despliegue 
+
+Necesitaremos extraer el archivo ejecutable de setup que se encuentra dentro del ejecutable del office developement tool. Para ello haremos uso del siguiente comado:
+
+```shell
+officedeploymenttool_16731-20290.exe /quiet /extract:C:\Users\People1\Documents\FilesDevTool"
+```
+
+Explicando el comando anterior, `officedeploymenttool_16731-20290.exe` es el ejecutable previamente descargado de la pagina oficial de microsoft, su nombre puede cambiar ya que constantemente recibe actualizaciones, un ejemplo seria `officedeploymenttool_16961-20870.exe`.info en donde solo cambian los ultimos numeros del nombre, `/quiet` es un parametros del ejecutable que indica una ejecucion silenciosa (sin output en la shell), `/extract` es un parametro que nos permite extraer los ficeros del ejecutable este parametro necesita una ruta, en el ejemplo se coloco `C:\Users\People1\Documents\FilesDevTool` aun que podria ser cualquier otra.<br>
+
+Para realizar el despliegue (Instalación) de los productos de Office, utilizaremos la PowerShell integrada en Windows (Se requieren permisos administrativos). El comando consta de dos partes, el primero que es `setup.exe` que es un ejecutable, el parametro `/configure` que indica que se utilizara un archivo XML para una instalación custom y la ruta del archivo `XML` que en este ejemplo es `config.xml`
 
 ```shell
 setup.exe /configure config.xml
 ```
 
-Modo descarga:
+El ejecutable `setup.exe` cuenta con un modo descarga:
 
 ```shell
 setup.exe /download config.xml
 ```
-Fuente: <a href="https://learn.microsoft.com/es-mx/deployoffice/overview-office-deployment-tool"> microsoft learn deployoffice overview-office-deployment-tool</a>
+
+Fuente y mas demas parametros para la herramienta: <a href="https://learn.microsoft.com/es-mx/deployoffice/overview-office-deployment-tool"> microsoft learn deployoffice overview-office-deployment-tool</a>
+
+## KMS
 
 ### ¿Que es KMS?
 
@@ -170,18 +187,19 @@ Fuente: <a href="https://learn.microsoft.com/en-us/deployoffice/vlactivation/too
 ### KITA. Script en PowerShell.
 <p style="text-align: justify">KITA (Kita Interface Tool Activator). Es un script escrito en PowerShell que busca automatizar la instalación de Microsoft Office, activación y desactivación KMS de una manera sencilla. KITA solo tiene estas versiones soportadas:<a href="https://github.com/quantumwavves/KITA#supported-versions"> Véase aquí.</a></p>
 
-![Desktop View](/img/in-post/office_post/kita-icon.jpg){: w="400" h="200" }
+![Desktop View](/img/in-post/office_post/kita.gif)
 
 <p style="text-align: justify">¿Como funciona KITA?
-KITA es solo un script que realiza el deployment de office ProPlus y 365. Esto quiere decir que se hace uso de herramientas de microsoft y la descarga de la suite es directamente de los servidores de microsoft. KITA es open source, por lo que se puede leer, estudiar y redistribuir. Esta licenciado bajo GPL v3.</p>
+KITA es solo un script que realiza el despliegue de Microsoft Office. Esto quiere decir que se hace uso de herramientas de microsoft y la descarga de la suite es directamente de los servidores de microsoft. KITA es open source, por lo que se puede leer, estudiar y redistribuir. Esta licenciado bajo GPL v3.</p> 
 
-<center><a href="https://github.com/quantumwavves/KITA"><img src="/img/in-post/jawa_post/github-logo.png" alt="Github" style="width:60px;height:60px;"></a></center>
+- <a href="https://github.com/quantumwavves/KITA" class="fa-brands fa-github"> KITA</a>
+
 
 #### Uso de KITA
 
 Ejectuar en PowerShell como administrador:
 ```shell 
-irm cutt.ly/KITA | iex
+irm cutt.ly/IKUYO | iex
 ```
 
 <p style="text-align: justify">El menú de KITA contiene cuatro opciones, entre las cuales se encuentran la instalación de la suite office (Sin activación), activación de la suite mediante KMS, desactivación de la suite.</p>
@@ -214,7 +232,7 @@ Para la elección 3, nos mostrará la siente salida:
 
 **Problemas al momento de la desactivación**
 
-<p style="text-align: justify">El script hace uso de /unpkey:XXXXX, esto nos permite quitar la clave del producto. Tambien se hace uso de la funcion /ckms para eliminar el registro al dominio, de igual manera se hace uso de la funcion /rearm para re armar la instalación de office con los valores default de una instalación limpia. En caso de no realizarse la desactivación realizar un /rearm en el path de office, para ello introduciremos los siguientes comandos en PowerShell como administrador: </p>
+<p style="text-align: justify">El script hace uso de /unpkey:XXXXX, esto nos permite quitar la clave del producto. Tambien se hace uso de la funcion /ckms para eliminar el registro al dominio, de igual manera se hace uso de la funcion /rearm para re armar la instalación de office con los valores default de una instalación limpia. En caso de no realizarse la desactivación se necesita realizar un /rearm en el path de office manualmente, para ello introduciremos los siguientes comandos en PowerShell como administrador: </p>
 
 ```shell 
 cd C:\Program Files\Microsoft Office\Office16
@@ -247,11 +265,11 @@ Desactivar el caching:
 
 Fuente: <a href="https://learn.microsoft.com/en-us/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office#global-options-for-osppvbs">Global options for ospp.vbs.</a>
 
-### Servidores kms de terceros
+## Servidores KMS de terceros
 
 <p style="text-align: justify">Este punto ya lo hemos analizado en el post anterior, sin embargo abarcaremos la misma informacion que se coloco no obstante recomendamos leer el post anterior para tener un mejor contexto. A dia de hoy existen solo dos maneras de lograr una activación KMS. Adquiriendo esto mediante el Business center de microsoft o mediante emulacion de un servidor KMS. De cualquier modo, recae en el usuario el servidor al cual se conecte. Y si el mismo lo ha validado como seguro o no.</p>
 
-#### Analizando servidor de 3ros.
+#### Analizando servidor kms.digiboy.ir 
 
 ![Desktop View](/img/in-post/jawa_post/nmap-kms-server.png){: w="600" h="400"}
 
@@ -310,7 +328,7 @@ Ahora realizaremos una enumeracion al servicio SMB
 
 ![Desktop View](/img/in-post/jawa_post/smb-enum.png){: w="800" h="600"}
 
-Podemos notar que no existen reglas seteadas para un usuario NULL
+Podemos notar que no existen recursos compartidos para un usuario NULL o anonimo.
 
 Este servidor contiene un reporte en AnyRun, véase <a href="https://any.run/report/4b8da721706aa2264c5c402c2bd4d46274d81ad6108e827c65dfbcd2dc83aef1/881e29e9-29ed-48ad-8435-87f672ac48bb">aquí</a>.
 
@@ -322,24 +340,39 @@ Ahora analizaremos el tráfico HTTP y HTTPS en el tiempo de la activación.
   <source src="/img/in-post/jawa_post/TCP-Services.mp4" type="video/mp4">
 </video> 
 
+#### ¿Backdoors en servidores de terceros?
+Para poder empezar con este punto primero hay que dejar en claro que es un backdoor, la enciclopedia de kaspersky lo define como: Los Backdoors (troyanos de puerta trasera) están diseñados para dar a los usuarios maliciosos el control de un equipo infectado. En términos de funcionalidad, las “puertas traseras” son similares a muchos sistemas de administración diseñados y distribuidos por desarrolladores de programas legítimos. Fuente: <a href="https://encyclopedia.kaspersky.es/knowledge/backdoor/">encyclopedia.kaspersky.es</a><br><br>
+Una vez definido que es un backdoor podemos pasar al siguiente articulo por Malwarebytes labs: <a href="https://www.malwarebytes.com/blog/news/2022/08/kmspico-explained-no-kms-is-not-kill-microsoft">kmspico explained, no KMS is not kill microsoft</a><br>
 
-### Conclusiones.
+![malwarebytes](/img/in-post/office_post/kms-malwarebytes.jpg) 
 
-Mientras adquieras este servicio mediante Microsoft no debería haber ningún problema y si vas a realizar una activación mediante un dominio, asegúrate que este sea seguro, utiliza un antivirus confiable y ten bien configurado tu firewall.
-{: .warning }
+En este articulo nos explican el funcionamiento de `KMSPico` un programa conocido por realizar activaciones tanto de windows como de Microsoft Office. En este post nos explica que KMSPico hace uso del proceso legitimo de una activacion KMS. Sin embargo esta publicacion tambien no habla sobre los riegos alrededor de esta herramienta los cuales describe como el tener multiples "paginas oficiales" generando desconfianza, ya que usuarios advierten que el sitio A contiene malware y otros que el sitio B tiene malware. Tambien nos menciona que la herramienta si existe y tiene como ultima version la `10.2.0` la cual solo puede descargarse en un foro que es solo accesible a miembros y que tiene mas de una decada que fue hecha dicha publicacion de la release. En este post cualifican al software `KMSPico` como un riskware debido a su origen desconocido de la herramienta, mas no al procedimiento legitimo de KMS.
 
-<script src="https://giscus.app/client.js"
-        data-repo="quantumwavves/quantumwavves.github.io"
-        data-repo-id="R_kgDOJ0bLEg"
-        data-category="[NOMBRE CATEGORÍA]"
-        data-category-id="[ID CATEGORÍA]"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="dark"
-        data-lang="es"
-        crossorigin="anonymous"
-        async>
-</script>
+¿Pero, que es un `riskware`? Kaspersky lo clasifica como: Riskware es el nombre que se asigna a programas legítimos que pueden causar daño si son aprovechados por usuarios maliciosos para eliminar, bloquear, modificar o copiar datos, así como para alterar el rendimiento de computadoras o redes. El riskware incluye los siguientes tipos de programas que se usan comúnmente para fines legítimos:
+
+- Utilidades de administración remota
+- Clientes IRC
+- Programas de marcador
+- Descargadores de archivos 
+- Software para monitorear la actividad de la computadora
+- Utilidades de administración de contraseña 
+- Servicios de servidor de Internet, como FTP, Web, proxy y telnet
+
+Bajo este concepto `MSI Afterburner` podria considerarse como riskware si se hace un uso ilegitimo de el mediante una vulnerabilidad. Pero a que se debe que un software que tenga fines legítimos pueda ser utilizado como un riskware, bueno esto tiene multiples factores, pero sin dudas el principal es la tasa de mercado del sistema operativo `Windows` ya que actualmente tiene 75% de cuota de mercado en computadoras de escritorio y laptos, esto basado en el tercer trimestre de 2022 estos datos son publicados por <a href="https://es.statista.com/estadisticas/576870/cuota-de-mercado-mundial-de-los-sistemas-operativos/">statista.com</a>.
+
+![cuota](/img/in-post/office_post/cuota.png) 
+
+Esto hace que Windows sea un objetivo recurrente a vulnerar y si comparamos el numero de vulnerabilidades de `Windows` con otros sistemas operativos veremos el sistema de Microsoft tiene 11232 vulnerabilidades listadas desde el año 1999 hasta el 2023 por lo que es `36.07 %` mas vulnerable a comparacion del kernel `Linux` quien cuenta con 7180 vulnerabilidades listadas desde 1999, Windows es `62.56 %` mas vulnerable a comparacion de `MacOS` quien cuenta con 4205 vulnerabilidades listadas desde 1999 y es `98.88 %` mas vulnerable a comparacion de el kernel `BSD` el cual tiene 125 vulnerabilidades generales desde 1999. Estas cifras son solo aproximaciones sacadas con fecha del `22 Octubre 2023` usando como referencia a Mitre, la base de datos de vulnerabilidades mas conocida: <a href="https://cve.mitre.org/index.html">cve.mitre.org</a><br>
+
+"Bueno pero al conectarse con servidor de estos pueden establecer politicas en tu computadora para poder crear puertas traseras". Hay que entender que una cosa es la activación KMS donde es necesario al menos establecer una conexión para la activación y una revalidacion cada 180 dias y la activación basada en Active Directory,esta ultima ya no hace uso de registros SRV ni de un puerto en especifico, si no que se hace mediante la administración de Active Directory donde si se pueden estasblecer workgroups, usuarios o politicas de control, que en un principio no deberia ser un problema `Si tu empresa es quien administra este metodo de Active Directory y la activacion por volumen`.
+
+¿Pero que son los servidores KMS de terceros? Estos principalmente son servidores que son emulados, podemos ver que existen los siguientes proyectos que cumplen con esa funcion:
+
+- [py-kms](https://github.com/SystemRage/py-kms). Emulador escrito en python.
+- [vlmcsd](https://github.com/Wind4/vlmcsd). Emulador escrito en C.
+
+Estos utilizan las keys GVLK, mismas que se encuentran en microsoft: <a href="https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys">generic-volume-license-keys-gvlk</a>
+
+## Conclusiones.
+
+Explorar este tipo de activaciones por volumen es meramente con fines educativos, estos metodos de activación estan principalmente dirigidos a las grandes empresas quienes puedes costearlos. Si necesitas realizar una activación de Office o Windows puedes adquirir claves OEM. Sin embargo existen software de ofimatica de codigo abierto como lo son libreoffice, open office o WPS office. 

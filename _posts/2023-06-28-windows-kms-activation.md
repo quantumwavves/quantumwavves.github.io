@@ -330,7 +330,7 @@ slmgr /xpr
 
 <p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/windows-server/get-started/activation-slmgr-vbs-options"> slmgr.vbs</a>.</p>
 
-### Dudas de la activación por kms.
+### Servidores de Terceros.
 
 <p style='text-align: justify'>¿Es segura la activación por kms?<br>La respuesta corta es SI. Siempre y cuando hayas adquirido estos servicios con microsoft y tengas desplegado tu propio servidor KMS. Para más información de como deployar un KMS server <a href="https://learn.microsoft.com/en-us/windows-server/get-started/kms-create-host">aqui</a>.</p>
 <p>¿Pero es seguro conectarse a los servidores que encontramos en diferentes sitios?<br>Para ello tenemos que entender como funciona un los protocolos TCP y UDP. Transmission Control Protocol (TCP) es el protocolo usado en la red de redes, es decir, el internet. El protocolo TCP es incluso utilizado por otros protocolos de internet como lo son SSH, FTP, HTTP. Este modelo se compone de 4 capas:</p>
@@ -416,24 +416,41 @@ Ahora analizaremos el tráfico HTTP y HTTPS en el tiempo de la activación.
   <source src="/img/in-post/jawa_post/TCP-Services.mp4" type="video/mp4">
 </video> 
 
+#### ¿Backdoors en servidores de terceros?
+
+Para poder empezar con este punto primero hay que dejar en claro que es un backdoor, la enciclopedia de kaspersky lo define como: Los Backdoors (troyanos de puerta trasera) están diseñados para dar a los usuarios maliciosos el control de un equipo infectado. En términos de funcionalidad, las “puertas traseras” son similares a muchos sistemas de administración diseñados y distribuidos por desarrolladores de programas legítimos. Fuente: <a href="https://encyclopedia.kaspersky.es/knowledge/backdoor/">encyclopedia.kaspersky.es</a><br><br>
+Una vez definido que es un backdoor podemos pasar al siguiente articulo por Malwarebytes labs: <a href="https://www.malwarebytes.com/blog/news/2022/08/kmspico-explained-no-kms-is-not-kill-microsoft">kmspico explained, no KMS is not kill microsoft</a><br>
+
+![malwarebytes](/img/in-post/office_post/kms-malwarebytes.jpg) 
+
+En este articulo nos explican el funcionamiento de `KMSPico` un programa conocido por realizar activaciones tanto de windows como de Microsoft Office. En este post nos explica que KMSPico hace uso del proceso legitimo de una activacion KMS. Sin embargo esta publicacion tambien no habla sobre los riegos alrededor de esta herramienta los cuales describe como el tener multiples "paginas oficiales" generando desconfianza, ya que usuarios advierten que el sitio A contiene malware y otros que el sitio B tiene malware. Tambien nos menciona que la herramienta si existe y tiene como ultima version la `10.2.0` la cual solo puede descargarse en un foro que es solo accesible a miembros y que tiene mas de una decada que fue hecha dicha publicacion de la release. En este post cualifican al software `KMSPico` como un riskware debido a su origen desconocido de la herramienta, mas no al procedimiento legitimo de KMS.
+
+¿Pero, que es un `riskware`? Kaspersky lo clasifica como: Riskware es el nombre que se asigna a programas legítimos que pueden causar daño si son aprovechados por usuarios maliciosos para eliminar, bloquear, modificar o copiar datos, así como para alterar el rendimiento de computadoras o redes. El riskware incluye los siguientes tipos de programas que se usan comúnmente para fines legítimos:
+
+- Utilidades de administración remota
+- Clientes IRC
+- Programas de marcador
+- Descargadores de archivos 
+- Software para monitorear la actividad de la computadora
+- Utilidades de administración de contraseña 
+- Servicios de servidor de Internet, como FTP, Web, proxy y telnet
+
+Bajo este concepto `MSI Afterburner` podria considerarse como riskware si se hace un uso ilegitimo de el mediante una vulnerabilidad. Pero a que se debe que un software que tenga fines legítimos pueda ser utilizado como un riskware, bueno esto tiene multiples factores, pero sin dudas el principal es la tasa de mercado del sistema operativo `Windows` ya que actualmente tiene 75% de cuota de mercado en computadoras de escritorio y laptos, esto basado en el tercer trimestre de 2022 estos datos son publicados por <a href="https://es.statista.com/estadisticas/576870/cuota-de-mercado-mundial-de-los-sistemas-operativos/">statista.com</a>.
+
+![cuota](/img/in-post/office_post/cuota.png) 
+
+Esto hace que Windows sea un objetivo recurrente a vulnerar y si comparamos el numero de vulnerabilidades de `Windows` con otros sistemas operativos veremos el sistema de Microsoft tiene 11232 vulnerabilidades listadas desde el año 1999 hasta el 2023 por lo que es `36.07 %` mas vulnerable a comparacion del kernel `Linux` quien cuenta con 7180 vulnerabilidades listadas desde 1999, Windows es `62.56 %` mas vulnerable a comparacion de `MacOS` quien cuenta con 4205 vulnerabilidades listadas desde 1999 y es `98.88 %` mas vulnerable a comparacion de el kernel `BSD` el cual tiene 125 vulnerabilidades generales desde 1999. Estas cifras son solo aproximaciones sacadas con fecha del `22 Octubre 2023` usando como referencia a Mitre, la base de datos de vulnerabilidades mas conocida: <a href="https://cve.mitre.org/index.html">cve.mitre.org</a><br>
+
+"Bueno pero al conectarse con servidor de estos pueden establecer politicas en tu computadora para poder crear puertas traseras". Hay que entender que una cosa es la activación KMS donde es necesario al menos establecer una conexión para la activación y una revalidacion cada 180 dias y la activación basada en Active Directory,esta ultima ya no hace uso de registros SRV ni de un puerto en especifico, si no que se hace mediante la administración de Active Directory donde si se pueden estasblecer workgroups, usuarios o politicas de control, que en un principio no deberia ser un problema `Si tu empresa es quien administra este metodo de Active Directory y la activacion por volumen`.
+
+¿Pero que son los servidores KMS de terceros? Estos principalmente son servidores que son emulados, podemos ver que existen los siguientes proyectos que cumplen con esa funcion:
+
+- [py-kms](https://github.com/SystemRage/py-kms). Emulador escrito en python.
+- [vlmcsd](https://github.com/Wind4/vlmcsd). Emulador escrito en C.
+
+Estos utilizan las keys GVLK, mismas que se encuentran en microsoft: <a href="https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys">generic-volume-license-keys-gvlk</a>
+
+
 ### Conclusiones.
 
-<p style='text-align: justify'>Siempre y cuando adquieras este método de licenciamiento con Microsoft no hay problema. Por otro lado, si quieres conectarte a un servidor de terceros tienes que ser precavido, ya que al menos en esta ocasión y con este servidor en particular se han hecho pruebas e investigación para saber sobre su fiabilidad y seguridad. Aunque a priori este servidor parece ser el menos intrusivo y seguro, no quiere decir que todos lo sean, además agregar que tú eres el responsable de la seguridad de tu sistema, usa ANTIVIRUS, ten al día tus bases de datos el mismo y siempre ten bien configurado tu firewall. Sin embargo, siempre te recomendaré adquirir tus licencias con el fabricante del software.  Eso ha sido todo por este post, esperando que te haya gustado y estaré atento a tus comentarios :).</p>
-
-
-
-<script src="https://giscus.app/client.js"
-        data-repo="quantumwavves/quantumwavves.github.io"
-        data-repo-id="R_kgDOJ0bLEg"
-        data-category="[NOMBRE CATEGORÍA]"
-        data-category-id="[ID CATEGORÍA]"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="dark"
-        data-lang="es"
-        crossorigin="anonymous"
-        async>
-</script>
+Explorar este tipo de activaciones es meramente con fines educativos, si requieres activar tu instalacion puedes adquirir una licencia OEM, sin embargo tampoco pasa nada si no activas tu instalacion de windows. 
