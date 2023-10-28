@@ -1,8 +1,13 @@
 ---
+#obsidian
+banner: "/resources/banners/jinglu.jpg"
+banner_y: 0.57429
+banner_icon: 📱
+#blog
 layout: post
 title: ANDROID GUIDE
 subtitle: Mis recomendaciones personales.
-header-img: img/in-post/android_guide/ryo.png
+header-img: img/in-post/android_guide/ryo.webp
 header-style: image
 header-mask: rgba(0, 0, 0, .4)
 catalog: true
@@ -22,7 +27,7 @@ tags:
 <meta property="og:type" content="website">
 <meta property="og:title" content="ANDROID GUIDE">
 <meta property="og:description" content="Una compilación de software que mejora la experiencia con dispositivos android.">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/android_guide/ryo.png">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/android_guide/ryo.webp">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
@@ -30,7 +35,7 @@ tags:
 <meta property="twitter:url" content="https://quantumwavves.github.io/2023/08/15/android-guide/">
 <meta name="twitter:title" content="ANDROID GUIDE">
 <meta name="twitter:description" content="Una compilación de software que mejora la experiencia con dispositivos android.">
-<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/android_guide/ryo.png">
+<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/android_guide/ryo.webp">
 
 
 ## Introducción
@@ -59,12 +64,12 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/nuclearfog/Shitter/master/fastlane/metadata/android/en-US/images/phoneScreenshots/shitter_1.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/nuclearfog/Shitter/master/fastlane/metadata/android/en-US/images/phoneScreenshots/shitter_2.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/shitter/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/shitter/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/nuclearfog/Shitter/master/fastlane/metadata/android/en-US/images/phoneScreenshots/shitter_3.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/nuclearfog/Shitter/master/fastlane/metadata/android/en-US/images/phoneScreenshots/shitter_4.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/shitter/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/shitter/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: **Si**
-  - Descarga en [FDroid](https://f-droid.org/en/packages/org.nuclearfog.twidda/)
+  - Descarga en [FDroid](https://f-droid.org/en/packages/org.nuclearfog.twidda/) 
 
 ### [Harpy](https://github.com/robertodoering/harpy) 
 
@@ -75,9 +80,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/robertodoering/harpy/master/media/timeline.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/robertodoering/harpy/master/media/media_timeline.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/harpy/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/harpy/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/robertodoering/harpy/master/media/trends.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/robertodoering/harpy/master/media/tweet_search_filter.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/harpy/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/harpy/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [Github](https://github.com/robertodoering/harpy/releases)
@@ -95,9 +100,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://camo.githubusercontent.com/20f7cebc1519552152520a476a9adda68ccb87da138f50fc559e20ac9affed14/68747470733a2f2f667269747465722e63632f7374617469632f696d672f73637265656e73686f742d737562736372697074696f6e732d3330302e3636326164346430636464372e77656270" width="200" onclick="window.open(this.src)"> | <img src="https://camo.githubusercontent.com/4e0bda5b7a55129b368c42948ae03ac3af26de6f854b5dc95d0a6a450c956739/68747470733a2f2f667269747465722e63632f7374617469632f696d672f73637265656e73686f742d67726f7570732d3330302e6564383530663766303737652e77656270" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/fritter/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/fritter/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://camo.githubusercontent.com/c8e0fc32a96b71f2f8a6a38c10198c25522bd7aceee4fca0186b319117d17d5c/68747470733a2f2f667269747465722e63632f7374617469632f696d672f73637265656e73686f742d70726f66696c652d3330302e3236383936343361393539362e77656270" width="200" onclick="window.open(this.src)"> | <img src="https://camo.githubusercontent.com/7e0b52599124dc794c58bc34290d4dd2c9d5e269680c206c984c88914b5ef1a3/68747470733a2f2f667269747465722e63632f7374617469632f696d672f73637265656e73686f742d63617264732d3330302e6263306531616134353538642e77656270" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/fritter/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/fritter/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [Github](https://github.com/jonjomckay/fritter/releases)
@@ -120,9 +125,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/com.cosmos.unreddit/en-US/phoneScreenshots/01_home.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.cosmos.unreddit/en-US/phoneScreenshots/07_search.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/stealth/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/stealth/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/com.cosmos.unreddit/en-US/phoneScreenshots/08_preferences.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.cosmos.unreddit/en-US/phoneScreenshots/03_profile.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/stealth/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/stealth/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.cosmos.unreddit/)
@@ -146,9 +151,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/infinity/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/infinity/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/Wladefant/Infinity-For-Reddit/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/infinity/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/infinity/4.webp" width="200" onclick="window.open(this.src)">|
 
 
   - FOSS: ``Si``
@@ -176,9 +181,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://play-lh.googleusercontent.com/z2l6LszepWsLNpGrU1y9S-aNi5VNhhsATQhyDwR_Y7W0PSh7LUYZchejEnlqijJBQQ=w5120-h2880" width="200" onclick="window.open(this.src)"> | <img src="https://play-lh.googleusercontent.com/MjrumklUWdNB76Z0z3U1WA6znS0VY_P7zJ1hRbG2rgM2xD-y4gWd1-kvGQCBgRb5Los=w5120-h2880" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/telegram-foss/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/telegram-foss/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://play-lh.googleusercontent.com/Lv4qL0_G_OWMi9uQktD594Z8QwBoDPfaSh2woJN8JY4UQG3WtGhzNe-YvCcjrtbf6RDQ=w5120-h2880" width="200" onclick="window.open(this.src)"> | <img src="https://play-lh.googleusercontent.com/1zGyqD59lcK0Pehjo_APv_oXP7ek3yTPbgkzg7lh1aDO6FaDBfYfOMAykLFM01csepE=w5120-h2880" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/telegram-foss/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/telegram-foss/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/packages/org.telegram.messenger/)
@@ -207,9 +212,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/vfsfitvnm/ViMusic/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/vfsfitvnm/ViMusic/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/vimusic/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/vimusic/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/vfsfitvnm/ViMusic/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/vfsfitvnm/ViMusic/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/vimusic/4.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/vimusic/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/packages/it.vfsfitvnm.vimusic/)
@@ -253,9 +258,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/Sangwan5688/BlackHole/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/Sangwan5688/BlackHole/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/blackhole/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/blackhole/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/Sangwan5688/BlackHole/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/Sangwan5688/BlackHole/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/blackhole/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/blackhole/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/packages/com.shadow.blackhole/)
@@ -278,9 +283,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/musify/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/musify/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/musify/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/musify/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/org.nuclearfog.twidda/)
@@ -303,9 +308,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-Music-Player/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.jpeg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-Music-Player/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.jpeg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/simple-music-player/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/simple-music-player/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-Music-Player/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.jpeg" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.simplemobiletools.musicplayer/en-GB/phoneScreenshots/4_en-GB.jpeg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/simple-music-player/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/simple-music-player/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/packages/com.simplemobiletools.musicplayer/)
@@ -322,9 +327,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/io.github.zyrouge.symphony/en-US/phoneScreenshots/screenshot-album-artists.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/io.github.zyrouge.symphony/en-US/phoneScreenshots/screenshot-folders.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/symphony/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/symphony/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/io.github.zyrouge.symphony/en-US/phoneScreenshots/screenshot-now-playing.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/io.github.zyrouge.symphony/en-US/phoneScreenshots/screenshot-songs.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/symphony/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/symphony/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/io.github.zyrouge.symphony/)
@@ -351,9 +356,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/z-huang/InnerTune/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/z-huang/InnerTune/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/innertune/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/innertune/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/z-huang/InnerTune/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/z-huang/InnerTune/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/innertune/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/innertune/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/packages/com.zionhuang.music/)
@@ -373,9 +378,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/com.termux/en-US/phoneScreenshots/1.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.termux/en-US/phoneScreenshots/2.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/termux/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/termux/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/com.termux/en-US/phoneScreenshots/3.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.termux/en-US/phoneScreenshots/4.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/termux/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/termux/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.termux/)
@@ -393,7 +398,7 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
     - Enfoque: Enfoque automático, enfoque bloqueado y enfoque manual tocando la pantalla
     - Exposición: Exposición automática, exposición bloqueada y exposición manual con un control deslizante opcional
     - Compresión de imagen: Establece la cantidad de compresión en los ajustes
-    - Formatos: Cambia entre 3 formatos de cámara (JPEG, PNG, WebP)
+    - Formatos: Cambia entre 3 formatos de cámara (JPEG,PNG, WebP)
     - Resoluciones: Cambia entre las diferentes resoluciones de la cámara
     - Ubicación de almacenamiento: Elige la ubicación de guardado que prefieras
     - Tamaño reducido (<20 MB)
@@ -401,9 +406,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/iakmds/librecamera/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/iakmds/librecamera/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/librecamera/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/librecamera/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/iakmds/librecamera/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/iakmds/librecamera/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/librecamera/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/librecamera/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.iakmds.librecamera/)
@@ -412,7 +417,7 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
   - Una app premium FOSS para gestionar y editar tus fotos, vídeos y GIFs sin anuncios.
   - Características:     
     - **EDITOR DE FOTOS AVANZADO.** Convierte la edición de fotos en un juego de niños con el organizador de archivos y el álbum de fotos mejorados de Simple Gallery. Los gestos intuitivos hacen que editar tus imágenes sobre la marcha sea superfácil. Recorta, voltea, gira y cambia el tamaño de las imágenes o aplica filtros elegantes para hacerlas resaltar en un instante.
-    - **TODOS LOS ARCHIVOS QUE NECESITAS.** Simple Gallery admite una enorme variedad de tipos de archivo, como JPEG, PNG, MP4, MKV, RAW, SVG, GIF, fotos panorámicas, vídeos y muchos más, para que disfrutes de total flexibilidad a la hora de elegir formato. ¿Alguna vez te has preguntado "puedo usar este formato en mi Android"? Ahora la respuesta es sí.
+    - **TODOS LOS ARCHIVOS QUE NECESITAS.** Simple Gallery admite una enorme variedad de tipos de archivo, como JPEG,PNG, MP4, MKV, RAW, SVG, GIF, fotos panorámicas, vídeos y muchos más, para que disfrutes de total flexibilidad a la hora de elegir formato. ¿Alguna vez te has preguntado "puedo usar este formato en mi Android"? Ahora la respuesta es sí.
     - **HAZLO TUYO.** El diseño altamente personalizable de Simple Gallery te permite hacer que la aplicación de fotos se vea, se sienta y funcione como tú quieras. Desde la interfaz de usuario hasta los botones de función de la barra de herramientas inferior, Simple Gallery te ofrece la libertad creativa que necesitas en una aplicación de galería.
     - **RECUPERA FOTOS Y VÍDEOS BORRADOS.** No vuelvas a preocuparte por si borras accidentalmente una foto o un vídeo que no puedes reemplazar. Simple Gallery te permite recuperar rápidamente cualquier foto o vídeo eliminado, lo que significa que, además de ser la mejor galería multimedia para Android, Simple Gallery también funciona como una increíble aplicación de bóveda fotográfica.
     - **PROTEGE TUS FOTOS, VÍDEOS Y ARCHIVOS PRIVADOS.** Tenga la seguridad de que su álbum de fotos está a salvo. Con las funciones de seguridad superiores de Simple Gallery, puedes utilizar un pin, un patrón o el escáner de huellas dactilares de tu dispositivo para limitar quién puede ver o editar las fotos y vídeos seleccionados o acceder a archivos importantes. Incluso puedes proteger la propia aplicación o bloquear funciones específicas del organizador de archivos.
@@ -433,15 +438,15 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
     - Cambia el color de fondo, o utiliza una imagen de tu cuaderno de bocetos como fondo
     - Utiliza una goma de borrar si te has equivocado de pintura
     - Inserta pintura seleccionándola en una paleta o introduciendo el código hexadecimal de los colores.
-    - Este sencillo cuaderno de bocetos admite muchos formatos diferentes, como PNG, JPG o vectores SVG
+    - Este sencillo cuaderno de bocetos admite muchos formatos diferentes, como png, JPG o vectores SVG
     - Comparte tus pinturas, dibujos y bocetos con tus amigos a través del correo electrónico o las redes sociales
     - Simple Draw App funciona offline y online!
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-Draw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.jpeg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-Draw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.jpeg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/simple-draw-pro/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/simple-draw-pro/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-Draw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.jpeg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-Draw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.jpeg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/simple-draw-pro/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/simple-draw-pro/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.simplemobiletools.draw.pro/)
@@ -460,9 +465,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-File-Manager/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.jpeg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-File-Manager/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.jpeg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/simple-filemanager-pro/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/simple-filemanager-pro/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-File-Manager/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.jpeg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-File-Manager/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.jpeg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/simple-filemanager-pro/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/simple-filemanager-pro/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.simplemobiletools.filemanager.pro/)
@@ -486,9 +491,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/libre-tube/LibreTube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/libre-tube/LibreTube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/libretube/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/libretube/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/libre-tube/LibreTube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_3.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/libre-tube/LibreTube/master/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/libretube/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/libretube/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.github.libretube/)
@@ -521,9 +526,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/00.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/newpipe/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/newpipe/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/newpipe/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/newpipe/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/org.schabi.newpipe/)
@@ -546,9 +551,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/lamarios/clipious/master/screenshots/mobile-channel.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/lamarios/clipious/master/screenshots/mobile-home.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/clipious/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/clipious/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/lamarios/clipious/master/screenshots/mobile-video.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/lamarios/clipious/master/screenshots/mobile-playlist.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/clipious/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/clipious/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.github.lamarios.clipious/)
@@ -584,9 +589,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/free.rm.skytube.oss/en-US/phoneScreenshots/1-trending.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/free.rm.skytube.oss/en-US/phoneScreenshots/2-video_blocker.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/clipious/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/clipious/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/free.rm.skytube.oss/en-US/phoneScreenshots/3-subs.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/free.rm.skytube.oss/en-US/phoneScreenshots/4-bookmarks.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/clipious/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/clipious/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/free.rm.skytube.oss/)
@@ -596,9 +601,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/twireapp/Twire/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1_my_streams.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/twireapp/Twire/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2_player.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/twire/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/twire/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/twireapp/Twire/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3_player_settings.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/twireapp/Twire/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4_navigation.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/twire/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/twire/1.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.perflyst.twire/)
@@ -606,7 +611,7 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 ### [Xtra](https://github.com/crackededed/Xtra/)
   - Un reproductor y navegador de Twitch.
   - Características:
-    - * Compatible con emotes populares con los plugins BetterTTV y FrankerFaceZ.
+    - Compatible con emotes populares con los plugins BetterTTV y FrankerFaceZ.
     - Ver VODs y clips con repetición de chat
     - Descarga vídeos a la carta para verlos sin conexión
     - Continúa viendo fuera de la aplicación con el modo Picture-in-Picture.
@@ -615,9 +620,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/com.github.andreyasadchy.xtra/en-US/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.github.andreyasadchy.xtra/en-US/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/xtra/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/xtra/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/com.github.andreyasadchy.xtra/en-US/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.github.andreyasadchy.xtra/en-US/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/xtra/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/xtra/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.github.andreyasadchy.xtra/)
@@ -635,9 +640,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://framagit.org/tom79/nitterizeme/-/raw/develop/src/fullLinks/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> | <img src="https://framagit.org/tom79/nitterizeme/-/raw/develop/src/fullLinks/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/untrackme/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/untrackme/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://framagit.org/tom79/nitterizeme/-/raw/develop/src/fullLinks/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://framagit.org/tom79/nitterizeme/-/raw/develop/src/fullLinks/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/untrackme/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/untrackme/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/app.fedilab.nitterizeme/)
@@ -653,9 +658,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/org.kde.kdeconnect_tp/en-US/phoneScreenshots/1_en-US.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/org.kde.kdeconnect_tp/en-US/phoneScreenshots/2_en-US.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/kde_connect/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/kde_connect/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/org.kde.kdeconnect_tp/en-US/phoneScreenshots/3_en-US.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/org.kde.kdeconnect_tp/en-US/phoneScreenshots/4_en-US.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/untrackme/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/untrackme/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/org.kde.kdeconnect_tp/)
@@ -683,9 +688,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/w2sv/WiFi-Widget/main/app/src/main/play/listings/en-US/graphics/phone-screenshots/1.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/w2sv/WiFi-Widget/main/app/src/main/play/listings/en-US/graphics/phone-screenshots/2.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/wifi-widget/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/wifi-widget/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/w2sv/WiFi-Widget/main/app/src/main/play/listings/en-US/graphics/phone-screenshots/5.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/w2sv/WiFi-Widget/main/app/src/main/play/listings/en-US/graphics/phone-screenshots/6.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/wifi-widget/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/wifi-widget/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.w2sv.wifiwidget/)
@@ -697,14 +702,14 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/io.homeassistant.companion.android.minimal/en-US/phoneScreenshots/1_en-US.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/io.homeassistant.companion.android.minimal/en-US/phoneScreenshots/2_en-US.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/home-assistant/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/home-assistant/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/io.homeassistant.companion.android.minimal/en-US/phoneScreenshots/3_en-US.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/io.homeassistant.companion.android.minimal/en-US/phoneScreenshots/4_en-US.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/home-assistant/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/home-assistant/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/io.homeassistant.companion.android.minimal/)
 
-### [RustDesk](https://github.com/rustdesk/rustdesk)
+### [RustDesk](https://github.com/rustdesk/rustdesk)``
   - Una aplicación de escritorio remoto de código abierto, la alternativa de código abierto a TeamViewer.
   - Características:
     - Funciona en Windows, macOS, Linux, iOS, Android, Web.
@@ -716,9 +721,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/com.carriez.flutter_hbb/en-US/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.carriez.flutter_hbb/en-US/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/rust-desk/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/rust-desk/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/com.carriez.flutter_hbb/en-US/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.carriez.flutter_hbb/en-US/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/rust-desk/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/rust-desk/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.carriez.flutter_hbb/)
@@ -741,9 +746,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/gujjwal00/avnc/master/metadata/en-US/images/phoneScreenshots/2.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/gujjwal00/avnc/master/metadata/en-US/images/phoneScreenshots/3.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/avnc/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/avnc/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/gujjwal00/avnc/master/metadata/en-US/images/phoneScreenshots/4.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/gujjwal00/avnc/master/metadata/en-US/images/phoneScreenshots/5.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/avnc/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/avnc/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.gaurav.avnc/)
@@ -753,9 +758,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/fm-sys/snapdrop-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/fm-sys/snapdrop-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/snapdrop/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/snapdrop/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/fm-sys/snapdrop-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/fm-sys/snapdrop-android/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/snapdrop/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/snapdrop/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.fmsys.snapdrop/)
@@ -768,9 +773,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="" width="200" onclick="window.open(this.src)"> | <img src="" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/local-send/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/local-send/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="" width="200" onclick="window.open(this.src)"> | <img src="" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/local-send/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/local-send/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en []()
@@ -789,9 +794,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/com.nononsenseapps.feeder/en-US/phoneScreenshots/2_en-US.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.nononsenseapps.feeder/en-US/phoneScreenshots/1_en-US.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/feeder/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/feeder/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/com.nononsenseapps.feeder/en-US/phoneScreenshots/settings_day.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.nononsenseapps.feeder/en-US/phoneScreenshots/feed_night.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/feeder/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/feeder/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.nononsenseapps.feeder/)
@@ -812,9 +817,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://img.utdstc.com/screen/1e9/6fe/1e96feea657d7c9e117f39e58393baeceb41699318e36096ae387b1108526389:800" width="200" onclick="window.open(this.src)"> | <img src="https://img.utdstc.com/screen/8b9/34e/8b934eaf8e1be69c9ac9e318a2e112dbd70972dbf74d7b9530da1ed330996094:800" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/tachiyomi/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/tachiyomi/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://img.utdstc.com/screen/7dd/8e0/7dd8e008e207be8cedc59ae05df5013b69f9364722e36f39b17e12003a8fe31b:800" width="200" onclick="window.open(this.src)"> | <img src="https://img.utdstc.com/screen/d91/954/d91954d4cfe62841349ad314a8f889320e4971fb929b315a473853719611aff6:800" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/tachiyomi/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/tachiyomi/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/eu.kanade.tachiyomi/)
@@ -835,9 +840,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="/img/in-post/android_guide/screenshots/aniyomi/1.jpg" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/aniyomi/2.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/aniyomi/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/aniyomi/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="/img/in-post/android_guide/screenshots/aniyomi/3.jpg" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/aniyomi/4.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/aniyomi/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/aniyomi/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [Github](https://github.com/aniyomiorg/aniyomi/releases)
@@ -859,9 +864,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/KotatsuApp/Kotatsu/devel/metadata/en-US/images/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/KotatsuApp/Kotatsu/devel/metadata/en-US/images/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/kotatsu/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/kotatsu/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/KotatsuApp/Kotatsu/devel/metadata/en-US/images/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/KotatsuApp/Kotatsu/devel/metadata/en-US/images/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/kotatsu/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/kotatsu/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/org.koitharu.kotatsu/)
@@ -877,9 +882,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/gsioteam/kinoko/master/screenshots/home.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/gsioteam/kinoko/master/screenshots/history.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/kinoko/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/kinoko/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/gsioteam/kinoko/master/screenshots/favorites.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/gsioteam/kinoko/master/screenshots/picture.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/kinoko/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/kinoko/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.ero.kinoko/)
@@ -909,9 +914,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/HeCodes2Much/mLauncher/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/HeCodes2Much/mLauncher/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/mlauncher/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/mlauncher/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/HeCodes2Much/mLauncher/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/HeCodes2Much/mLauncher/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/mlauncher/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/mlauncher/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/app.mlauncher/)
@@ -926,9 +931,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/Neamar/KISS/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/Neamar/KISS/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/kiss-launcher/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/kiss-launcher/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/Neamar/KISS/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/Neamar/KISS/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/kiss-launcher/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/kiss-launcher/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/fr.neamar.kiss/)
@@ -943,9 +948,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-Launcher/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-Launcher/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/simple-launcher/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/simple-launcher/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-Launcher/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/SimpleMobileTools/Simple-Launcher/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/simple-launcher/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/simple-launcher/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.simplemobiletools.launcher/)
@@ -965,9 +970,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fforums.crackberry.com%2Fattachments%2Fblackberry-keyone-f445%2F434094d1518058756t-t-ui-launcher-screenshot_20180207-215759.png&f=1&nofb=1&ipt=c95e41b632c4ecef982a8e7601aca9a3a3303ac152e53882c80af5588da54d4b&ipo=images" width="200" onclick="window.open(this.src)"> | <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.androidworld.it%2Fwp-content%2Fuploads%2F2017%2F04%2FT-UI-Launcher-2-720x1280.png&f=1&nofb=1&ipt=b65e91bb8e629493ced38dff9be281c494d25a34e5a020bd5c17ddd602eb30da&ipo=images" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/t-ui/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/t-ui/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.imgur.com%2FtbQydTA.png&f=1&nofb=1&ipt=ae47afbe11fd9d6df99aed236b8e85b83bc497f4c3fe5327b81dac7777bec1b1&ipo=images" width="200" onclick="window.open(this.src)"> | <img src="https://forums.crackberry.com/attachments/blackberry-keyone-f445/434093d1518058747t-t-ui-launcher-screenshot_20180207-215850.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/t-ui/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/t-ui/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/ohi.andre.consolelauncher/)
@@ -978,9 +983,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/de.mm20.launcher2.release/en-US/phoneScreenshots/screenshot02.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/de.mm20.launcher2.release/en-US/phoneScreenshots/screenshot03.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/kvaesitso/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/kvaesitso/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/de.mm20.launcher2.release/en-US/phoneScreenshots/screenshot04.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/de.mm20.launcher2.release/en-US/phoneScreenshots/screenshot05.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/kvaesitso/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/kvaesitso/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/de.mm20.launcher2.release/)
@@ -997,9 +1002,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/com.foxdebug.acode/en-US/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.foxdebug.acode/en-US/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/acode/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/acode/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/com.foxdebug.acode/en-US/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.foxdebug.acode/en-US/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/acode/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/acode/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.foxdebug.acode/)
@@ -1011,9 +1016,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/wbrawner/SimpleMarkdown/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/wbrawner/SimpleMarkdown/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/simple-markdown/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/simple-markdown/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/wbrawner/SimpleMarkdown/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/wbrawner/SimpleMarkdown/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/simple-markdown/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/simple-markdown/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.wbrawner.simplemarkdown.free/)
@@ -1029,9 +1034,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/FredHappyface/Android.FHCode/main/metadata/en-US/images/phoneScreenshots/screenshot-1.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/FredHappyface/Android.FHCode/main/metadata/en-US/images/phoneScreenshots/screenshot-2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/fh-code/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/fh-code/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/FredHappyface/Android.FHCode/main/metadata/en-US/images/phoneScreenshots/screenshot-3.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/FredHappyface/Android.FHCode/main/metadata/en-US/images/phoneScreenshots/screenshot-4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/fh-code/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/fh-code/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/es/packages/com.fredhappyface.fhcode/)
@@ -1051,9 +1056,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/com.blacksquircle.ui/en-US/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.blacksquircle.ui/en-US/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/squircle-ce/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/squircle-ce/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/com.blacksquircle.ui/en-US/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.blacksquircle.ui/en-US/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/squircle-ce/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/squircle-ce/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/es/packages/com.blacksquircle.ui/)
@@ -1074,9 +1079,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/jamie-mh/AuthenticatorPro/master/doc/screenshot2.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/jamie-mh/AuthenticatorPro/master/doc/screenshot4.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/authenticator-pro/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/authenticator-pro/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/jamie-mh/AuthenticatorPro/master/doc/screenshot7.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/jamie-mh/AuthenticatorPro/master/doc/screenshot8.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/authenticator-pro/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/authenticator-pro/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid (IzzyOnDroid)](https://apt.izzysoft.de/fdroid/index/apk/me.jmh.authenticatorpro)
@@ -1109,9 +1114,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/phoneScreenshots/screenshot1.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/phoneScreenshots/screenshot5.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/aegis-auth/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/aegis-auth/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/phoneScreenshots/screenshot7.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/phoneScreenshots/screenshot8.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/aegis-auth/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/aegis-auth/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/packages/com.beemdevelopment.aegis/)
@@ -1135,9 +1140,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/Kunzisoft/KeePassDX/master/art/screen.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/keepassdx/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/keepassdx/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen3.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.kunzisoft.keepass.libre/en-US/phoneScreenshots/screen4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/keepassdx/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/keepassdx/1.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/es/packages/com.kunzisoft.keepass.libre/)
@@ -1159,9 +1164,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/TrianguloY/UrlChecker/master/app/src/main/play/listings/en-US/graphics/phone-screenshots/3-dialog.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/TrianguloY/UrlChecker/master/app/src/main/play/listings/en-US/graphics/phone-screenshots/4-modules.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/url-check/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/url-check/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/TrianguloY/UrlChecker/master/app/src/main/play/listings/en-US/graphics/phone-screenshots/6-modules.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/TrianguloY/UrlChecker/master/app/src/main/play/listings/en-US/graphics/phone-screenshots/7-modules.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/url-check/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/url-check/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.trianguloy.urlchecker/)
@@ -1186,9 +1191,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="/img/in-post/android_guide/screenshots/pupil/1.png" width="220" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/pupil/2.png" width="220" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/pupil/1.webp" width="220" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/pupil/2.webp" width="220" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="/img/in-post/android_guide/screenshots/pupil/3.png" width="220" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/pupil/4.png" width="220" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/pupil/3.webp" width="220" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/pupil/4.webp" width="220" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [Github](https://github.com/tom5079/Pupil/releases)
@@ -1205,9 +1210,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/honjow/FEhViewer/master/screenshot/home1.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/honjow/FEhViewer/master/screenshot/gallery1.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/fehviewer/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/fehviewer/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/honjow/FEhViewer/master/screenshot/search1.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/honjow/FEhViewer/master/screenshot/read1.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/fehviewer/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/fehviewer/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [Github](https://github.com/honjow/FEhViewer)
@@ -1223,13 +1228,13 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 |
 |-|
-| <img src="https://play-lh.googleusercontent.com/_fbZTZt_P9X5BzmL6fAY93KluCHd_-5zM0jl_DVF5UeTZlyD8FtUC6-L4Rfb9ubenK8=w5120-h2880" width="400" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/tuxkart/1.webp" width="400" onclick="window.open(this.src)"> |
 | Screenshot 2 |
-| <img src="https://play-lh.googleusercontent.com/p0Zuun5hbIjR4MaQ16YQFZmY4Wd7BDPkht4wErnlb-I6bI4I5zo5xxIjlPsNjiO2xg=w5120-h2880" width="400" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/tuxkart/2.webp" width="400" onclick="window.open(this.src)"> |
 | Screenshot 3 |
-| <img src="https://play-lh.googleusercontent.com/IDqnAlykn94XF37TmC3Uemrc01kWBX0VObCwjDVUHqKracdWuo7N9A-TyxnslGWEw64=w1052-h592" width="400" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/tuxkart/3.webp" width="400" onclick="window.open(this.src)"> |
 | Screenshot 4 |
-| <img src="https://play-lh.googleusercontent.com/plUXE1mGEJMPpqco9EwZpZysgs3uzcI5Pf3XMcZxsfMh7OOKXHTRYnb-XmLvhpjlyXE=w1052-h592" width="400" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/tuxkart/4.webp" width="400" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/es/packages/org.supertuxkart.stk/)
@@ -1239,13 +1244,13 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | 
 |-|
-| <img src="https://play-lh.googleusercontent.com/-YmJCUEJt2k_ZMpDBBHBY7TENk7VGqmfAsBovTuG3hYaTXJPOH9RqqkXJ540QaCNAgw=w5120-h2880" width="200" onclick="window.open(this.src)"> | 
+| <img src="/img/in-post/android_guide/screenshots/yuzu/1.webp" width="200" onclick="window.open(this.src)"> | 
 | Screenshot 2 |
-|<img src="https://play-lh.googleusercontent.com/lEEUl4znC03Gbu0QX61Z0xOEd52JF-o9uBay23XlfKIljfknaWcO2N9kRgY__XGuoUuZ=w5120-h2880" width="400" onclick="window.open(this.src)"> |
+|<img src="/img/in-post/android_guide/screenshots/yuzu/2.webp" width="400" onclick="window.open(this.src)"> |
 | Screenshot 3 |
-| <img src="https://play-lh.googleusercontent.com/xkg2jqry3wH61Dju6WuzGCMsPq_xDQurmD2Z6D92pFco_ixkNI0-7L8TYADdzyWgon0=w5120-h2880" width="400" onclick="window.open(this.src)">  |
+| <img src="/img/in-post/android_guide/screenshots/yuzu/3.webp" width="400" onclick="window.open(this.src)">  |
 | Screenshot 4 |
-| <img src="https://play-lh.googleusercontent.com/t5Toym_p8QM2IMg2HiqgMLRKhU_EIFJYE9monSShricSw3atmzlzAAkxzjBxRQxJIcs=w5120-h2880" width="400" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/yuzu/4.webp" width="400" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/org.nuclearfog.twidda/)
@@ -1262,9 +1267,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="/img/in-post/android_guide/screenshots/gamedroid/1.png" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/gamedroid/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/gamedroid/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/gamedroid/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="/img/in-post/android_guide/screenshots/gamedroid/3.png" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/gamedroid/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/gamedroid/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/gamedroid/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [Github](https://github.com/mwpenny/GameDroid/releases)
@@ -1274,13 +1279,13 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 |
 |-|
-| <img src="https://play-lh.googleusercontent.com/qCA1RdwxBqz3N-pfWqYsBqVYjHLIpJ5J6S2GTD-lJ9BAxEgADivfmTaW34pNHhzP7Hk=w5120-h2880" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/dolphin/1.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 2 |
-| <img src="https://play-lh.googleusercontent.com/8KQ8gMNHv3-a9SeF6an2DVNfx3h97zOx-8PveJzFD4wsMEsJpFpBsWVk-QNgTdPn-Nc=w5120-h2880" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/dolphin/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 |
-| <img src="https://play-lh.googleusercontent.com/0Cg9h_rrNlV7OHT1Am7QH46g9vw596fGRZ2EwLwvakfPit44-lnW_eKd4R6uMs6fvw=w5120-h2880" width="400" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/dolphin/3.webp" width="400" onclick="window.open(this.src)"> |
 |  Screenshot 4 |
-| <img src="https://play-lh.googleusercontent.com/2BUghLO3hp2gF-ktjBCr3jQ6TJ3uPd2_CrDAWA-B78jOnW14AidM2VHM65ZSmJ65lUI=w5120-h2880" width="400" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/dolphin/4.webp" width="400" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [dolphin-emu.org](https://es.dolphin-emu.org/download/)
@@ -1290,13 +1295,13 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 |
 |-|
-| <img src="https://www.ppsspp.org/img/screenshots/ridgeracer2.jpg" width="400" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/ppsspp/1.webp" width="400" onclick="window.open(this.src)"> |
 | Screenshot 2 |
-| <img src="https://play-lh.googleusercontent.com/HAp1cxykBnmG9b_w2NTFv_z_zgxpQB0pGYQw74fg6aY4egDlW-MQ_Rv5fCcMhgN5zpo=w1052-h592" width="400" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/ppsspp/2.webp" width="400" onclick="window.open(this.src)"> |
 | Screenshot 3 |
-| <img src="https://www.ppsspp.org/img/screenshots/mimana.jpg" width="400" onclick="window.open(this.src)"> | 
+| <img src="/img/in-post/android_guide/screenshots/ppsspp/3.webp" width="400" onclick="window.open(this.src)"> | 
 | Screenshot 4 |
-|<img src="https://www.ppsspp.org/img/screenshots/finalfantasycrisiscore.jpg" width="400" onclick="window.open(this.src)">|
+|<img src="/img/in-post/android_guide/screenshots/ppsspp/4.webp" width="400" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [ppsspp.org](https://www.ppsspp.org/download)
@@ -1319,9 +1324,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/JunkFood02/Seal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/JunkFood02/Seal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/seal/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/seal/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/JunkFood02/Seal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/JunkFood02/Seal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/seal/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/seal/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/es/packages/com.junkfood.seal/)
@@ -1355,9 +1360,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://f-droid.org/repo/com.foobnix.pro.pdf.reader/en-US/phoneScreenshots/1.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.foobnix.pro.pdf.reader/en-US/phoneScreenshots/2.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/librera-reader/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/librera-reader/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://f-droid.org/repo/com.foobnix.pro.pdf.reader/en-US/phoneScreenshots/3.png" width="200" onclick="window.open(this.src)"> | <img src="https://f-droid.org/repo/com.foobnix.pro.pdf.reader/en-US/phoneScreenshots/4.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/librera-reader/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/librera-reader/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/es/packages/com.foobnix.pro.pdf.reader/)
@@ -1412,8 +1417,8 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
       - JPEG
       - JPG
       - PNG
-      - SVG, GIF a WEBP, PNG, JPEG, JPG, HEIF, HEIC, AVIF
-      - Pegatina de telegramas en formato PNG
+      - SVG, GIF a WEBP,PNG, JPEG, JPG, HEIF, HEIC, AVIF
+      - Pegatina de telegramas en formato png
     - Utilidades de color
       - Generación de paletas
       - Selección de color de la imagen
@@ -1426,9 +1431,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/image-toolbox/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/image-toolbox/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png" width="200" onclick="window.open(this.src)"> | <img src="https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/image-toolbox/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/image-toolbox/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/es/packages/ru.tech.imageresizershrinker/)
