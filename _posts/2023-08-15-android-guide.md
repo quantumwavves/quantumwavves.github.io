@@ -589,9 +589,9 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
-| <img src="/img/in-post/android_guide/screenshots/clipious/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/clipious/2.webp" width="200" onclick="window.open(this.src)"> |
+| <img src="/img/in-post/android_guide/screenshots/skytube/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/skytube/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="/img/in-post/android_guide/screenshots/clipious/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/clipious/4.webp" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/android_guide/screenshots/skytube/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/android_guide/screenshots/skytube/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/free.rm.skytube.oss/)
@@ -766,10 +766,7 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.fmsys.snapdrop/)
 
 ### [LocalSend](https://github.com/localsend/localsend)
-  - DESC
-  - FEATURES
-    - lorem
-    - ipsum
+  - LocalSend es una aplicación multiplataforma que permite la comunicación segura entre dispositivos mediante una API REST y cifrado HTTPS. A diferencia de otras aplicaciones de mensajería que dependen de servidores externos, LocalSend no requiere conexión a Internet ni servidores de terceros, lo que la convierte en una solución rápida y fiable para la comunicación local.
 
 | Screenshot 1 | Screenshot 2 |
 |-|-|
