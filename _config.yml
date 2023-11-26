@@ -4,8 +4,8 @@ SEOTitle: QuantumWavves
 description: I'm just a computer geek.
 keyword: "blog, personal website, linux, windows"
 url: "https://quantumwavves.github.io"      # your host, for absolute URL
-baseurl: ""                                         # for example, '/blog' if your blog hosted on 'host/blog'
-avatar: "img/pfp/avatar.webp"                    # the avatar showing on the homepage
+baseurl: ""                                 # for example, '/blog' if your blog hosted on 'host/blog'
+avatar: "img/pfp/huohuo.webp"               # the avatar showing on the homepage
 
 
 # GitHub repository (if the site is hosted by GitHub)
@@ -57,10 +57,10 @@ sns:
   github_username: quantumwavves
   weibo_username: '690450705512661002'
   zhihu_username: '@quantumwavves'
-  twitter_username: quantumwavves
-  facebook_username: quantumwavves
-  #linkedin_username: xiaohan-zou-55bba0160
-  #email_address: renovamenzxh@gmail.com
+  #twitter_username:
+  #facebook_username:
+  #linkedin_username:
+  #email_address:
 
 
 # Build settings

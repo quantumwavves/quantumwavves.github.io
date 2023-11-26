@@ -2,7 +2,7 @@
 layout: post
 title: LISTA DE SISTEMAS OPERATIVOS.
 subtitle: Una pequeña guia sobre SO.
-header-img: img/in-post/os_guide/arleccino.jpg
+header-img: img/in-post/guias/os_guide/arleccino.jpg
 header-style: image
 header-mask: rgba(0, 0, 0, .4)
 catalog: true
@@ -18,14 +18,14 @@ tags:
 <title>LISTA DE SISTEMAS OPERATIVOS.</title>
 <meta name="description" content="Una pequeña guia sobre sistemas operativos.">
 <meta property="og:site_name" content="QuantumWavves">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/os_guide/arleccino.jpg">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/guias/os_guide/arleccino.jpg">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://quantumwavves.github.io/2023/08/24/os-reviews/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="LISTA DE SISTEMAS OPERATIVOS.">
 <meta property="og:description" content="Una pequeña guia sobre sistemas operativos.">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/os_guide/arleccino.jpg">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/guias/os_guide/arleccino.jpg">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
@@ -33,7 +33,7 @@ tags:
 <meta property="twitter:url" content="https://quantumwavves.github.io/2023/08/24/os-reviews/">
 <meta name="twitter:title" content="LISTA DE SISTEMAS OPERATIVOS.">
 <meta name="twitter:description" content="Una pequeña guia sobre sistemas operativos.">
-<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/os_guide/arleccino.jpg">
+<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/guias/os_guide/arleccino.jpg">
 
 ## CONCEPTOS
 
@@ -65,7 +65,7 @@ El sistema operativo es un conjunto de programas especializados que gestionan to
 
 ### Windows 10 LTSB 2016
 
-<img src="/img/in-post/os_guide/win_os/win-10-ltsb-2016.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/win_os/win-10-ltsb-2016.png" onclick="window.open(this.src)">
 
 #### Ficha tecnica
 
@@ -96,7 +96,7 @@ No contiene bloatware. | Difícilmente encontrarás la ISO con sus hashes de ver
 
 ### Windows 10 LTSC 2021
 
-<img src="/img/in-post/os_guide/win_os/win-10-ltsc-2021.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/win_os/win-10-ltsc-2021.png" onclick="window.open(this.src)">
 
 #### Ficha tecnica
 
@@ -128,7 +128,7 @@ No contiene bloatware. | Difícilmente encontrarás la ISO con sus hashes de ver
 
 ### Windows 10 HOME/PRO
 
-<img src="/img/in-post/os_guide/win_os/win-10-pro.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/win_os/win-10-pro.png" onclick="window.open(this.src)">
 
 #### Ficha tecnica
 
@@ -157,7 +157,7 @@ No contiene bloatware. | Difícilmente encontrarás la ISO con sus hashes de ver
 
 ### Windows 11 HOME/PRO
 
-<img src="/img/in-post/os_guide/win_os/win-11.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/win_os/win-11.png" onclick="window.open(this.src)">
 
 #### Ficha tecnica
 
@@ -202,11 +202,11 @@ No contiene bloatware. | Difícilmente encontrarás la ISO con sus hashes de ver
 
 ##### MiniOS
 
-<img src="/img/in-post/os_guide/shitOS.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/shitOS.png" onclick="window.open(this.src)">
 
 ##### W10 PRO 22H2 con Debloat
 
-<img src="/img/in-post/os_guide//W10PROD.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide//W10PROD.png" onclick="window.open(this.src)">
 
 ##### Conclusiones:
 
@@ -217,7 +217,7 @@ Hazle debloat a tu Instalación, no seas gay
 
 ### Fyde OS
 
-<img src="/img/in-post/os_guide/aosp_os/fyde-os.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/aosp_os/fyde-os.png" onclick="window.open(this.src)">
 
 #### Ficha tecnica
 
@@ -246,7 +246,7 @@ Hazle debloat a tu Instalación, no seas gay
 | Interfaz intuitiva. | |
 
 ### Prime OS
-<img src="/img/in-post/os_guide/aosp_os/prime-os.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/aosp_os/prime-os.png" onclick="window.open(this.src)">
 
 #### Ficha tecnica
 
@@ -271,7 +271,7 @@ Hazle debloat a tu Instalación, no seas gay
 
 
 ### Chrome OS
-<img src="/img/in-post/os_guide/aosp_os/chrome-os.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/aosp_os/chrome-os.png" onclick="window.open(this.src)">
 
 #### Ficha tecnica
 
@@ -324,7 +324,7 @@ Ninguna, todas las distribuciones son parecidas entre sí, teniendo como princip
 ### Debian base.
 #### Debian
  
-<img src="/img/in-post/os_guide/gnu_os/debian.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/debian.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -351,7 +351,7 @@ Ninguna, todas las distribuciones son parecidas entre sí, teniendo como princip
 
 #### Zorin OS
 
-<img src="/img/in-post/os_guide/gnu_os/zorin.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/zorin.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -381,7 +381,7 @@ Ninguna, todas las distribuciones son parecidas entre sí, teniendo como princip
 
 #### Elementary OS
 
-<img src="/img/in-post/os_guide/gnu_os/elementary.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/elementary.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -410,7 +410,7 @@ Ninguna, todas las distribuciones son parecidas entre sí, teniendo como princip
 
 #### Amarok Linux
 
-<img src="/img/in-post/os_guide/gnu_os/amarok.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/amarok.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -440,7 +440,7 @@ Ninguna, todas las distribuciones son parecidas entre sí, teniendo como princip
 
 #### MX Linux
 
-<img src="/img/in-post/os_guide/gnu_os/mx.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/mx.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -473,7 +473,7 @@ Ninguna, todas las distribuciones son parecidas entre sí, teniendo como princip
 
 #### RHEL 7.9 - 9.x
 
-<img src="/img/in-post/os_guide/gnu_os/rhel.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/rhel.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -501,7 +501,7 @@ Ninguna, todas las distribuciones son parecidas entre sí, teniendo como princip
 
 #### Fedora
 
-<img src="/img/in-post/os_guide/gnu_os/fedora.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/fedora.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -531,7 +531,7 @@ Ninguna, todas las distribuciones son parecidas entre sí, teniendo como princip
 
 #### Rocky Linux
 
-<img src="/img/in-post/os_guide/gnu_os/rocky.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/rocky.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -560,7 +560,7 @@ Ninguna, todas las distribuciones son parecidas entre sí, teniendo como princip
 
 #### Arch Linux
 
-<img src="/img/in-post/os_guide/gnu_os/arch.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/arch.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -587,7 +587,7 @@ Ninguna, todas las distribuciones son parecidas entre sí, teniendo como princip
 
 #### Manjaro Linux
 
-<img src="/img/in-post/os_guide/gnu_os/manjaro.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/manjaro.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -617,7 +617,7 @@ Minimalismo y sin bloatware. |
 
 #### Artix Linux
 
-<img src="/img/in-post/os_guide/gnu_os/artix.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/artix.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -644,7 +644,7 @@ Minimalismo y sin bloatware. |
 ### Independientes.
 #### Void Linux
 
-<img src="/img/in-post/os_guide/gnu_os/void.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/void.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -674,7 +674,7 @@ Minimalismo y sin bloatware. |
 
 #### Alpine Linux
 
-<img src="/img/in-post/os_guide/gnu_os/alpine.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/alpine.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -704,7 +704,7 @@ Minimalismo y sin bloatware. |
 
 #### Open SUSE
 
-<img src="/img/in-post/os_guide/gnu_os/open-suse.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/open-suse.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -732,7 +732,7 @@ Minimalismo y sin bloatware. |
 
 #### Bedrock Linux
 
-<img src="/img/in-post/os_guide/gnu_os/bedrock.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/bedrock.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -764,7 +764,7 @@ Minimalismo y sin bloatware. |
 
 #### Gentoo Linux
 
-<img src="/img/in-post/os_guide/gnu_os/ogentoo.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/gnu_os/ogentoo.png" onclick="window.open(this.src)">
 
 ##### Ficha tecnica
 
@@ -796,7 +796,7 @@ Minimalismo y sin bloatware. |
 
 ### FreeBSD
 
-<img src="/img/in-post/os_guide/bsd_os/freebsd.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/bsd_os/freebsd.png" onclick="window.open(this.src)">
 
 #### Ficha tecnica
 
@@ -822,7 +822,7 @@ Minimalismo y sin bloatware. |
 
 ### GHOST BSD
 
-<img src="/img/in-post/os_guide/bsd_os/ghostbsd.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/bsd_os/ghostbsd.png" onclick="window.open(this.src)">
 
 #### Ficha tecnica
 
@@ -853,7 +853,7 @@ Minimalismo y sin bloatware. |
 
 ### OPEN BSD
 
-<img src="/img/in-post/os_guide/bsd_os/openbsd.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/bsd_os/openbsd.png" onclick="window.open(this.src)">
 
 #### Ficha tecnica
 
@@ -880,7 +880,7 @@ Minimalismo y sin bloatware. |
 
 ### Monterrey
 
-<img src="/img/in-post/os_guide/mac_os/catalina.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/mac_os/catalina.png" onclick="window.open(this.src)">
 
 #### Ficha tecnica
 
@@ -903,7 +903,7 @@ Minimalismo y sin bloatware. |
 
 ### Big Sur
 
-<img src="/img/in-post/os_guide/mac_os/bigsur.png" onclick="window.open(this.src)">
+<img src="/img/in-post/guias/os_guide/mac_os/bigsur.png" onclick="window.open(this.src)">
 
 #### Ficha tecnica
 
@@ -928,4 +928,4 @@ Minimalismo y sin bloatware. |
 
 ## Contribuye
 
-Si piensas que se pueden añadir mas sistemas operativos a la lista. Sin hacerla redundante (proponer distribuciones similares), mandame un MD a discord: <a href="https://discord.com/users/690450705512661002">quantumwavves</a>
+Si piensas que se pueden añadir mas sistemas operativos a la lista. Sin hacerla redundante (proponer distribuciones similares), mandame un MD a discord: `quantumwavves`

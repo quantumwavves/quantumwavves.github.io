@@ -1,4 +1,9 @@
 ---
+#obsidian
+banner: "/resources/banners/frieren.jpg"
+banner_y: 0.50572
+banner_icon: ☄️
+#blog
 layout: post
 title: ACTIVACION KMS WINDOWS.
 subtitle: ¿Que es KMS, como funciona y que pasa con los servidores de terceros?
@@ -10,6 +15,7 @@ tags:
   - windows
   - kms
   - activación
+
 ---
 
 <!-- HTML Meta Tags -->
@@ -33,15 +39,14 @@ tags:
 <meta name="twitter:description" content="Un pequeño post que explica la activación KMS de windows.">
 <meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/yelan.jpg">
 
-<!-- Meta Tags Generated via https://opengraph.dev -->
-
-<p style='text-align: justify;'>En este post veremos como realizar una activación kms para Windows, con base en documentación proporcionada por Microsoft. Daremos un vistazo a los diferentes modos de activación para Windows y se resolverá dudas acerca de los mitos con respecto a la activación kms.</p>
+En este post veremos como realizar una activación kms para Windows, con base en documentación proporcionada por Microsoft. Daremos un vistazo a los diferentes modos de activación para Windows y se resolverá dudas acerca de los mitos con respecto a la activación kms.
 
 ### ¿Que es KMS?
-<p style='text-align: justify;'>
-KMS por sus siglas en ingles de Key Management Service (Servicio de gestión de claves) como lo indica su nombre es un servicio. Esto quiere decir que responde a protocolos de Internet como por ejemplo ssh, telnet, ftp entre otros. KMS es un servicio que proporciona Microsoft para la activación de windows por volumen, sin embargo no solo esta limitado a windows si no también a la suite de ofimática microsoft office. Este producto se ofrece a las empresas, para poder acceder a el es necesario realizar un registro en el portal <a href="https://vlcc0.blob.core.windows.net/es-xx/MVLC_QS_Register_for_the_Volume_Licensing_Center.pdf">bussines</a> de microsoft.</p>
+
+KMS por sus siglas en ingles de Key Management Service (Servicio de gestión de claves) como lo indica su nombre es un servicio. Esto quiere decir que responde a protocolos de Internet como por ejemplo ssh, telnet, ftp entre otros. KMS es un servicio que proporciona Microsoft para la activación de windows por volumen, sin embargo no solo esta limitado a windows si no también a la suite de ofimática microsoft office. Este producto se ofrece a las empresas, para poder acceder a el es necesario realizar un registro en el portal [bussines](https://vlcc0.blob.core.windows.net/es-xx/MVLC_QS_Register_for_the_Volume_Licensing_Center.pdf) de microsoft.
 
 ### ¿Como funciona KMS?
+
 1. KMS es instalado en un servidor.
 2. La clave de host de KMS se instala en el host de KMS y, a continuación, se activa poniéndose en contacto con los servicios de activación alojados en Microsoft.
 3. Una vez activado, KMS hace un registro SRV en el sistema de nombres de dominio (DNS) cada vez que se inicia KMS o una vez al día.
@@ -50,12 +55,11 @@ KMS por sus siglas en ingles de Key Management Service (Servicio de gestión de 
 6. El servidor KMS añade el ID del cliente a una tabla y devuelve el recuentro de activaciones al cliente.
 7. El cliente evalua el recuerdo de activaciones comparandolo con la politica de licencias y lo activa.
 
-![Desktop View](/img/in-post/jawa_post/network-kms-example.jpg){: w="400" h="100" }
+![Desktop View](/img/in-post/jawa_post/network-kms-example.jpg)
 
-<p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831612(v=ws.11)#how-does-volume-activation-work"> How does volume activation work?</a></p>
-
+Fuente: [How does volume activation work?](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831612(v=ws.11)#how-does-volume-activation-work) 
 ### Modelos de activación.
-<p style= 'text-align: justify'>Actualmente existen 3 tipos de activación para windows estos son:</p>
+Actualmente existen 3 tipos de activación para windows estos son: <br>
 
 1.- Licencias OEM y Retail.
 * OEM: Esta se adhiere al hardware de tu computadora y a menos que cambies la motherboard no se vera afectada.
@@ -70,7 +74,7 @@ KMS por sus siglas en ingles de Key Management Service (Servicio de gestión de 
 
 ### Claves KMS (Basadas en documentación).
 
-**Windows Server LTSC (versions)**
+##### **Windows Server LTSC (versions)**
 
 Windows Server 2022
 
@@ -96,7 +100,7 @@ Windows Server 2016
 | Windows Server 2016 Standard  | WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY |
 | Windows Server 2016 Essentials | JCKRF-N37P4-C2D82-9YXRT-4M63B |
 
-**Windows Server (Semi-Annual-Channel versions)**
+#### **Windows Server (Semi-Annual-Channel versions)**
 
 Windows Server, versions 20H2, 2004, 1909, 1903 and 1809.
 
@@ -105,7 +109,7 @@ Windows Server, versions 20H2, 2004, 1909, 1903 and 1809.
 | Windows Server Datacenter | 6NMRW-2C8FM-D24W7-TQWMY-CWH2D |
 | Windows Server Standard  | N2KJX-J94YW-TQVFB-DG9YT-724CC |
 
-**Windows 11 y Windows 10 (Semi-Annual Channel versions)**
+#### **Windows 11 y Windows 10 (Semi-Annual Channel versions)**
 
 |Edición de Sistema Operativo | Clave KMS |
 |---|---|
@@ -122,7 +126,7 @@ Windows Server, versions 20H2, 2004, 1909, 1903 and 1809.
 |Windows 11 Enterprise G  <br>Windows 10 Enterprise G|YYVX9-NTFWV-6MDM3-9PT4T-4M68B|
 |Windows 11 Enterprise G N  <br>Windows 10 Enterprise G N|44RPN-FTY23-9VTTB-MP9BX-T84FV|
 
-**Windows 10 (LTSC/LTSB versions)**
+#### **Windows 10 (LTSC/LTSB versions)**
 
 Windows 10 LTSC 2021 and 2019
 
@@ -145,7 +149,7 @@ Windows 10 LTSB 2015
 |Windows 10 Enterprise 2015 LTSB|WNMTR-4C88C-JK8YV-HQ7T2-76DF9|
 |Windows 10 Enterprise 2015 LTSB N|2F77B-TNFGY-69QQF-B8YKP-D69TJ|
 
-**Earlier versions of Windows Server**
+#### **Earlier versions of Windows Server**
 
 Windows Server, version 1803
 
@@ -207,7 +211,7 @@ Windows Server 2008
 |Windows Server 2008 Datacenter without Hyper-V|22XQ2-VRXRG-P8D42-K34TD-G3QQC|
 |Windows Server 2008 for Itanium-Based Systems|4DWFP-JF3DJ-B7DTH-78FJB-PDRHK|
 
-**Earlier versions of Windows**
+#### **Earlier versions of Windows**
 
 Windows 8.1
 
@@ -247,7 +251,7 @@ Windows Vista
 |Windows Vista Enterprise|VKK3X-68KWM-X2YGT-QR4M6-4BWMV|
 |Windows Vista Enterprise N|VTC42-BM838-43QHV-84HX6-XJXKV|
 
-<p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys."> Key Management Services client activation and product key.</a></p> 
+Fuente: [Key Management Services client activation and product key.](https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys)
 
 ### Activación manual (Basada en documentación).
 Ejecutarse en cmd como administrador.
@@ -270,26 +274,25 @@ slmgr /ipk <clave kms>
 slmgr /ato
 ```
 
-<p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys#install-a-product-key"> Install product key</a>, <a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn502540(v=ws.11)">slmgr.</a></p>
+Fuente: [slmgr](https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys#install-a-product-key"> Install product key</a>, <a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn502540(v=ws.11))
 
 ### NIJIKA. Script escrito en powershell.
 
 ![Desktop View](/img/in-post/jawa_post/nijika-icon.jpg){: w="400" h="200" }
 
-<p style='text-align: justify'>NIJIKA (Nijika Is Just Interface KMS Activator) es un script hecho en powershell, con el objetivo de realizar una activación mediante KMS. De manera rápida, sin descargar archivos con la mínima cantidad de lineas escritas. Actualmente solo cuenta con soporte para las siguientes versiones: <a href='https://github.com/quantumwavves/NIJIKA#supported-versions'>Versiones soportadas.</a> NIJIKA es open source por lo que cualquiera puede leer el código fuente para poder estudiarlo, modificarlo u redistribuirlo: </p>
+NIJIKA (Nijika Is Just Interface KMS Activator) es un script hecho en powershell, con el objetivo de realizar una activación mediante KMS. De manera rápida, sin descargar archivos con la mínima cantidad de lineas escritas. Actualmente solo cuenta con soporte para las siguientes versiones: [Versiones soportadas.](https://github.com/quantumwavves/NIJIKA#supported-versions) NIJIKA es open source por lo que cualquiera puede leer el código fuente para poder estudiarlo, modificarlo u redistribuirlo:
 
-<center><a href="https://github.com/quantumwavves/NIJIKA"><img src="/img/in-post/jawa_post/github-logo.png" alt="Github" style="width:60px;height:60px;"></a></center>
+- [Source code](https://github.com/quantumwavves/NIJIKA)
 
-<br>
-Uso de NIJIKA
+#### Uso de NIJIKA
 
 Ejecutar la siguiente linea en powershell como administrador:
 
 ```console
-irm cutt.ly/NIJIKA | iex
+irm cutt.ly/nijika | iex
 ```
 
-<p style='text-align: justify'>Saltaran un menu con 3 opciones, una donde el usuario puede elegir su propio servidor kms, otro con la opción de colocar un servidor kms por defecto y una tercera opción para eliminar cualquier activación por kms, elija en base a sus necesidades. El script aun esta en construcción, por lo que se añadirán opciones mas adelante.</p>
+Saltaran un menu con 3 opciones, una donde el usuario puede elegir su propio servidor kms, otro con la opción de colocar un servidor kms por defecto y una tercera opción para eliminar cualquier activación por kms, elija en base a sus necesidades. El script aun esta en construcción, por lo que se añadirán opciones mas adelante.
 
 ![Desktop View](/img/in-post/jawa_post/nijika-menu.png){: w="500" h="200" }
 
@@ -328,22 +331,24 @@ Obtener fecha de expiración:
 slmgr /xpr
 ```
 
-<p style='text-align: justify'>Fuente: <a href= "https://learn.microsoft.com/en-us/windows-server/get-started/activation-slmgr-vbs-options"> slmgr.vbs</a>.</p>
+Fuente: [slmgr.vbs](https://learn.microsoft.com/en-us/windows-server/get-started/activation-slmgr-vbs-options)
 
 ### Servidores de Terceros.
 
-<p style='text-align: justify'>¿Es segura la activación por kms?<br>La respuesta corta es SI. Siempre y cuando hayas adquirido estos servicios con microsoft y tengas desplegado tu propio servidor KMS. Para más información de como deployar un KMS server <a href="https://learn.microsoft.com/en-us/windows-server/get-started/kms-create-host">aqui</a>.</p>
-<p>¿Pero es seguro conectarse a los servidores que encontramos en diferentes sitios?<br>Para ello tenemos que entender como funciona un los protocolos TCP y UDP. Transmission Control Protocol (TCP) es el protocolo usado en la red de redes, es decir, el internet. El protocolo TCP es incluso utilizado por otros protocolos de internet como lo son SSH, FTP, HTTP. Este modelo se compone de 4 capas:</p>
-<ul>
-  <li>Capa de aplicación: establece la conexión entre la aplicación y los datos. También abre el acceso a múltiples recursos de la red.</li>
-  <li>Capa de transporte: crea conexiones TCP y determina la cantidad de datos que deben enviarse.</li>
-  <li>Capa de Internet: envía paquetes IP al destino real utilizando varias redes.</li>
-  <li>Capa de enlace o interfaz de red: controla la mensajería física y los medios para la transmisión de datos.</li>
-</ul>
+¿Es segura la activación por kms?
+La respuesta corta es SI. Siempre y cuando hayas adquirido estos servicios con microsoft y tengas desplegado tu propio servidor KMS. Para más información de como deployar un KMS server [aqui](https://learn.microsoft.com/en-us/windows-server/get-started/activation-slmgr-vbs-options)
+
+¿Pero es seguro conectarse a los servidores que encontramos en diferentes sitios?
+Para ello tenemos que entender como funciona un los protocolos TCP y UDP. Transmission Control Protocol (TCP) es el protocolo usado en la red de redes, es decir, el internet. El protocolo TCP es incluso utilizado por otros protocolos de internet como lo son SSH, FTP, HTTP. Este modelo se compone de 4 capas:
+
+- Capa de aplicación: establece la conexión entre la aplicación y los datos. También abre el acceso a múltiples recursos de la red.
+- Capa de transporte: crea conexiones TCP y determina la cantidad de datos que deben enviarse.
+- Capa de Internet: envía paquetes IP al destino real utilizando varias redes.
+- Capa de enlace o interfaz de red: controla la mensajería física y los medios para la transmisión de datos.
 
 ![Desktop View](/img/in-post/jawa_post/tcp-diagram.jpg){: h='900' w='400' }
 
-<p style='text-align: justify'>Aquí. La principal diferencia entre TCP y UDP es que el protocolo TCP reenvía paquetes que pueden haberse perdido en la transmisión y lo hace de manera secuencial, mientras que el protocolo UDP no reenviá paquetes y no es secuencial, por lo que puede haber perdida de paquetes.<br>Ahora que tenemos un poco de contexto sobre estos protocolos, analizaremos la conexión con un servidor conocido para este tipo de prácticas. El servidor seleccionado es kms.digiboy.ir,  lo primero que haremos es escanear los puertos del dominio, para ello utilizaremos la herramienta nmap. Haremos un escaneo desde el puerto 1 al 65535.</p>
+Aquí. La principal diferencia entre TCP y UDP es que el protocolo TCP reenvía paquetes que pueden haberse perdido en la transmisión y lo hace de manera secuencial, mientras que el protocolo UDP no reenviá paquetes y no es secuencial, por lo que puede haber perdida de paquetes. Ahora que tenemos un poco de contexto sobre estos protocolos, analizaremos la conexión con un servidor conocido para este tipo de prácticas. El servidor seleccionado es kms.digiboy.ir,  lo primero que haremos es escanear los puertos del dominio, para ello utilizaremos la herramienta nmap. Haremos un escaneo desde el puerto 1 al 65535.
 
 #### Analizando servidor de 3ros.
 
@@ -418,8 +423,9 @@ Ahora analizaremos el tráfico HTTP y HTTPS en el tiempo de la activación.
 
 #### ¿Backdoors en servidores de terceros?
 
-Para poder empezar con este punto primero hay que dejar en claro que es un backdoor, la enciclopedia de kaspersky lo define como: Los Backdoors (troyanos de puerta trasera) están diseñados para dar a los usuarios maliciosos el control de un equipo infectado. En términos de funcionalidad, las “puertas traseras” son similares a muchos sistemas de administración diseñados y distribuidos por desarrolladores de programas legítimos. Fuente: <a href="https://encyclopedia.kaspersky.es/knowledge/backdoor/">encyclopedia.kaspersky.es</a><br><br>
-Una vez definido que es un backdoor podemos pasar al siguiente articulo por Malwarebytes labs: <a href="https://www.malwarebytes.com/blog/news/2022/08/kmspico-explained-no-kms-is-not-kill-microsoft">kmspico explained, no KMS is not kill microsoft</a><br>
+Para poder empezar con este punto primero hay que dejar en claro que es un backdoor, la enciclopedia de kaspersky lo define como: Los Backdoors (troyanos de puerta trasera) están diseñados para dar a los usuarios maliciosos el control de un equipo infectado. En términos de funcionalidad, las “puertas traseras” son similares a muchos sistemas de administración diseñados y distribuidos por desarrolladores de programas legítimos. Fuente: [encyclopedia.kaspersky.es](https://encyclopedia.kaspersky.es/knowledge/backdoor/)
+
+Una vez definido que es un backdoor podemos pasar al siguiente articulo por Malwarebytes labs: [kmspico explained, no KMS is not kill microsoft](https://www.malwarebytes.com/blog/news/2022/08/kmspico-explained-no-kms-is-not-kill-microsoft)
 
 ![malwarebytes](/img/in-post/office_post/kms-malwarebytes.jpg) 
 
@@ -435,11 +441,11 @@ En este articulo nos explican el funcionamiento de `KMSPico` un programa conocid
 - Utilidades de administración de contraseña 
 - Servicios de servidor de Internet, como FTP, Web, proxy y telnet
 
-Bajo este concepto `MSI Afterburner` podria considerarse como riskware si se hace un uso ilegitimo de el mediante una vulnerabilidad. Pero a que se debe que un software que tenga fines legítimos pueda ser utilizado como un riskware, bueno esto tiene multiples factores, pero sin dudas el principal es la tasa de mercado del sistema operativo `Windows` ya que actualmente tiene 75% de cuota de mercado en computadoras de escritorio y laptos, esto basado en el tercer trimestre de 2022 estos datos son publicados por <a href="https://es.statista.com/estadisticas/576870/cuota-de-mercado-mundial-de-los-sistemas-operativos/">statista.com</a>.
+Bajo este concepto `MSI Afterburner` podria considerarse como riskware si se hace un uso ilegitimo de el mediante una vulnerabilidad. Pero a que se debe que un software que tenga fines legítimos pueda ser utilizado como un riskware, bueno esto tiene multiples factores, pero sin dudas el principal es la tasa de mercado del sistema operativo `Windows` ya que actualmente tiene 75% de cuota de mercado en computadoras de escritorio y laptos, esto basado en el tercer trimestre de 2022 estos datos son publicados por [statista.com](https://es.statista.com/estadisticas/576870/cuota-de-mercado-mundial-de-los-sistemas-operativos)
 
 ![cuota](/img/in-post/office_post/cuota.png) 
 
-Esto hace que Windows sea un objetivo recurrente a vulnerar y si comparamos el numero de vulnerabilidades de `Windows` con otros sistemas operativos veremos el sistema de Microsoft tiene 11232 vulnerabilidades listadas desde el año 1999 hasta el 2023 por lo que es `36.07 %` mas vulnerable a comparacion del kernel `Linux` quien cuenta con 7180 vulnerabilidades listadas desde 1999, Windows es `62.56 %` mas vulnerable a comparacion de `MacOS` quien cuenta con 4205 vulnerabilidades listadas desde 1999 y es `98.88 %` mas vulnerable a comparacion de el kernel `BSD` el cual tiene 125 vulnerabilidades generales desde 1999. Estas cifras son solo aproximaciones sacadas con fecha del `22 Octubre 2023` usando como referencia a Mitre, la base de datos de vulnerabilidades mas conocida: <a href="https://cve.mitre.org/index.html">cve.mitre.org</a><br>
+Esto hace que Windows sea un objetivo recurrente a vulnerar y si comparamos el numero de vulnerabilidades de `Windows` con otros sistemas operativos veremos el sistema de Microsoft tiene 11232 vulnerabilidades listadas desde el año 1999 hasta el 2023 por lo que es `36.07 %` mas vulnerable a comparacion del kernel `Linux` quien cuenta con 7180 vulnerabilidades listadas desde 1999, Windows es `62.56 %` mas vulnerable a comparacion de `MacOS` quien cuenta con 4205 vulnerabilidades listadas desde 1999 y es `98.88 %` mas vulnerable a comparacion de el kernel `BSD` el cual tiene 125 vulnerabilidades generales desde 1999. Estas cifras son solo aproximaciones sacadas con fecha del `22 Octubre 2023` usando como referencia a Mitre, la base de datos de vulnerabilidades mas conocida: [cve.mitre.org](https://cve.mitre.org/index.html)
 
 "Bueno pero al conectarse con servidor de estos pueden establecer politicas en tu computadora para poder crear puertas traseras". Hay que entender que una cosa es la activación KMS donde es necesario al menos establecer una conexión para la activación y una revalidacion cada 180 dias y la activación basada en Active Directory,esta ultima ya no hace uso de registros SRV ni de un puerto en especifico, si no que se hace mediante la administración de Active Directory donde si se pueden estasblecer workgroups, usuarios o politicas de control, que en un principio no deberia ser un problema `Si tu empresa es quien administra este metodo de Active Directory y la activacion por volumen`.
 
@@ -448,7 +454,7 @@ Esto hace que Windows sea un objetivo recurrente a vulnerar y si comparamos el n
 - [py-kms](https://github.com/SystemRage/py-kms). Emulador escrito en python.
 - [vlmcsd](https://github.com/Wind4/vlmcsd). Emulador escrito en C.
 
-Estos utilizan las keys GVLK, mismas que se encuentran en microsoft: <a href="https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys">generic-volume-license-keys-gvlk</a>
+Estos utilizan las keys GVLK, mismas que se encuentran en microsoft: [generic-volume-license-keys-gvlk](https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys)
 
 
 ### Conclusiones.

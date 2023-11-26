@@ -1,19 +1,19 @@
 ---
 layout: post
 header-style: text
-title: My personal dotfiles for BSPWM.
+title: Mis configuraciones personales para BSPWM y Linux.
 img: img/projects/dotfiles/rice.webp
 ---
 
 
   <!-- HTML Meta Tags -->
-  <title>My personal dotfiles for BSPWM. - QuantumWavves</title>
+  <title>Dotfiles para BSPWM y Linux.</title>
   <meta name="description" content="Mis configuraciones personales para BSWPM y Linux.">
 
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="https://quantumwavves.github.io/projects/dotfiles/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="My personal dotfiles for BSPWM. - QuantumWavves">
+  <meta property="og:title" content="Dotfiles para BSPWM y Linux.">
   <meta property="og:description" content="Mis configuraciones personales para BSWPM y Linux.">
   <meta property="og:image" content="https://quantumwavves.github.io/img/projects/dotfiles/rice.webp">
 
@@ -21,36 +21,35 @@ img: img/projects/dotfiles/rice.webp
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:domain" content="quantumwavves.github.io">
   <meta property="twitter:url" content="https://quantumwavves.github.io/projects/dotfiles/">
-  <meta name="twitter:title" content="My personal dotfiles for BSPWM. - QuantumWavves">
+  <meta name="twitter:title" content="Dotfiles para BSPWM y Linux">
   <meta name="twitter:description" content="Mis configuraciones personales para BSWPM y Linux.">
   <meta name="twitter:image" content="https://quantumwavves.github.io/img/projects/dotfiles/rice.webp">
 
 ![Desktop View](/img/projects/dotfiles/cover.webp)
 
-My personal config for Arch Linux with bswpm.<br>
-**Github repo here:**[dotfiles](https://github.com/quantumwavves/quantum-dotfiles)<br><br>
-`Beta phase. Yet not completed`{:.warning}
+Mis configuraciones personales para BSPWM con Arch Linux.<br>
+**Repositorio en Github:** [dotfiles](https://github.com/quantumwavves/dotfiles)<br><br>
+`En construcción`{:.warning}
 
-# Table of content
+# Tabla de contenido:
 
-- [Components](#Components)
-- [Manual installation](#manual-installation-)
-- [Automatic installation](#scripts-for-installation-)
+- [Componentes](#componentes)
+- [Instalacion manual](#instalacion-manual-)
+- [Instalacion automatica](#instalacion-automatica-)
     - [Arch Linux](#arch-linux)
     - [Debian](#debian)
     - [Fedora](#fedora)
-- [Additional Features](#additional-features-optional-)
+- [Caracteristicas opcionales](#caracteristicas-opcionales-)
 - [Wallpapers](#wallpapers-)
-- [Gallery](#rice-gallery-)
-- [Usage](#usage-%EF%B8%8F)
-    - [Enviroment](#setup-enviroment)
-    - [Keybinds](#keybinds-cheat-sheet)
-- [Troubleshoting](#troubleshoting-)
-- [FAQ](#faq-)
-- [To do list](#to-do-list-)
-- [Credits](#credits-)
+- [Galeria](#galeria-)
+- [Uso](#uso-%EF%B8%8F)
+    - [Entorno](#configuracion-del-entorno)
+    - [Atajos](#atajos)
+- [Solucion de problemas](#solucion-de-problemas-)
+- [Lista de pendientes](#lista-de-pendientes-)
+- [Creditos](#creditos-)
 
-## Components
+## Componentes
 <!--Componets-->
 - **WM:** [bspwm](https://github.com/baskerville/bspwm)
 - **OS:** [Arch Linux](https://archlinux.org)
@@ -61,85 +60,81 @@ My personal config for Arch Linux with bswpm.<br>
 - **Application Launcher:** [rofi](https://github.com/davatorium/rofi)
 
 <!--Installation-->
-## Manual Installation ⚙
-#### Manual instrucctions archlinux
+## Instalacion Manual ⚙
+#### Instalacion manual para Arch Linux
 ```bash
 #Arch Linux
-#Update system and install dependecies(You need yay)
+#Actualizando el sistema e instalando las dependencias
 yay -Syu bspwm sxhkd kitty polybar rofi feh git tmux\
   betterlockscreen xclip imagemagick maim pcmanfm-gtk3\
   ranger python-pywal lsd stalonetray xdo neofetch\
   checkupdates+aur pulseaudio xorg-xrandr curl ttf-jetbrains-mono-nerd\
   dunst awesome-terminal-fonts ttf-font-awesome
-#Aditional dependecies (for discord and firefox)
-# Instrucctions for Aditional features here: 
+#Dependencias adicionales (para discord, openrgb y firefox) 
 yay -S python-pywalfox pywal-discord-git betterdiscordctl
-#Compile picom jonaburg fork
+#Compilando el compositor de picom con bordes y animaciones
 git clone https://github.com/jonaburg/picom
 cd picom
 meson --buildtype=release . build
 ninja -C build
-# To install the binaries in /usr/local/bin (optional)
+# Instalando binarios en /usr/share (opcional)
 sudo ninja -C build install
-#Clone repository
-git clone https://github.com/quantumwavves/quantum-dotfiles.git
-cd quantum-dotfiles
-#Copy fonts in $HOME/.fonts
+#Clonar repositorio 
+git clone https://github.com/quantumwavves/dotfiles.git
+cd dotfiles
+#Copiando las fuentes en $HOME/.fonts
 cp -r fonts/* $HOME/.fonts
-#Copy config files in $HOME/.config
+#Copiando los archivos de configuracion en $HOME/.config
 cp -r .config/* ~/.config
-#Copy binarys for setup enviroment
+#Copiando los binarios para la configuracion en $HOME/.local/bin
 cp bin/* ~/.local/bin
-#Install termux package manager
+#Instalando TMUX Package manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-#Install zsh and ohmyzsh
+#Instalando zsh y ohmyzsh
 yay -S zsh && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-#Rebuild fonts
+#Re construyendo las fuentes
 fc-cache -v -f
 sudo fc-cache -v -f
-#Export variables to shell
+#Exportando las variables a la shell
 echo 'export PATH=$PATH:"$HOME/.local/bin"' >>$HOME/.<bashrc or zshrc>
-#Setup enviroment
+#Configurando el entorno
 wmcolor $HOME/quantum-dotfiles/wallpaper/defalt.jpg
 ```
 <!--Scripts Installation-->
-## Scripts for installation 🪄
+## Instalacion automatica 🪄
 #### Arch Linux
 ```bash
-#Arch Linux
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/quantumwavves/quantum-dotfiles/master/tools/dots-install-arch.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/quantumwavves/dotfiles/master/scripts/dots-install-arch.sh"
 ```
 #### Debian
 ```bash
-#Debian
-$ Coming soon...
+En construccion
 ```
 #### Fedora
 ```bash
-#Fedora
-$ Coming soon...
+En construccion
 ```
-## Additional Features (optional) 🎲
+## Caracteristicas opcionales 🎲
 
-Discord wallpaper theme (you need betterdiscord):
+Tema dinamico de Discord con wallpaper (necesitas vencord):
 
 ![Desktop View](/img/projects/dotfiles/discord-feature.webp){: w="800" h="600"}
 
-Firefox wallpaper theme (you need pywalfox extension):
+Tema dinamico de Firefox con wallpaper (necesitas la extension de pywalfox):
 
 ![Desktop View](/img/projects/dotfiles/firefox-feature.webp){: w="800" h="600"}
 
-Bluetooth menu with rofi theme (you need bluez utils and bluetooth adapter, obviusly): 
+Menu de Bluetooth con rofi (necesitas bluez utils y un adaptador bluetooth obviamente): 
 
 <img src="/img/projects/dotfiles/menu-bluetooth.webp"  width="200" height="150">
 
-RGB shotcuts with rofi (you need to openrgb and have compatible devices)
+Atajos para RGB con OpenRGB y Rofi (tu necesitas openrgb y dispositivos compatibles)
 
 <img src="/img/projects/dotfiles/rgb-menu.webp"  width="250" height="200">
 
 <!--Wallpapers-->
 ## Wallpapers 🌌
-**My wallpaper collection:** [here.](https://github.com/quantumwavves/wallpaper-qw.git)
+**Mi coleccion de wallpapers:** [here.](https://github.com/quantumwavves/wallpaper-qw.git)
 
 **Genshin Impact wallpapers**
 ![Desktop View](/img/projects/dotfiles/genshin-wallpapers.webp){: w="800" h="600"}
@@ -156,8 +151,8 @@ RGB shotcuts with rofi (you need to openrgb and have compatible devices)
 **Abstract wallpapers**
 ![Desktop View](/img/projects/dotfiles/abstract.webp){: w="800" h="600"}
 
-# Rice Gallery 📷
-`Customize it as you like`{:.success}<br><br>
+## Galeria 📷
+`Personaliza a tu gusto`{:.success}<br><br>
 `Genshin impact thematic`{:.info}
 ![Desktop View](/img/projects/dotfiles/gallery/kokomi.png){: w="800" h="600"}
 ![Desktop View](/img/projects/dotfiles/gallery/nilou.png){: w="800" h="600"}
@@ -176,79 +171,79 @@ RGB shotcuts with rofi (you need to openrgb and have compatible devices)
 ![Desktop View](/img/projects/dotfiles/gallery/zero-two.png){: w="800" h="600"}
 
 <!--Usage-->
-## Usage ⌨️
 
-### Setup enviroment
+## Uso ⌨️
+
+### Configuracion del entorno
 
 ```bash
-#Basic window manager setup, only changes color themes in polybar, terminal & rofi
-$ wmcolor /path/of/wallpaper
+#Configuracion basica de entorno (tema dinamico en polybar, terminal, betterlockscreen y rofi)
+$ wmcolor /ruta/de/wallpaper
 ```
 ```bash
-#Complete window manager setup, bspwm, polybar, terminal, rofi, discord (needed betterdiscord), firefox (onlyworks on this browser)
-$ wmcolor+ /path/of/wallpaper 
+#Configuracion completa de entorno (añade temas a firefox y discord)
+$ wmcolor+ /ruta/de/wallpaper 
 ```
-### Keybinds cheat sheet
+### Atajos
 
-| map | function |
+| mapeo | funcion |
 |-|-|
-| alt + d | show rofi launcher |
-| leader + alt + p | show power menu |
-| impr paint | show screenshot menu |
-| leader + alt + b | open bluetooth menu |
-| alt + l | open global menu configurator |
+| alt + d | Muestra el menu rofi launcher |
+| leader + alt + p | Muestra el menu de apagado |
+| impr paint | Menu de capturas de pantalla |
+| leader + alt + b | Menu de bluetooth |
+| alt + l | Menu global |
 
-## Troubleshoting ❌
-`For nvidia users with that error:`{:.error}
+## Solucion de problemas ❌
+`Para usuarios de NVIDIA con este error:`{:.error}
 ```
 [ 11.11.2020 20:51:24.270 x_fence_sync ERROR ] Failed to trigger the fence (X error 136 XSyncBadFence request 134 minor 15 serial 2033)
 [ 11.11.2020 20:51:24.270 paint_all ERROR ] x_fence_sync failed, xrender-sync-fence will be disabled from now on.
 ````
-solution is replace `picom &` in $HOME/.config/bspwm/bspwmrc for:
+La solucion es remplazar la siguiente linea `picom &` en $HOME/.config/bspwm/bspwmrc con:
 ```bash
 picom --experimental-backends --backend glx --xrender-sync-fence &
 ```
-`For problems with picom for intel users (General)`{:.error}<br>
-solution is replace `picom &` in $HOME/.config/bspwm/bspwmrc for:
+`Para los usuarios de Intel(General)`{:.error}<br>
+La solucion es remplazar la linea `picom &` en $HOME/.config/bspwm/bspwmrc por:
 ```bash
 picom --experimental-backends &
 ```
-`For problems with rofi for C locale`{:.error}
+`Para los problemas de C locale con rofi`{:.error}
 
 ```
 Rofi-WARNING **: 23:23:38.603: Failed to set locale
 ```
-Solution is verify the locales in /etc/locale.conf file and generate locale config
+La solucion es verificar los locales en /etc/locale.conf y en caso de no existir el locale `C.UTF8` generarlo para la configuracion.
 
 ```bash
-#You need root
-#Export locale into file
+#Necesitas ser root
+#Exportar locale en el archivo
 echo 'LC_ALL="C"' >> /etc/locale.conf
-#generate locale
+#generar los locales
 locale-gen
 ```
-Another solution is export locale variable in your shell
+Otra solucion es exportar el locale a una variable de tu shell
 ```bash
-#For bash
+#Para bash
 echo 'export LC_ALL="C"' >> $HOME/.bashrc
-#For zsh
+#Para zsh
 echo 'export LC_ALL="C"' >> $HOME/.zshrc
 ```
-`How do i extract my backup in .tar.gz format?`{:.warning}
+`Como extraigo el respaldo de mis dotfiles con formato .tar.gz`{:.warning}
 
 ```bash
-#You need gzip
+#Necesitas gzip
 tar -xzvf $HOME/.dots-backup/<backupfile>
 ```
-## To Do List 📑
-- [ ] Finalizing the component monitoring modules for polybar
-- [ ] Make eww widgets
-- [ ] Create eww bar configuration
-- [ ] Create more modules for polybar
-- [ ] Create more scripts for rofi
-- [ ] Export colorscheme to GTK2 ad GTK3
-- [ ] Export colorscheme to QT
-- [ ] Create Debian and Fedora installer scripts
-## Credits ☕
-- **Bluetooth module rofi:** [nickclyde](https://github.com/nickclyde)
-- **Rofi themes:** [adi1090x](https://github.com/adi1090x)
+## Lista de pendientes 📑
+- [ ] Crear modulos de monitoreo para temperaturas de CPU/GPU Y Unidades de almacenamiento
+- [ ] Crear configuracion con EWW
+- [ ] Crear barra con EWW
+- [ ] Crear mas scripts que funcionen con rofi
+- [ ] Exportar el esquema de color a GTK2 Y GTK3
+- [ ] Exportar el esquema de color a QT
+- [ ] Creart scripts para Debian y Fedora
+## Creditos ☕
+- **Modulo Bluetooth:** [nickclyde](https://github.com/nickclyde)
+- **Temas para Rofi** [adi1090x](https://github.com/adi1090x)
