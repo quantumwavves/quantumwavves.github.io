@@ -7,7 +7,7 @@ banner_icon: ☄️
 layout: post
 title: ACTIVACION KMS WINDOWS.
 subtitle: ¿Que es KMS, como funciona y que pasa con los servidores de terceros?
-header-img: img/in-post/jawa_post/yelan.jpg
+header-img: img/in-post/jawa_post/header.webp
 header-style: image
 header-mask: rgba(0, 0, 0, .4)
 catalog: true
@@ -22,14 +22,14 @@ tags:
 <title>ACTIVACION KMS WINDOWS. - Quantum</title>
 <meta name="description" content="Un pequeño post que explica la activación KMS de windows.">
 <meta property="og:site_name" content="QuantumWavves">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/yelan.jpg">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/header.webp">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://quantumwavves.github.io/2023/06/28/windows-kms-activation/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="ACTIVACION KMS WINDOWS. - Quantum">
 <meta property="og:description" content="Un pequeño post que explica la activación KMS de windows.">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/yelan.jpg">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/header.webp">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
@@ -37,7 +37,7 @@ tags:
 <meta property="twitter:url" content="https://quantumwavves.github.io/2023/06/28/windows-kms-activation/">
 <meta name="twitter:title" content="ACTIVACION KMS WINDOWS. - Quantum">
 <meta name="twitter:description" content="Un pequeño post que explica la activación KMS de windows.">
-<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/yelan.jpg">
+<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/jawa_post/header.webp">
 
 En este post veremos como realizar una activación kms para Windows, con base en documentación proporcionada por Microsoft. Daremos un vistazo a los diferentes modos de activación para Windows y se resolverá dudas acerca de los mitos con respecto a la activación kms.
 

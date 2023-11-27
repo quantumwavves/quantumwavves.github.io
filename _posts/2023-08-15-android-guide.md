@@ -5,9 +5,9 @@ banner_y: 0.57429
 banner_icon: 📱
 #blog
 layout: post
-title: ANDROID GUIDE
+title: RECOMENDACIONES Y TRUCOS PARA ANDROID
 subtitle: Mis recomendaciones personales.
-header-img: img/in-post/guias/android_guide/ryo.webp
+header-img: img/in-post/guias/android_guide/header.webp
 header-style: image
 header-mask: rgba(0, 0, 0, .4)
 catalog: true
@@ -18,24 +18,24 @@ tags:
 
 <!-- HTML Meta Tags -->
 
-<meta property="og:title" content="ANDROID GUIDE">
+<meta property="og:title" content="TRUCOS Y RECOMENDACIONES PARA ANDROID">
 <meta name="description" content="Una compilación de software que mejora la experiencia con dispositivos android.">
 <meta property="og:site_name" content="QuantumWavves">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://quantumwavves.github.io/2023/08/15/android-guide/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="ANDROID GUIDE">
+<meta property="og:title" content="TRUCOS Y RECOMENDACIONES PARA ANDROID">
 <meta property="og:description" content="Una compilación de software que mejora la experiencia con dispositivos android.">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/guias/android_guide/ryo.webp">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/guias/android_guide/header.webp">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="quantumwavves.github.io">
 <meta property="twitter:url" content="https://quantumwavves.github.io/2023/08/15/android-guide/">
-<meta name="twitter:title" content="ANDROID GUIDE">
+<meta name="twitter:title" content="TRUCOS Y RECOMENDACIONES PARA ANDROID">
 <meta name="twitter:description" content="Una compilación de software que mejora la experiencia con dispositivos android.">
-<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/guias/android_guide/ryo.webp">
+<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/guias/android_guide/header.webp">
 
 
 ## Introducción

@@ -12,6 +12,25 @@ tags:
   - troubleshoting
 ---
 
+<!-- HTML Meta Tags -->
+<title>Saint John Sad Servers - QuantumWavves</title>
+<meta name="description" content="Resolución de la máquina Saint John de Sadservers.">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://quantumwavves.github.io/2023/11/22/sadservers-saint-john/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Saint John Sad Servers - QuantumWavves">
+<meta property="og:description" content="Resolución de la máquina Saint John de Sadservers.">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/sadservers/saint-john/header.webp">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="quantumwavves.github.io">
+<meta property="twitter:url" content="https://quantumwavves.github.io/2023/11/22/sadservers-saint-john/">
+<meta name="twitter:title" content="Saint John Sad Servers - QuantumWavves">
+<meta name="twitter:description" content="Resolución de la máquina Saint John de Sadservers.">
+<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/sadservers/saint-john/header.webp">
+
 ## Escenario
 - Tipo: `Fix`
 - Dificultad: `Fácil`

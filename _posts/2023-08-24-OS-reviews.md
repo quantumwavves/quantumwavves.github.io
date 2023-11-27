@@ -2,7 +2,7 @@
 layout: post
 title: LISTA DE SISTEMAS OPERATIVOS.
 subtitle: Una pequeña guia sobre SO.
-header-img: img/in-post/guias/os_guide/arleccino.jpg
+header-img: img/in-post/guias/os_guide/header.webp
 header-style: image
 header-mask: rgba(0, 0, 0, .4)
 catalog: true
@@ -18,14 +18,14 @@ tags:
 <title>LISTA DE SISTEMAS OPERATIVOS.</title>
 <meta name="description" content="Una pequeña guia sobre sistemas operativos.">
 <meta property="og:site_name" content="QuantumWavves">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/guias/os_guide/arleccino.jpg">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/guias/os_guide/header.webp">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://quantumwavves.github.io/2023/08/24/os-reviews/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="LISTA DE SISTEMAS OPERATIVOS.">
 <meta property="og:description" content="Una pequeña guia sobre sistemas operativos.">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/guias/os_guide/arleccino.jpg">
+<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/guias/os_guide/header.webp">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
@@ -33,7 +33,7 @@ tags:
 <meta property="twitter:url" content="https://quantumwavves.github.io/2023/08/24/os-reviews/">
 <meta name="twitter:title" content="LISTA DE SISTEMAS OPERATIVOS.">
 <meta name="twitter:description" content="Una pequeña guia sobre sistemas operativos.">
-<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/guias/os_guide/arleccino.jpg">
+<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/guias/os_guide/header.webp">
 
 ## CONCEPTOS
 
@@ -210,8 +210,8 @@ No contiene bloatware. | Difícilmente encontrarás la ISO con sus hashes de ver
 
 ##### Conclusiones:
 
-Hazle debloat a tu Instalación, no seas gay
-{: .error }
+Una instalación con un buen Debloat es en el 100% mejor que una instalación recortada. Ademas de que no arriesgamos componentes como lo son el Antivirus/Firewall y Windows Update.
+{: .info }
 
 ## AOSP Y WEB BASED OS
 
