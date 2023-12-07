@@ -91,6 +91,6 @@ admin@i-0f0f88adaca3a6413:~$ kill 589
 
 Cuando revisamos nuestra solución la pagina nos dice que es la correcta.
 
-![solucion](/img/in-post/sadservers/saint-john/solution.png)
+![solucion](/img/in-post/sadservers/saint-john/solution.webp)
 
 Eso ha sido todo por este post, si piensas que me he equivocado con la información o que he omitido algo, no dudes en contactarme por discord `quantumwavves`.

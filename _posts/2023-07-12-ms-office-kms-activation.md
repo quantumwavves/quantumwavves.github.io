@@ -199,7 +199,7 @@ KITA es solo un script que realiza el despliegue de Microsoft Office. Esto quier
 
 Ejectuar en PowerShell como administrador:
 ```shell 
-irm cutt.ly/IKUYO | iex
+irm cutt.ly/kita | iex
 ```
 
 <p style="text-align: justify">El menú de KITA contiene cuatro opciones, entre las cuales se encuentran la instalación de la suite office (Sin activación), activación de la suite mediante KMS, desactivación de la suite.</p>
