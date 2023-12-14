@@ -11,6 +11,26 @@ tags:
   - troubleshoting
   - linux
 ---
+
+  <!-- HTML Meta Tags -->
+  <title>Saskatoon Sad Servers - QuantumWavves</title>
+  <meta name="description" content="Resolución de la maquina saskatook de sad servers.">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://quantumwavves.github.io/2023/12/06/sadservers-saskatoon/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Saskatoon Sad Servers - QuantumWavves">
+  <meta property="og:description" content="Resolución de la maquina saskatook de sad servers.">
+  <meta property="og:image" content="https://quantumwavves.github.io/img/in-post/sadservers/saskatoon/header.webp">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="quantumwavves.github.io">
+  <meta property="twitter:url" content="https://quantumwavves.github.io/2023/12/06/sadservers-saskatoon/">
+  <meta name="twitter:title" content="Saskatoon Sad Servers - QuantumWavves">
+  <meta name="twitter:description" content="Resolución de la maquina saskatook de sad servers.">
+  <meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/sadservers/saskatoon/header.webp">
+
 ## Escenario
 
 - Tipo: `Do`

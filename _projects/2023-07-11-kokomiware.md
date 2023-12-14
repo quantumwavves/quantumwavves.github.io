@@ -32,7 +32,7 @@ img: img/projects/kokomiware/header.webp
 
 
 ### ¿Qué es Kokomiware?
-Kokomiware es un ransomware escrito en lenguaje python, con la librería `cryptography` y librerías nativas de python como `OS` Y `Glob`. Tiene como fin demostrar lo fácil que es implementar un malware de este tipo. Además de que su propósito es puramente académico, bajo ningún concepto debe de ser utilizado con fines maliciosos y debera ser ejecutado unicamente en maquinas virtuales en entornos controlados.
+Kokomiware es un ransomware escrito en el lenguaje de programación python, se hace uso de la librería `cryptography` y librerías nativas de python como lo son `OS` Y `Glob`. Kokomiware tiene como fin demostrar lo fácil que es implementar un malware de este tipo. Además de que su propósito es puramente académico y para estudio de desarrollo de malware, bajo ningún concepto debe de ser utilizado con fines maliciosos y debera ser ejecutado unicamente en maquinas virtuales en entornos controlados. Por ultimo como aclaración no soy un experto en python por lo que pueden surgir bugs. 
 
 **Repositorio de Github:** [Kokomiware](https://github.com/quantumwavves/Kokomi-Russian-Roulette)
 
