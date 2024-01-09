@@ -472,6 +472,38 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/en/packages/com.simplemobiletools.filemanager.pro/)
 
+### [PlainApp](https://github.com/ismartcoding/plain-app)
+  - PlainApp es una aplicación de código abierto que te permite gestionar tu teléfono a través de un navegador web. Accede a archivos, vídeos, música, contactos y mucho más desde tu escritorio utilizando una interfaz web segura y fácil de usar.
+  - Características:
+    - Orientado a la privacidad: Nos tomamos muy en serio tu privacidad y utilizamos encriptación TLS + AES-GCM-256 para garantizar la seguridad de tus datos.
+    - Libre de anuncios para siempre: No serás bombardeado con anuncios cuando uses PlainApp.
+    - Sin servicios en la nube ni almacenamiento de datos de terceros: Todos los datos se guardan en tu dispositivo, por lo que tienes control total sobre tu información.
+    - Fácil de usar: PlainApp tiene una interfaz moderna y personalizable con soporte multilingüe, opciones de tema claro/oscuro y compatibilidad con pantallas de tinta electrónica.
+    - Gestión desde el escritorio: Puedes gestionar tu teléfono desde el escritorio visitando una página web autoalojada de forma inalámbrica.
+    - Gestión de contactos: También puedes gestionar estas funciones en la página web autoalojada.
+    - Gestión de archivos: Gestiona archivos, imágenes, vídeos y audios en la página Web autoalojada.
+    - Toma de notas: Utiliza PlainApp para gestionar tus notas con un editor Markdown integrado.
+    - Lector RSS: Lee artículos en una interfaz limpia.
+    - Emisión de TV: Transmite tus vídeos, imágenes y audios a tu televisor.
+    - Reproducción de vídeo y audio: Reproduce vídeos y audios en la aplicación y en la página web.
+    - Copia de seguridad y exportación: Haz copias de seguridad y exporta los datos de tu aplicación para guardarlos.
+    - Interfaz de conversación ChatGPT (sólo web)
+    - SMS, llamadas: Lee tus SMS y llamadas en la página web.
+    - Aplicaciones: Ver tus aplicaciones y descargar apk desde el teléfono.(sólo web)
+    - Espejo de pantalla: Refleja tu teléfono en la página web.
+    - Y más características están previstas para el futuro.
+
+| Screenshot 1 | Screenshot 2 |
+|-|-|
+| <img src="/img/in-post/guias/android_guide/screenshots/plainapp/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/guias/android_guide/screenshots/plainapp/2.webp" width="200" onclick="window.open(this.src)"> |
+| Screenshot 3 | Screenshot 4 |
+| <img src="/img/in-post/guias/android_guide/screenshots/plainapp/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/guias/android_guide/screenshots/plainapp/4.webp" width="200" onclick="window.open(this.src)">|
+
+  - FOSS: ``Si``
+  - Descarga en [FDroid](https://f-droid.org/packages/com.ismartcoding.plain/)
+
+
+
 ## Conectividad
 
 ### [LibreTube](https://github.com/libre-tube/LibreTube)
@@ -1581,22 +1613,3 @@ adb shell pm uninstall -k –user 0 <app-package-name>
 ## Notas
 
 <p style="text-align:justify"><b>Periodicamente ire actualizando esta pequeña guia, si quieres colaborar para que esta guia sea mas completa, puedes contactarme por discord:</p> `quantumwavves`
-
-{::comment}
-Plantilla
-### [NAME](URL)
-  - DESC
-  - FEATURES
-    - lorem
-    - ipsum
-
-| Screenshot 1 | Screenshot 2 |
-|-|-|
-| <img src="" width="200" onclick="window.open(this.src)"> | <img src="" width="200" onclick="window.open(this.src)"> |
-| Screenshot 3 | Screenshot 4 |
-| <img src="" width="200" onclick="window.open(this.src)"> | <img src="" width="200" onclick="window.open(this.src)">|
-
-  - FOSS: ``Si``
-  - Descarga en []()
-{:/comment}
-
