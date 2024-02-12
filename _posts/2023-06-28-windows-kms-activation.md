@@ -7,7 +7,7 @@ banner_icon: ☄️
 layout: post
 title: ACTIVACION KMS WINDOWS.
 subtitle: ¿Que es KMS, como funciona y que pasa con los servidores de terceros?
-header-img: img/in-post/jawa_post/header.webp
+header-img: img/in-post/jawa_post/header.png
 header-style: image
 header-mask: rgba(0, 0, 0, .4)
 catalog: true

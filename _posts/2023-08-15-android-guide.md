@@ -214,10 +214,51 @@ Recordatorio: Estas son solo mis recomendaciones, tu puedes utilizar las aplicac
 |-|-|
 | <img src="/img/in-post/guias/android_guide/screenshots/vimusic/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/guias/android_guide/screenshots/vimusic/2.webp" width="200" onclick="window.open(this.src)"> |
 | Screenshot 3 | Screenshot 4 |
-| <img src="/img/in-post/guias/android_guide/screenshots/vimusic/4.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/guias/android_guide/screenshots/vimusic/4.webp" width="200" onclick="window.open(this.src)">|
+| <img src="/img/in-post/guias/android_guide/screenshots/vimusic/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/guias/android_guide/screenshots/vimusic/4.webp" width="200" onclick="window.open(this.src)">|
 
   - FOSS: ``Si``
   - Descarga en [FDroid](https://f-droid.org/packages/it.vfsfitvnm.vimusic/)
+
+### [RiMusic](https://github.com/fast4x/RiMusic)
+- RiMusic es una aplicación multilingüe de Android para transmitir música desde YouTube Music.
+- Características:
+  - Soporte multilingüe: Inglés, italiano, alemán, ruso, francés, español, checo, turco, rumano y más. Se aceptan contribuciones para otros idiomas
+  - Modo UI, cambia el estilo de RiMusic al estilo clásico de ViMusic y viceversa
+  - Reproduce canciones de YouTube Music
+  - Cambia tu idioma favorito desde los ajustes
+  - Auto caché de canciones para reproducción offline con tamaño de caché personalizado
+  - Descarga canciones o toda la lista de reproducción para su reproducción sin conexión (sin caché)
+  - Reproducción en segundo plano con parada mientras la aplicación se desplaza desde el administrador de tareas
+  - Optimizaciones del reproductor minimizadas
+  - Estadísticas de escucha
+  - Visualizador de audio en el reproductor con muchos tipos de efectos. ESTA FUNCIÓN REQUIERE PERMISO DEL MICRÓFONO, SÓLO SI SE ACTIVA DESDE LA CONFIGURACIÓN. POR DEFECTO ESTÁ DESACTIVADO Lista completa de permisos
+  - Noticias, estado de ánimo y géneros musicales
+  - Nuevos álbumes de artistas preferidos
+  - Búsqueda de canciones, álbumes, artistas y listas de reproducción
+  - Marcar artistas y álbumes
+  - Importar listas de reproducción
+  - Gestión local de listas de reproducción
+  - Reordenar canciones en lista de reproducción o cola
+  - Cola persistente
+  - Borrar cola
+  - Compatibilidad con el menú Compartir para enlaces de YouTube y YouTube Music
+  - Obtener, mostrar, editar y traducir letras de canciones sincronizadas o no.
+  - Temas Light, Dark, Dynamic, PureBlack y ModernBack
+  - Temporizador de apagado con hora personalizada
+  - Normalización de audio
+  - Silencio de salto de audio
+  - Compatibilidad con Android Auto
+  - Compatibilidad con Android TV
+  - Comprobación de actualizaciones, activación/desactivación mediante ajustes
+
+| Screenshot 1 | Screenshot 2 |
+|-|-|
+| <img src="/img/in-post/guias/android_guide/screenshots/rimusic/1.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/guias/android_guide/screenshots/rimusic/2.webp" width="200" onclick="window.open(this.src)"> |
+| Screenshot 3 | Screenshot 4 |
+| <img src="/img/in-post/guias/android_guide/screenshots/rimusic/3.webp" width="200" onclick="window.open(this.src)"> | <img src="/img/in-post/guias/android_guide/screenshots/rimusic/4.webp" width="200" onclick="window.open(this.src)">|
+
+  - FOSS: ``Si``
+  - Descarga en [FDroid](https://f-droid.org/it/packages/it.fast4x.rimusic/)
 
 ### [BlackHole](https://github.com/Sangwan5688/BlackHole)
   - Una aplicación de reproducción de música en streaming hecha con Flutter.
@@ -1612,4 +1653,4 @@ adb shell pm uninstall -k –user 0 <app-package-name>
 ```
 ## Notas
 
-<p style="text-align:justify"><b>Periodicamente ire actualizando esta pequeña guia, si quieres colaborar para que esta guia sea mas completa, puedes contactarme por discord:</p> `quantumwavves`
+Periodicamente ire actualizando esta pequeña guia, si quieres colaborar para que esta guia sea mas completa, puedes contactarme por discord: `quantumwavves`

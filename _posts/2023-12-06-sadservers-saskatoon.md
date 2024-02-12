@@ -2,7 +2,7 @@
 layout: post
 title: Saskatoon Sad Servers
 subtitle: Resolución de la máquina Saskatoon de Sad Servers.
-header-img: img/in-post/sadservers/saskatoon/header.webp
+header-img: img/in-post/sadservers/saskatoon/header.png
 header-style: image
 header-mask: rgba(0, 0, 0, .4)
 catalog: true

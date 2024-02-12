@@ -5,7 +5,7 @@ description: I'm just a computer geek.
 keyword: "blog, personal website, linux, windows"
 url: "https://quantumwavves.github.io"      # your host, for absolute URL
 baseurl: ""                                 # for example, '/blog' if your blog hosted on 'host/blog'
-avatar: "img/pfp/huohuo.webp"               # the avatar showing on the homepage
+avatar: "img/pfp/makoto-1.jpg"               # the avatar showing on the homepage
 
 
 # GitHub repository (if the site is hosted by GitHub)
