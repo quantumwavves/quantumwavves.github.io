@@ -1,6 +1,9 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem 'jekyll', '~> 4.0'
-gem 'kramdown', '= 2.1.0'
-gem 'jemoji', '~> 0.11.1'
-gem 'jekyll-paginate', '~> 1.1.0'
+source "https://rubygems.org"
+
+gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
+
+group :test do
+  gem "html-proofer", "~> 5.0"
+end

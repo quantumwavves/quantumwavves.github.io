@@ -1,35 +1,15 @@
 ---
-layout: post
-title: Saint John Sad Servers
-subtitle: Resolucion de la maquina saint john de sad servers.
-header-img: img/in-post/sadservers/saint-john/header.webp
-header-style: image
-header-mask: rgba(0, 0, 0, .4)
-catalog: true
-tags:
-  - sadservers
-  - linux
-  - troubleshoting
+title: SAINT JOHN WRITEUP.
+description: Resolución de la máquina Saint John de Sad Servers.
+author: Quantum 
+date: 2023-11-22
+categories: [SadServers]
+tags: [linux, troubleshoting, sadservers]
+image:
+  path: /assets/img/posts/sadservers/saint-john/header.webp
+  alt: Información de la máquina.
+
 ---
-
-<!-- HTML Meta Tags -->
-<title>Saint John Sad Servers - QuantumWavves</title>
-<meta name="description" content="Resolución de la máquina Saint John de Sadservers.">
-
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://quantumwavves.github.io/2023/11/22/sadservers-saint-john/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Saint John Sad Servers - QuantumWavves">
-<meta property="og:description" content="Resolución de la máquina Saint John de Sadservers.">
-<meta property="og:image" content="https://quantumwavves.github.io/img/in-post/sadservers/saint-john/header.webp">
-
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="quantumwavves.github.io">
-<meta property="twitter:url" content="https://quantumwavves.github.io/2023/11/22/sadservers-saint-john/">
-<meta name="twitter:title" content="Saint John Sad Servers - QuantumWavves">
-<meta name="twitter:description" content="Resolución de la máquina Saint John de Sadservers.">
-<meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/sadservers/saint-john/header.webp">
 
 ## Escenario
 - Tipo: `Fix`
@@ -91,6 +71,6 @@ admin@i-0f0f88adaca3a6413:~$ kill 589
 
 Cuando revisamos nuestra solución la pagina nos dice que es la correcta.
 
-![solucion](/img/in-post/sadservers/saint-john/solution.webp)
+![solucion](/assets/img/posts/sadservers/saint-john/solution.webp)
 
 Eso ha sido todo por este post, si piensas que me he equivocado con la información o que he omitido algo, no dudes en contactarme por discord `quantumwavves`.

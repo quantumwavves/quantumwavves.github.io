@@ -1,1 +1,0 @@
-<p style="text-align:justify">Hola, soy Quantum, un amante de la informática, la terminal (cli), linux y los temas de servidores en casa. Entusiasta de la ciberseguridad y los CTF. Me gusta el anime, los videojuegos y el manga. Espero que les guste mi blog y que los pueda ayudar.</p>

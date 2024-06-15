@@ -1,16 +1,13 @@
 ---
-layout: post
 title: RECOMENDACIONES PARA WINDOWS.
-subtitle: Recomendaciones para un sistema windows y privacidad para el uso cotidiano.
-header-img: img/in-post/guias/windows_tips/header.webp
-header-style: image
-header-mask: rgba(0, 0, 0, .4)
-catalog: true
-tags:
-  - windows
-  - microsft
-  - debloat
-  - privacidad
+description: Recomendaciones para un sistema Windows y privacidad para el uso cotidiano.
+author: Quantum 
+date: 2024-01-20
+categories: [Sistemas Operativos, Windows]
+tags: [windows, optimización, privacidad, seguridad]
+image:
+  path: /assets/img/posts/guias/windows_tips/header.webp
+  alt: Logo de Windows 11.
 ---
 ## Introducción
 
@@ -29,7 +26,7 @@ Necesitaras permisos administrativos para powershell. Copia y pega el siguiente 
 ```shell
 iwr -useb https://christitus.com/win | iex
 ```
-![winutil](/img/in-post/guias/windows_tips/ctt.webp)
+![winutil](/assets/img/posts/guias/windows_tips/ctt.webp)
 
 ### Ajustes que recomiendo:
 
@@ -37,17 +34,17 @@ iwr -useb https://christitus.com/win | iex
 
 La herramienta ya tiene tweaks pre configurados para equipos de escritorio y laptops. Solo es necesario seleccionar el tipo de equipo. Adicionalmente, puedes configurar el servidor DNS de tu preferencia. Cloudflare es uno de los mejores.
 
-![ctt-tweaks](/img/in-post/guias/windows_tips/ctt-tweaks.webp)
+![ctt-tweaks](/assets/img/posts/guias/windows_tips/ctt-tweaks.webp)
 
 Estas son las configuraciones por defecto para escritorio (en laptop son casi las mismas, exceptuando la hibernación)
 
-![winutil](/img/in-post/guias/windows_tips/ctt-tweaks-default.webp)
+![winutil](/assets/img/posts/guias/windows_tips/ctt-tweaks-default.webp)
 
 #### Actualizaciones:
 
 Se recomienda utilizar las actualizaciones de seguridad, estas son las mínimas para que el sistema operativo pueda funcionar y para no llenar de bloatware el sistema operativo.
 
-![winutil](/img/in-post/guias/windows_tips/ctt-updates.webp)
+![winutil](/assets/img/posts/guias/windows_tips/ctt-updates.webp)
 
 #### Configuraciones adicionales:
 
@@ -57,7 +54,7 @@ Algunas de las configuraciones adicionales que recomiendo son las siguientes:
 - HyperV (Siempre y cuando no tengas un hypervisor tipo VirtualBox o VMware)
 - Windows Subsystem For Linux 2 (útil si estás estudiando informática u otros campos a fines de la computación)
 
-![winutil](/img/in-post/guias/windows_tips/ctt-config.webp)
+![winutil](/assets/img/posts/guias/windows_tips/ctt-config.webp)
 
 
 ### [XToolBox](https://github.com/xemulat/XToolbox)
@@ -65,15 +62,15 @@ Algunas de las configuraciones adicionales que recomiendo son las siguientes:
 Xtoolbox es una herramienta CLI (Command Line) que recopila scripts, programas y archivos de instalación para diferentes sistemas operativos. El proyecto es open source, pero no todo el software que se encuentra en la herramienta es de código abierto. Quedan bajo la responsabilidad del usuario las herramientas o scripts que se usen.
 
 
-![menu](/img/in-post/guias/windows_tips/xtool1.webp)
-![menu](/img/in-post/guias/windows_tips/xtool2.webp)
-![menu](/img/in-post/guias/windows_tips/xtool3.webp)
+![menu](/assets/img/posts/guias/windows_tips/xtool1.webp)
+![menu](/assets/img/posts/guias/windows_tips/xtool2.webp)
+![menu](/assets/img/posts/guias/windows_tips/xtool3.webp)
 
 ### [Hellzerg optimizer](https://github.com/hellzerg/optimizer)
 
 Optimizer, una utilidad de configuración avanzada diseñada para mejorar su privacidad y seguridad en Windows. Se recomienda encarecidamente el uso de esta herramienta después de una nueva instalación de Windows para obtener los máximos beneficios de privacidad y seguridad. Dependiendo de su versión de Windows, Optimizer también puede ayudarle a aplicar ajustes específicos del sistema.
 
-![menu](/img/in-post/guias/windows_tips/hellzerg.webp)
+![menu](/assets/img/posts/guias/windows_tips/hellzerg.webp)
 
 ### [ET optimizer](https://github.com/semazurek/ET-Optimizer)
 
@@ -81,28 +78,28 @@ ET es un programa en Batch/PowerShell con interfaz grafica para mejorar el rendi
 
 El proyecto tiene pre configuraciones por cada una de sus pestañas como lo son performance, visual o privacy. Por lo que solo tendras que seleccionar una categoria de ajustes que necesites:
 
-![menu](/img/in-post/guias/windows_tips/et-optimizer.webp)
+![menu](/assets/img/posts/guias/windows_tips/et-optimizer.webp)
 
 ### [Mem Reduct](https://github.com/henrypp/memreduct)
 
 Mem reduct es un proyecto open source que nos ayuda a liberar memoria (RAM) que podría estar en caché. Puedes asignarle configuraciones con base en porcentajes o periodos de tiempo.
 
 
-![menu-mr](/img/in-post/guias/windows_tips/mr-menu.webp)
+![menu-mr](/assets/img/posts/guias/windows_tips/mr-menu.webp)
 
 #### Configuraciones:
 
 Configuraciones para el inicio:
 
-![menu](/img/in-post/guias/windows_tips/mr-setting-1.webp)
+![menu](/assets/img/posts/guias/windows_tips/mr-setting-1.webp)
 
 Configuraciones para la limpieza de memoria:
 
-![menu](/img/in-post/guias/windows_tips/mr-setting-2.webp)
+![menu](/assets/img/posts/guias/windows_tips/mr-setting-2.webp)
 
 Configuraciones para las notificaciones:
 
-![menu](/img/in-post/guias/windows_tips/mr-setting-3.webp)
+![menu](/assets/img/posts/guias/windows_tips/mr-setting-3.webp)
 
 
 ## Package Manager
@@ -182,7 +179,7 @@ WindowsSpyBlocker es una aplicación escrita en Go y entregada como un único ej
 
 El planteamiento de este proyecto consiste en capturar e interpretar el tráfico de red basándose en un conjunto de herramientas. Dependiendo de las interacciones entre los servicios y el origen o destino del tráfico, se crean reglas y se ordenan por asignación.
 
-![menu](/img/in-post/guias/windows_tips/wsb.webp)
+![menu](/assets/img/posts/guias/windows_tips/wsb.webp)
 
 ## FOSS
 

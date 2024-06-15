@@ -1,36 +1,15 @@
 ---
-layout: post
-title: Saskatoon Sad Servers
-subtitle: Resolución de la máquina Saskatoon de Sad Servers.
-header-img: img/in-post/sadservers/saskatoon/header.png
-header-style: image
-header-mask: rgba(0, 0, 0, .4)
-catalog: true
-tags:
-  - sadservers
-  - troubleshoting
-  - linux
----
+title: SASKATOON WRITEUP.
+description: Resolución de la máquina Saskatoon de Sad Servers.
+author: Quantum 
+date: 2023-12-6
+categories: [SadServers]
+tags: [linux, troubleshoting, sadservers]
+image:
+  path: /assets/img/posts/sadservers/saskatoon/header.webp
+  alt: Información de la máquina.
 
-  <!-- HTML Meta Tags -->
-  <title>Saskatoon Sad Servers - QuantumWavves</title>
-  <meta name="description" content="Resolución de la maquina saskatook de sad servers.">
-
-  <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="https://quantumwavves.github.io/2023/12/06/sadservers-saskatoon/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Saskatoon Sad Servers - QuantumWavves">
-  <meta property="og:description" content="Resolución de la maquina saskatook de sad servers.">
-  <meta property="og:image" content="https://quantumwavves.github.io/img/in-post/sadservers/saskatoon/header.webp">
-
-  <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:domain" content="quantumwavves.github.io">
-  <meta property="twitter:url" content="https://quantumwavves.github.io/2023/12/06/sadservers-saskatoon/">
-  <meta name="twitter:title" content="Saskatoon Sad Servers - QuantumWavves">
-  <meta name="twitter:description" content="Resolución de la maquina saskatook de sad servers.">
-  <meta name="twitter:image" content="https://quantumwavves.github.io/img/in-post/sadservers/saskatoon/header.webp">
-
+--- 
 ## Escenario
 
 - Tipo: `Do`
@@ -1144,6 +1123,6 @@ echo "66.249.73.135" > highestip.txt
 
 Y listo, tenemos la maquina resuelta.
 
-![solución](/img/in-post/sadservers/saskatoon/solution.webp) 
+![solución](/assets/img/posts/sadservers/saskatoon/solution.webp) 
 
 Eso ha sido todo por el post, si piensas que me he equivocado en algo o que he omitido alguna parte, hazmelo saber en discord `quantumwavves`
